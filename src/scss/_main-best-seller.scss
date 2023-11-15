@@ -1,0 +1,81 @@
+
+.best-sellers{
+    padding-left: 98px;
+    padding-top: 140px;
+    display: flex;
+    .best-sellers-more{
+        margin-right: 86px;
+        h2{
+            color: #122947;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; 
+        }
+        p{
+            color: #122947;
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; 
+width: 214px;
+margin-top: 30px;
+margin-bottom: 40px;
+
+        }
+        button{
+            width: 155px;
+height: 41px;
+border-radius: 2px;
+border: 1px solid #B3BAC1;
+color: #122947;
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+text-align: center;
+
+        }
+    }
+    .best-seller{
+        background: url('../assets/img/крем_1.png'), lightgray 50% / cover no-repeat;
+        width: 230px;
+        height: 312px;
+        .description{
+            padding-top: 220px;
+            padding-bottom: 25px;
+            text-align: center;
+            h3{
+                color: #122947;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%;            }
+
+            p{
+                margin-bottom: 10px;
+               
+                color: #9A9DA0;
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+
+            }
+            button{
+                color: #122947;   
+font-family: 'M PLUS 1p', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+
+width: 70px;
+border-bottom: 1px solid #122947;;
+            }
+        }
+    }
+}
