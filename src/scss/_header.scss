@@ -1,3 +1,5 @@
+@use 'vars';
+
 .wrapper{
     height: 650px;
     background: url('../assets/img/back.png'), lightgray 50% / cover no-repeat; 
@@ -92,10 +94,7 @@ text-align: center;
 }
 
     .link{
-        stroke-width: 1px;
-        stroke: #122947;
-        width: 26px;
-     height: 12px;
+        @include vars.link
     }
 }
 

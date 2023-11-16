@@ -1,0 +1,12 @@
+$font-family: 'M PLUS 1p', sans-serif;
+$color-text: #122947;
+$font-family-r: Raleway;
+
+@mixin link {
+    stroke-width: 1px;
+    stroke: #122947;
+    width: 26px;
+    height: 12px;
+}
+
+
