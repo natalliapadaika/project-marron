@@ -6,6 +6,8 @@
   display: flex;
   .best-sellers-more {
     margin-right: 86px;
+    margin-top: 56px;
+    margin-bottom: 56px;
     h2 {
       font-family: vars.$font-family-r;
       color: vars.$color-text;
@@ -54,6 +56,9 @@
     width: 230px;
     height: 312px;
     justify-content: center;
+    // img{
+    //   height: 312px;
+    // }
     .description {
       padding-top: 220px;
       padding-bottom: 25px;

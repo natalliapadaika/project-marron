@@ -1,0 +1,97 @@
+@use "vars";
+
+.baner_1{
+background: url(../assets/img/baner1.png), lightgray 50% / cover no-repeat;;
+    width: 1366px;
+    height: 400px;
+    margin: 140px 0;
+    display: flex;
+    justify-content: end;
+    .baner_1-more{
+        margin-right: 284px;
+        margin-top: 81px;
+        margin-bottom: 81px;
+        width: 284px;
+     
+    h2{
+       @include vars.h2; 
+    }
+    p{
+        @include vars.p;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    button{
+        @include vars.btn;
+        width: 141px;
+
+    }
+}
+
+}
+
+.baner_2{
+    width: 1366px;
+    margin-right: 98px;
+    margin-left: 98px;
+    // height: 4610px;
+    // display: flex;
+    position: relative;
+    .baner_2-more{
+        width: 670px;
+        height: 583px;
+        background: #F4F1ED;
+        padding: 100px 225px 116px 98px;
+        h2{
+            @include vars.h2; 
+           
+         }
+         p{
+             @include vars.p;
+             margin-top: 40px;
+             margin-bottom: 45px;
+         }
+         button{
+             @include vars.btn;
+             width: 200px;
+     
+         }
+    }
+    .baner_2-img{
+        background-image: url(../assets/img/baner2.jpg);
+        width: 670px;
+        height: 451px;
+        position: absolute;
+        top: 66px;
+        right: 170px;
+    }
+}
+
+.baner_3{
+width: 1366px;
+height: 433px;
+background: url('../assets/img/baner3.png');
+background-position: 100%;
+background-repeat: no-repeat;
+display: flex;
+margin: 140px 0;
+.baner_3-more{
+    margin: 120px 300px;
+    text-align: center;
+    p{
+        @include vars.h2;
+        margin-bottom: 50px;
+    }
+    button{
+        @include vars.btn;
+        width: 163px;
+
+    }
+
+}
+
+
+
+
+}
+

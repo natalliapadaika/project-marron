@@ -90,12 +90,12 @@ const next = (array) => {
     array[num + 4].classList.add("active");
     num++;
   }
-  console.log(num);
+ 
 };
 
 const prev = (array) => {
   if (num !== 0) {
-    console.log(num);
+
     num--;
     array[num].classList.add("active");
     array[num + 4].classList.remove("active");

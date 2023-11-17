@@ -9,4 +9,34 @@ $font-family-r: Raleway;
     height: 12px;
 }
 
+@mixin h2{
+    color: $color-text;
+font-family: $font-family-r;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%;
+}
+
+@mixin p{
+    color: $color-text;
+font-family: $font-family;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%;
+}
+
+@mixin btn{
+    border-radius: 2px;
+    border: 1px solid #B3BAC1;
+    height: 41px;
+    color: $color-text;
+    font-family: $font-family;
+    font-size: 16px;
+    text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
 

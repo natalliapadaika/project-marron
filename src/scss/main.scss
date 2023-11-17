@@ -1,6 +1,7 @@
 @use 'header';
 @use 'main-best-seller';
 @use 'vars';
+@use 'baner';
 
   
   
@@ -8,6 +9,8 @@
  
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=M+PLUS+1p:wght@400;500&display=swap');
 
-
+body{
+  background-color: #F8F8F6;
+}
  
 

@@ -22,3 +22,15 @@ linkNext.addEventListener("click", () => {
 linkPrev.addEventListener("click", () => {
   prev(divBestSel);
 });
+
+import { 
+  addBaner,
+  addBaner2,
+addBaner3,
+
+ } from "./_baner.js";
+
+ addBaner();
+ addBaner2();
+ addBaner3();
+
