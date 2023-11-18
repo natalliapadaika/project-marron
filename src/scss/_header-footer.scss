@@ -104,6 +104,25 @@ text-align: center;
 .footer{
     background: #F4F1ED;
     &_logo-nav-icon{
-        padding: 98px 60px 98px 60px;
+        padding: 60px 98px 60px 98px;
+        display: flex;
+        align-items: center;
+    }
+    &_nav{
+        
+        margin-left: 69px;
+        margin-right: 475px;
+        @include vars.p;
+        font-size: 16px;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+    }
+    &_icon{
+        display: flex;
+        gap: 30px;
     }
 }
