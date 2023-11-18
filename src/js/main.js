@@ -26,11 +26,20 @@ linkPrev.addEventListener("click", () => {
 import { 
   addBaner,
   addBaner2,
-addBaner3,
-
- } from "./_baner.js";
+  addBaner3,
+  addBaner4
+ } from "./modules/_baner.js";
 
  addBaner();
  addBaner2();
  addBaner3();
+ addBaner4();
 
+import{
+  contacts, 
+  addContacts, 
+  initMap
+} from './modules/_contact.js'
+
+addContacts();
+initMap();

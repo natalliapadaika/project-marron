@@ -14,10 +14,12 @@
    
     padding: 40px 98px 70px 98px;
     display: flex;
+    align-items: center;
     
 
     ul{
         display: flex;
+      align-items: center;
         gap: 35px;
         color: #122947;
         font-family: 'M PLUS 1p', sans-serif;
@@ -26,7 +28,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-left: 669px;
-margin-right: 51px;
+margin-right: 45px;
+
 
     }
     &__lk-knit{
@@ -98,3 +101,9 @@ text-align: center;
     }
 }
 
+.footer{
+    background: #F4F1ED;
+    &_logo-nav-icon{
+        padding: 98px 60px 98px 60px;
+    }
+}

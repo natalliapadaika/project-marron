@@ -31,10 +31,9 @@ background: url(../assets/img/baner1.png), lightgray 50% / cover no-repeat;;
 }
 
 .baner_2{
-    width: 1366px;
+    max-width: 1366px;
     margin-right: 98px;
     margin-left: 98px;
-    // height: 4610px;
     // display: flex;
     position: relative;
     .baner_2-more{
@@ -63,7 +62,8 @@ background: url(../assets/img/baner1.png), lightgray 50% / cover no-repeat;;
         height: 451px;
         position: absolute;
         top: 66px;
-        right: 170px;
+        right: 1px;
+       
     }
 }
 
@@ -89,9 +89,43 @@ margin: 140px 0;
     }
 
 }
-
-
-
-
 }
+
+.baner_4{
+    max-width: 1151px;
+    margin: auto;
+    // height: 466px;
+    display: flex;
+    gap: 71px;
+    &-wrapper{
+        width: 699px;
+        height: 466px;
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 233px;
+            height: 233px;
+        }
+    }
+    &-more{
+        margin-top: 147px;
+        width: 381px;
+ 
+    h2{
+        @include vars.h2; 
+       
+     }
+     p{
+         @include vars.p;
+         margin-top: 30px;
+         margin-bottom: 40px;
+     }
+     button{
+         @include vars.btn;
+         width: 170px;
+ 
+     }
+}   
+}
+
 

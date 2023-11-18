@@ -1,0 +1,35 @@
+@use 'vars';
+
+.contacts{
+    max-width: 1170px;
+    height: 554px;
+    margin: 140px auto 140px auto;
+    position: relative;
+    #map{
+        position: absolute;
+        top: 66px;
+        left: 500px;
+    }
+    &_req-icon{
+        width: 670px;
+        padding: 100px 314px 100px 100px;
+        background: #F4F1ED;
+        h2{
+            @include vars.h2;  
+            margin-bottom: 40px;
+
+         }
+         h3{
+            @include vars.p;
+            font-weight: 500;
+         }
+         p{
+            @include vars.p;
+            margin-bottom: 35px;
+         }
+    }
+&_icon{
+    display: flex;
+    gap: 30px;
+}
+}
