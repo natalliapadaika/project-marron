@@ -3,6 +3,7 @@
 @use 'vars';
 @use 'baner';
 @use 'contact';
+@use 'catalog';
 
   
   
@@ -14,4 +15,6 @@ body{
   background-color: #F8F8F6;
 }
  
-
+.noactive{
+  display: none;
+}

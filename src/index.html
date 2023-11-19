@@ -20,7 +20,7 @@
             <nav>
               <ul>
                 <li>
-                  <a href="#">Каталог</a>
+                  <a class="header__nav-catalog" href="#">Каталог</a>
                 </li>
                 <li>
                   <a href="#">О нас</a>
@@ -66,6 +66,24 @@
 
     <main>
       <div class="container">
+        <section class="catalog">
+<div class="catalog_filter-items">
+  </div>
+          <div class="catalog_filter"></div>
+          <div class="catalog_items"></div>
+<div class="catalog_page-link">
+          <div class ="catalog_page"></div>
+          <div class="catalog_link">
+            <button class="link" id="catalog-prev">
+              <img src="../src/assets/svg/link-left.svg" alt="linkleft" />
+            </button>
+            <button class="link" id="catalog-next">
+              <img src="../src/assets/svg/link1.svg" alt="link1" />
+            </button>
+          </div>
+          </div>
+        </section>
+
         <section class="best">
           <div class="best-sellers">
             <div class="best-sellers-more">
@@ -73,8 +91,7 @@
               <p>Легендарные продукты, завоевавшие любовь наших клиентов</p>
               <button>Смотреть все</button>
             </div>
-            <div class="best-seller__wrapper">
-            </div>
+            <div class="best-seller__wrapper"></div>
           </div>
           <div class="best-seller_link">
             <button class="link" id="bs-prev">
@@ -118,8 +135,8 @@
                   <a href="#">О нас</a>
                 </li>
                 <li>
-                    <a href="#">Магазины</a>
-                  </li>
+                  <a href="#">Магазины</a>
+                </li>
                 <li>
                   <a href="#">Контакты</a>
                 </li>
@@ -127,10 +144,18 @@
             </nav>
           </div>
           <div class="footer_icon">
-            <a href="#"><img src="./assets/svg/facebook.svg" alt="facebook"></a>
-            <a href="#"><img src="./assets/svg/instagram.svg" alt="instagram"></a>
-            <a href="#"><img src="./assets/svg/twitter.svg" alt="twitter"></a>
+            <a href="#"
+              ><img src="./assets/svg/facebook.svg" alt="facebook"
+            /></a>
+            <a href="#"
+              ><img src="./assets/svg/instagram.svg" alt="instagram"
+            /></a>
+            <a href="#"><img src="./assets/svg/twitter.svg" alt="twitter" /></a>
           </div>
+        </div>
+        <div class="footer_policy">
+          <p>Maroon &copy; 2023 Все права защищены</p>
+          <p>Политика конфиденциальности</p>
         </div>
       </div>
     </footer>

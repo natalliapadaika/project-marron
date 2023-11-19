@@ -1,11 +1,11 @@
 const bestSellers = [
   {
-    src: "/src/assets/img/cream_1.png",
+    src: "../../assets/img/cream_1.png",
     name: "High",
     descr: "крем для лица",
   },
   {
-    src: "/src/assets/img/cream_2.png",
+    src: "../../assets/img/cream_2.png",
     name: "Rest",
     descr: "минеральная пудра",
   },
