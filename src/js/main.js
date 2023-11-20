@@ -62,7 +62,7 @@ import {
 } from './modules/_catalog.js'
 
 
-console.log(sectionCatalog);
+
 
 
 btnCatalog.addEventListener ('click', () =>{

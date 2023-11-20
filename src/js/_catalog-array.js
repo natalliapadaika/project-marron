@@ -19,16 +19,16 @@ const catalog =[
     "volume":{"small": "20", "big": "40"},
     "price":{"small": "690", "big": "990"}
 },
-// {
-//     "src": "../img/catalog3.png",
-//     "name": "Rose",
-//     "descrShort": "крем для лица",
-//     "descr": "крем для лица идеально подходит для повседневного ухода за молодой кожей. Крем равномерно распределяется по поверхности благодаря легкой текстуре, обеспечивает глубокое увлажнение, регенерацию клеток.",
-//     "composition": "Aqua, Cyclomethicone, Dicaprylyl Carbonate, Butylene Glycol, Glycerin, Tapioca Starch, Nelumbium Speciosum Flower Extract, Calendula Officinalis Flower Extract, Propylene Glycol, Tocopherol, Glycine Soja Oil, Dimethiconol, Citronellol, Limonene.",
-//     "application": "Нанесите крем на очищенную кожу лица легкими массажными круговыми движениями, избегая области вокруг глаз. Подходит для дневного и ночного ухода.",
-//     "volume":{"small": "30", "big": "50"},
-//     "price":{"small": "700", "big": "890"}
-// },
+{
+    "src": "../img/catalog3.png",
+    "name": "Rose",
+    "descrShort": "крем для лица",
+    "descr": "крем для лица идеально подходит для повседневного ухода за молодой кожей. Крем равномерно распределяется по поверхности благодаря легкой текстуре, обеспечивает глубокое увлажнение, регенерацию клеток.",
+    "composition": "Aqua, Cyclomethicone, Dicaprylyl Carbonate, Butylene Glycol, Glycerin, Tapioca Starch, Nelumbium Speciosum Flower Extract, Calendula Officinalis Flower Extract, Propylene Glycol, Tocopherol, Glycine Soja Oil, Dimethiconol, Citronellol, Limonene.",
+    "application": "Нанесите крем на очищенную кожу лица легкими массажными круговыми движениями, избегая области вокруг глаз. Подходит для дневного и ночного ухода.",
+    "volume":{"small": "30", "big": "50"},
+    "price":{"small": "700", "big": "890"}
+},
 {
     "src": "../img/catalog4.png",
     "name": "Milk",

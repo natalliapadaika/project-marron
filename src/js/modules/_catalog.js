@@ -1,6 +1,7 @@
 
 
  import { catalog } from "../_catalog-array.js";
+import { num } from "./_main-best-sellers.js";
  export {catalog};
 
 
@@ -53,19 +54,27 @@ const addClassActiveSectionCatalog = () => {
   sectionCatalog.classList.toggle("active");
 }
 
-let number = 0;
+
 
 const linkNextCatalog = document.querySelector("#catalog-next");
 const linkPrevCatalog = document.querySelector("#catalog-prev");
 
 const nextCatalog = (array) => {
-  if (number !== array.length - 12) {
-    array[number].classList.remove("active");
-    array[number + 12].classList.add("active");
-    number++;
+
+ for (let number = 0; number <=array.length; number++){
+  if (number < 12){
+      array[number].classList.remove("active")
+  } 
+  if(number >= 12 && number <=23){  
+    array[number].classList.add("active")   
+   }
+
   }
+
+  } 
  
-};
+
+
 
 const prevCatalog = (array) => {
   if (number !== 0) {
@@ -77,6 +86,6 @@ const prevCatalog = (array) => {
 };
 
 
-export {sectionCatalog, filter, items, btnCatalog, addItems, addClassActiveCatalog, addClassActiveSectionCatalog, linkNextCatalog, linkPrevCatalog, number, nextCatalog, prevCatalog};
+export {sectionCatalog, filter, items, btnCatalog, addItems, addClassActiveCatalog, addClassActiveSectionCatalog, linkNextCatalog, linkPrevCatalog, nextCatalog, prevCatalog};
 
 
