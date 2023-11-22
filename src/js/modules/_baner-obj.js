@@ -1,5 +1,19 @@
+import img from '../../assets/img/*.png'
+
+export {img}
+console.log(img);
+
+import imgJpg from '../../assets/img/*.jpg'
+// console.log(imgJpg);
+export {imgJpg}
+
+import imgSvg from '../../assets/svg/*.svg'
+// console.log(imgSvg);
+export {imgSvg}
+
+
 const banerObj = {
-    "src": "../assets/img/baner1.png",
+    "src": img.baner1,
     "name": "Встречайте весну вместе с нами",
     "descr": "Попробуйте новую коллекцию ухаживающих средств для лица с SPF защитой"
 }
@@ -7,25 +21,25 @@ const banerObj = {
 export {banerObj};
 
 const baner2Obj = {
-    "src": "../assets/img/baner2.jpg",
+    "src": imgJpg.baner2,
     "name": "Индивидуальный уход",
     "descr": "Не всегда очевидно, какие элементы и минералы необходимы коже, а многочисленные эксперименты с разными средствами только ухудшают ее качество. Заполните анкету, и мы подберем уход, подходящий именно вам, учитывая ваш образ жизни, место жительства и другие факторы."
 }
  export {baner2Obj};
 
  const baner3Obj = {
-    "src": "../assets/img/baner3.png",
+    "src": img.baner3,
     "descr": "“Мы стремимся сделать уход за кожей доступным и приятным ритуалом для всех, кто хочет заботиться о себе и своем теле”"
 }
  export {baner3Obj};
 
  const baner4Obj = {
-    "srcOne": "../assets/img/baner4-1.png",
-    "srcTwoo": "../assets/img/baner4-2.png",
-    "srcThree": "../assets/img/baner4-3.png",
-    "srcFour": "../assets/img/baner4-4.png",
-    "srcFive": "../assets/img/baner4-5.png",
-    "srcSix": "../assets/img/baner4-6.png",
+    "srcOne": img.baner41,
+    "srcTwoo": img.baner42,
+    "srcThree": img.baner43,
+    "srcFour": img.baner44,
+    "srcFive": img.baner45,
+    "srcSix": img.baner46,
     "name": "Присоединяйтесь к нам",
     "descr": "Подпишитесь на наш аккаунт @marooncare и узнавайте о новиках и акциях первыми"
 }
@@ -36,9 +50,9 @@ const contacts = {
     "adress": "Санкт-Петербург, ул. Большая Конюшенная, 19",
     "tel": "+7 (923) 888-90-60",
     "email": "info@maroon.ru",
-    "srcF": "../assets/svg/facebook.svg",
-    "srcI": "../assets/svg/instagram.svg",
-    "srcT": "../assets/svg/twitter.svg"
+    "srcF": imgSvg.facebook,
+    "srcI": imgSvg.instagram,
+    "srcT": imgSvg.twitter
 
 }
 

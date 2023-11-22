@@ -1,8 +1,15 @@
 
 
- import { catalog } from "../_catalog-array.js";
-import { num } from "./_main-best-sellers.js";
+ import { catalog } from "./_catalog-array.js";
+
  export {catalog};
+
+//  console.log(catalog.page3[1].src)
+
+const {page1, page2, page3} = catalog
+
+
+// console.log(page1[0].src);
 
 
 
@@ -19,11 +26,9 @@ import { num } from "./_main-best-sellers.js";
 
   items.textContent ="";
    
-    catalog.forEach((el) =>{
+    page1.forEach((el) =>{
 
-        // items.insertAdjacentHTML('afterbegin', `<div class="catalog_items-item" style="background: url('${el.src}')">
-        items.innerHTML += `
-        <div class="catalog_items-item">
+        items.insertAdjacentHTML('afterbegin', `<div class="catalog_items-item" style="background: url('${el.src}')">
         <div class="catalog_items-item-name-price" >
         <h3>${el.name}</h3>
         <p>${el.price.small} ₽</p>
@@ -33,7 +38,7 @@ import { num } from "./_main-best-sellers.js";
         <p>${el.volume.small}ml</p>
         </div>       
         </div>
-        `
+        `)
     });
 
     divFilterItem.innerHTML = 
@@ -73,8 +78,6 @@ const nextCatalog = (array) => {
 
   } 
  
-
-
 
 const prevCatalog = (array) => {
   if (number !== 0) {

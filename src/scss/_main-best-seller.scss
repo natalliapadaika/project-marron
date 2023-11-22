@@ -46,11 +46,12 @@
   .best-seller__wrapper {
     display: flex;
     gap: 30px;
+    // overflow: hidden;
   }
 
   .best-seller {
     display: none;
-    background: url('../assets/img/cream_1.png'), lightgray 50% / cover no-repeat;
+    // background: url('../assets/img/cream_1.png'), lightgray 50% / cover no-repeat;
     // background-repeat: no-repeat;
     // background-size: cover;
     width: 230px;

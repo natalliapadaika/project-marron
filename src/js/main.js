@@ -106,4 +106,6 @@ linkNextCatalog.addEventListener('click', () =>{
   nextCatalog(itemsCatalog);
 })
 
+// import img from '../assets/img/*.png'
+// console.log(img);
 

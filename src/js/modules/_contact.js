@@ -1,6 +1,7 @@
 import {
-    contacts
-} from '../_baner-obj.js';
+    contacts, 
+    imgSvg
+} from './_baner-obj.js';
 
 export {contacts};
 

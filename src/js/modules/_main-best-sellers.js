@@ -1,46 +1,51 @@
+import {
+  img
+} from './_baner-obj.js'
+
+
 const bestSellers = [
   {
-    src: "../../assets/img/cream_1.png",
+    src: img.cream_1,
     name: "High",
     descr: "крем для лица",
   },
   {
-    src: "../../assets/img/cream_2.png",
+    src: img.cream_2,
     name: "Rest",
     descr: "минеральная пудра",
   },
   {
-    src: "/src/assets/img/cream_3.png",
+    src: img.cream_3,
     name: "Rose",
     descr: "крем для лица",
   },
   {
-    src: "/src/assets/img/cream4.png",
+    src: img.cream4,
     name: "Milk",
     descr: "масло для тела",
   },
   {
-    src: "/src/assets/img/cream_1.png",
+    src: img.cream_1,
     name: "High",
     descr: "крем для лица",
   },
   {
-    src: "/src/assets/img/cream_2.png",
+    src: img.cream_2,
     name: "Rest",
     descr: "минеральная пудра",
   },
   {
-    src: "/src/assets/img/cream_3.png",
+    src: img.cream_3,
     name: "Rose",
     descr: "крем для лица",
   },
   {
-    src: "/src/assets/img/cream4.png",
+    src: img.cream4,
     name: "Milk",
     descr: "масло для тела",
   },
   {
-    src: "/src/assets/img/cream_1.png",
+    src: img.cream_1,
     name: "High",
     descr: "крем для лица",
   },
@@ -53,17 +58,8 @@ const addBestSellers = () => {
 
   bestSellers.forEach((el) => {
     div.insertAdjacentHTML(
-    //   "afterbegin",
-    //   `<div class="best-seller" style ="background: url('${el.src}')">
-    //     <div class="description">
-    //         <h3 class="best-seller_decsr-h3">${el.name}</h3>
-    //         <p class="best-seller_decsr-p">${el.descr}</p>
-    //         <button class="best-seller_decsr-btn">Подробнее</button>
-    //     </div>
-
-    // </div>`
-       "afterbegin",
-      `<div class="best-seller">
+      "afterbegin",
+      `<div class="best-seller" style ="background: url('${el.src}')">
         <div class="description">
             <h3 class="best-seller_decsr-h3">${el.name}</h3>
             <p class="best-seller_decsr-p">${el.descr}</p>
@@ -71,6 +67,15 @@ const addBestSellers = () => {
         </div>
 
     </div>`
+    //    "afterbegin",
+    //   `<div class="best-seller">
+    //     <div class="description">
+    //         <h3 class="best-seller_decsr-h3">${el.name}</h3>
+    //         <p class="best-seller_decsr-p">${el.descr}</p>
+    //         <button class="best-seller_decsr-btn">Подробнее</button>
+    //     </div>
+
+    // </div>`
     );
   });
 };
