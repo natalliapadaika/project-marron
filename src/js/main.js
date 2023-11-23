@@ -46,16 +46,17 @@ initMap();
 
 import {
   catalog,
+ 
   sectionCatalog,
    filter,
     items,
      btnCatalog,
-      addItems, 
-      addClassActiveCatalog,
-      addClassActiveSectionCatalog,
-      number,
-       nextCatalog,
-        prevCatalog,
+     page,
+      addItems,
+      addClassActiveSectionCatalog,  
+addPageCatalog,
+numPage,
+backPageCatalog,
         linkNextCatalog,
          linkPrevCatalog,
 
@@ -66,15 +67,9 @@ import {
 
 
 btnCatalog.addEventListener ('click', () =>{
-
-addItems();
-const itemsCatalog = Array.from(document.querySelectorAll('.catalog_items-item'));
-
-
-addClassActiveCatalog(itemsCatalog);
+addItems(catalog[0]);
 addClassActiveSectionCatalog();
 addClassNoactive ();
-
 });
 
 
@@ -101,10 +96,33 @@ const addClassNoactive = () => {
 
 }
 
-linkNextCatalog.addEventListener('click', () =>{
-  const itemsCatalog = Array.from(document.querySelectorAll('.catalog_items-item'));
-  nextCatalog(itemsCatalog);
-})
+linkNextCatalog.addEventListener('click', () => {
+  console.log(numPage);
+  if (numPage < catalog.length){
+   addPageCatalog() 
+  } else {
+    addItems(catalog[catalog.length-1])
+    page.innerHTML = `<p>${catalog.length} &#173;</p>
+    <p class="catalog_page-light">  &#8212;&#8212;  ${catalog.length}</p>`
+  }
+  });
+
+
+
+  linkPrevCatalog.addEventListener('click', () => {
+if (numPage !== 0){
+  backPageCatalog()
+} else {
+  addItems[catalog[0]]
+}
+
+  })
+
+// if (numPage >= catalog.length){
+//   linkNextCatalog.removeEventListener('click', addPageCatalog)
+// }
+ 
+
 
 // import img from '../assets/img/*.png'
 // console.log(img);
