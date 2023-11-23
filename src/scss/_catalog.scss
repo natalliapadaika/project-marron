@@ -79,6 +79,11 @@ justify-content: flex-end;
 .catalog.active{
     display: block;
 }
+
+.closed{
+    display: none;
+}
+
 .catalog_page-link{
     display: flex;
     align-items: flex-start;

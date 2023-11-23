@@ -365,3 +365,4 @@ const catalog = [
 
 export {catalog}
 
+// console.log(catalog[0][0].src);
