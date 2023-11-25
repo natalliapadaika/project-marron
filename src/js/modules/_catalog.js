@@ -43,9 +43,9 @@ const addItems = (arr) => {
 
 
 
-const addBigItem = (arr, i) => {
+const addBigItem = (elemDom, arr, i) => {
      
-  bigItem.insertAdjacentHTML(
+  elemDom.insertAdjacentHTML(
     "afterbegin", `<div class="catalog_big-item">
     <div class="big-item" style="background-image: url('${arr[i].src}')">
     </div> 
@@ -131,20 +131,23 @@ export {
   backPageCatalog,
   linkNextCatalog,
   linkPrevCatalog,
+  addBigItem,
+  newCatalog
 };
 
 
-items.addEventListener('click', (e) =>{
+// items.addEventListener('click', (e) =>{
 
-  if(e.target.matches('.catalog_items-item')){
+//   if(e.target.matches('.catalog_items-item')){
 
-    document.querySelector('.display-none').style.display = 'none'
-    const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
-    addBigItem(newCatalog, activeIndex);
+//     document.querySelector('.display-none').style.display = 'none'
+//     const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
+//     addBigItem(newCatalog, activeIndex);
+//     sectionCatalog.classList.remove("active");
 
-  };
+//   };
   
-})
+// })
 
 
 bigItem.addEventListener('click', (e) =>{
@@ -176,14 +179,25 @@ volume.addEventListener('change', () =>{
 
 });
 
-document.addEventListener('click', (e)=>{
-if (e.target.matches('.catalog_item')){
-  console.log('j')
-  bigItem.textContent="";
-  document.querySelector('.display-none').style.display = 'block';
-}
+document.addEventListener('click', (event) =>{
+  if(event.target === bigItem){
+    bigItem.classList.remove('popup-on');
+    bigItem.textContent = "";
+    document.querySelector('.display-none').style.display = 'block';
+  }
 
-})
+});
+
+// document.addEventListener('click', (e)=>{
+// if (e.target.matches('.catalog_item') || e.target.matches('.wrapper')){
+//   console.log('j')
+//   bigItem.textContent="";
+//   document.querySelector('.display-none').style.display = 'block';
+
+  
+// }
+
+// })
 
 
 

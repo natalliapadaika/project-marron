@@ -1,4 +1,5 @@
 @use "vars";
+@use "catalog";
 
 .best-sellers {
   padding-left: 98px;
@@ -64,7 +65,7 @@
       padding-top: 220px;
       padding-bottom: 25px;
       text-align: center;
-      .best-seller_decsr-h3 {
+      .best-seller_descr-h3 {
         color: #122947;
         font-family: vars.$font-family-r;
         font-size: 16px;
@@ -73,7 +74,7 @@
         line-height: 145%;
       }
 
-      .best-seller_decsr-p {
+      .best-seller_descr-p {
         margin-bottom: 10px;
 
         color: #9a9da0;
@@ -82,7 +83,7 @@
         font-style: normal;
         font-weight: 400;
       }
-      .best-seller_decsr-btn {
+      .best-seller_descr-btn {
         color: #122947;
         font-family: vars.$font-family;
         font-size: 13px;
@@ -106,4 +107,167 @@
   .link {
     @include vars.link;
   }
+}
+
+.popup{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    background:rgba(247, 247, 245, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .8s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 50px;
+  input{
+      appearance: auto;
+  }
+  
+      .catalog_big-item{
+          border-top: #DBDCE0 1px solid;  
+          max-width: 1070px;
+          margin: auto;
+      display: flex;
+      gap: 70px;
+      padding-top: 40px;
+      padding-bottom: 140px;
+      position: relative;
+      .big-item{
+         width: 630px;
+          height: 647px;
+          background-repeat: no-repeat;
+          background-size: cover;
+     
+      }
+  .big-item-descr{
+      padding-top: 49px;
+      max-width: 370px; 
+  
+  
+      .style-app-comp{
+          font-weight: 500;
+          cursor: pointer;
+      }
+  
+      .style-div{
+          height: 52px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+          p{
+              @include vars.p; 
+              font-weight: 500
+          }
+      
+         
+       
+  
+  
+      
+      }  
+      .descr{
+          @include vars.p; 
+          font-size: 16px;
+          padding-bottom: 45px;
+          border-bottom: #B3BAC1 1px solid;
+      }
+     
+      .descr-short{
+          @include vars.p; 
+              margin-top: 15px;
+              color: #9A9DA0;
+              font-size: 16px;
+              margin-bottom: 48px
+          }
+      h3{
+          @include vars.h2;
+      }
+    
+      button{
+          @include vars.btn;
+          width: 214px;
+      }
+  }
+  
+   }
+  
+  }
+  .volume{
+      border-top: #B3BAC1 1px solid;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+      padding-top: 45px;
+      margin-bottom: 45px;
+      p{
+          @include vars.p; 
+          font-weight: 500
+  
+          
+      }
+      label{
+          @include vars.p; 
+          font-weight: 500;
+          cursor: pointer;
+          
+      }
+     
+     }
+
+     .popup-on{
+      visibility: visible;
+      opacity: 1;
+  
+  }
+
+  
+.minus{
+  display: none;
+  cursor: pointer;
+}
+.a-minus{
+  display: none;
+  cursor: pointer;
+}
+.open{
+  display: block;
+  cursor: pointer;
+}
+.close{
+  display: none;
+  cursor: pointer;
+}
+.p-composition{
+  padding-bottom: 20px;
+  display: none;
+  @include vars.p; 
+  font-size: 14px;
+ 
+//  border-bottom: #B3BAC1 1px solid;
+}
+
+.p-composition.open{
+  display: block;
+
+}
+
+.p-application{
+  display: none;
+  padding-bottom: 20px;
+  @include vars.p; 
+  font-weight: 14px;
+ 
+}
+.p-application.open{
+  display: block;
+
+}
+.border{
+  border-top: #B3BAC1 1px solid;
 }

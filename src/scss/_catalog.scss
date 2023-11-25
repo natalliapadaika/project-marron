@@ -8,6 +8,7 @@
     padding-top: 40px;
     margin-bottom: 141px;
     border-top: 1px solid #DBDCE0;
+    transition: .8s;
 
     &_filter-items{
         display: flex;
@@ -29,6 +30,7 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+
     .catalog_items-item{
           display: flex;
 flex-direction: column;
@@ -40,7 +42,7 @@ justify-content: flex-end;
         // background-size: cover;
         width: 270px;
         height: 350px;
-        
+        cursor: pointer;
       
         padding: 0px 20px 20px 20px;
         &-name-price{
@@ -109,21 +111,26 @@ justify-content: flex-end;
 
 .minus{
     display: none;
+    cursor: pointer;
 }
 .a-minus{
     display: none;
+    cursor: pointer;
 }
 .open{
     display: block;
+    cursor: pointer;
 }
 .close{
     display: none;
+    cursor: pointer;
 }
 .p-composition{
     padding-bottom: 20px;
     display: none;
     @include vars.p; 
     font-size: 14px;
+   
 //  border-bottom: #B3BAC1 1px solid;
 }
 
@@ -137,19 +144,31 @@ justify-content: flex-end;
     padding-bottom: 20px;
     @include vars.p; 
     font-weight: 14px;
+   
 }
 .p-application.open{
     display: block;
+  
 }
 .border{
     border-top: #B3BAC1 1px solid;
 }
 
 .catalog_item{
-    // border-top: #DBDCE0 1px solid;  
+    position: fixed;
+    top: 5%;
+    left: 0;
+    background:rgba(247, 247, 245, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .8s;
+    // opacity: 0;
+    visibility: hidden;
+    padding: 50px;
    
-   
-    // background-color: aqua;
 input{
     appearance: auto;
 }
@@ -162,30 +181,22 @@ input{
     gap: 70px;
     padding-top: 40px;
     padding-bottom: 140px;
+    position: relative;
     .big-item{
        width: 630px;
         height: 647px;
         background-repeat: no-repeat;
         background-size: cover;
-        // img{
-        //     width: 630px;
-        //     height: 647px; 
-        // }
-    //    background-position: 100%;
-    //    flex-shrink: 0;
-    //     // background-size: 100%;
-    //   background-size: contain
+   
     }
 .big-item-descr{
     padding-top: 49px;
     max-width: 370px; 
-//     .composition{
-//     // border-top: #B3BAC1 1px solid;
 
-// }
 
     .style-app-comp{
         font-weight: 500;
+        cursor: pointer;
     }
 
     .style-div{
@@ -193,6 +204,7 @@ input{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
         p{
             @include vars.p; 
             font-weight: 500
@@ -221,11 +233,7 @@ input{
     h3{
         @include vars.h2;
     }
-    // p{ 
-    //     @include vars.p; 
-    //     font-size: 16px;
-       
-    // }
+  
     button{
         @include vars.btn;
         width: 214px;
@@ -252,7 +260,13 @@ input{
     label{
         @include vars.p; 
         font-weight: 500;
+        cursor: pointer;
         
     }
    
    }
+   .popup-on{
+    visibility: visible;
+    opacity: 1;
+
+}

@@ -7,6 +7,8 @@ import {
   next,
   linkPrev,
   prev,
+  divBSW
+ 
 } from "./modules/_main-best-sellers";
 
 addBestSellers();
@@ -21,6 +23,27 @@ linkNext.addEventListener("click", () => {
 
 linkPrev.addEventListener("click", () => {
   prev(divBestSel);
+});
+
+const btnBestMore = document.querySelector('.best-seller');
+
+const popup = document.querySelector('.popup');
+
+divBSW.addEventListener ('click', (e) =>{
+   popup.textContent = "";
+  if(e.target.matches('.best-seller_descr-btn')){
+  const arrBestSellerBtn = Array.from(document.querySelectorAll('.best-seller_descr-btn'))
+    const activeIndex = arrBestSellerBtn.indexOf(e.target);
+    addBigItem(popup, bestSellers, activeIndex);
+    popup.classList.add('popup-on');
+  }
+})
+document.addEventListener('click', (event) =>{
+  if(event.target === popup){
+      popup.classList.remove('popup-on');
+      popup.textContent = "";
+  }
+
 });
 
 import { addBaner, addBaner2, addBaner3, addBaner4 } from "./modules/_baner.js";
@@ -52,38 +75,48 @@ import {
   backPageCatalog,
   linkNextCatalog,
   linkPrevCatalog,
+  addBigItem,
+  newCatalog
 } from "./modules/_catalog.js";
+import { binaryExpression } from "babel-types";
 
 btnCatalog.addEventListener("click", () => {
-  // bigItem.textContent="";
+  bigItem.textContent="";
+  document.querySelector('.display-none').style.display = 'block';
   addItems(catalog[0]);
-  
   addClassActiveSectionCatalog();
   addClassNoactive();
-  // sectionCatalog.classList.toggle('closed');
+  // greeting.classList.remove("noopen");
+  // wrapper.classList.remove("no-back");
 });
+ const best = document.querySelector(".best");
+
+  const baner1 = document.querySelector(".baner_1");
+const baner2 = document.querySelector(".baner_2");
+const baner3 = document.querySelector(".baner_3");
+ const greeting = document.querySelector(".greeting");
+  const wrapper = document.querySelector(".wrapper");
+
 
 const addClassNoactive = () => {
 
-  
-  const best = document.querySelector(".best");
   best.classList.toggle("noactive");
-
-  const baner1 = document.querySelector(".baner_1");
   baner1.classList.toggle("noactive");
-
-  const baner2 = document.querySelector(".baner_2");
   baner2.classList.toggle("noactive");
-
-  const baner3 = document.querySelector(".baner_3");
   baner3.classList.toggle("noactive");
-
-  const greeting = document.querySelector(".greeting");
   greeting.classList.toggle("noactive");
-
-  const wrapper = document.querySelector(".wrapper");
   wrapper.classList.toggle("noback");
 };
+
+const removeClassNoactive = () => {
+  best.classList.remove("noactive");
+  baner1.classList.remove("noactive");
+  baner2.classList.remove("noactive");
+  baner3.classList.remove("noactive");
+  greeting.classList.remove("noactive");
+  wrapper.classList.remove("noback");
+  
+}
 
 linkNextCatalog.addEventListener("click", () => {
 
@@ -107,3 +140,19 @@ linkPrevCatalog.addEventListener("click", () => {
   }
 });
 
+items.addEventListener('click', (e) =>{
+
+  if(e.target.matches('.catalog_items-item')){
+
+    // document.querySelector('.display-none').style.display = 'none'
+    const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
+    addBigItem(bigItem, newCatalog, activeIndex);
+    bigItem.classList.add('popup-on');
+    // sectionCatalog.classList.remove("active");
+    // removeClassNoactive();
+    //   greeting.classList.add("noopen");
+    //   wrapper.classList.add("no-back");
+
+  };
+  
+})
