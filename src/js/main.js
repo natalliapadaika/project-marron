@@ -41,6 +41,7 @@ import {
   filter,
   items,
   btnCatalog,
+  bigItem,
   page,
   addItems,
   addClassActiveSectionCatalog,
@@ -54,6 +55,7 @@ import {
 } from "./modules/_catalog.js";
 
 btnCatalog.addEventListener("click", () => {
+  // bigItem.textContent="";
   addItems(catalog[0]);
   
   addClassActiveSectionCatalog();

@@ -19,6 +19,12 @@
     padding: 40px 98px 70px 98px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    &__nav-lk-knit{
+        display: flex;
+        gap: 51px;
+        
+    }
 
 
     ul{
@@ -31,8 +37,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 669px;
-margin-right: 45px;
+// margin-left: 669px;
+// margin-right: 45px;
 
 
     }

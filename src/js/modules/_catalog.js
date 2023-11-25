@@ -1,8 +1,12 @@
 import { array } from "assert-plus";
 import { catalog } from "./_catalog-array.js";
 
+const [p1Catalog, p2Catalog, p3Catalog] = catalog;
+
+const newCatalog = [...p1Catalog, ...p2Catalog, ...p3Catalog]
+
 export { catalog };
-const container = document.querySelector('.container');
+const bigItem = document.querySelector('.catalog_item');
 const sectionCatalog = document.querySelector(".catalog");
 const divFilterItem = sectionCatalog.querySelector(".catalog_filter-items");
 const filter = sectionCatalog.querySelector(".catalog_filter");
@@ -16,7 +20,7 @@ const addItems = (arr) => {
 
   arr.forEach((el) => {
     items.insertAdjacentHTML(
-      "afterbegin",
+      "beforeend",
       `<div class="catalog_items-item" style="background: url('${el.src}')">
         <div class="catalog_items-item-name-price" >
         <h3>${el.name}</h3>
@@ -38,23 +42,41 @@ const addItems = (arr) => {
 };
 
 
+
 const addBigItem = (arr, i) => {
-  container.insertAdjacentHTML(
+     
+  bigItem.insertAdjacentHTML(
     "afterbegin", `<div class="catalog_big-item">
-    <div class="big-item" style="background: url('${arr[i].src}')">
+    <div class="big-item" style="background-image: url('${arr[i].src}')">
     </div> 
     <div class="big-item-descr">
     <h3>${arr[i].name}</h3>
-    <p>${arr[i].descrShort}</p>
-    <p>${arr[i].descr}</p>
-    <p>Состав: ${arr[i].composition}</p>
-    <p>Способ применения: ${arr[i].application}</p>
-    <p>Объем</p>
-    <input type="checkbox" name="${arr[i].volume.small}" id="50">
-    <input type="checkbox" name="${arr[i].volume.big}" id="50">
-    <p>${arr[i].price.small}₽</p>
-    <p>${arr[i].price.big}₽</p>
-    <button>Добавить в корзину</button>
+    <p class="descr-short">${arr[i].descrShort}</p>
+    <p class="descr">${arr[i].descr}</p>
+   <div class="composition style-div">
+    <p class="style-app-comp composition">Состав </p>
+    <p class="composition plus">+ </p>
+    <p class="composition minus">- </p>
+    </div>
+    <p class="p-composition">${arr[i].composition}</p>
+    <div class="application border style-div">
+    <p class="style-app-comp application">Способ применения</p>
+    <p class="application a-plus">+ </p>
+    <p class="application a-minus">- </p>
+    </div>
+    <p class="p-application"> ${arr[i].application}</p>
+  
+    <div class="volume">
+    <p>Объем:</p>
+     <label><input type="radio" name="100" value ="1" checked>
+    ${arr[i].volume.small} ml</label>
+    <label><input type="radio" name="100" value ="2">
+    ${arr[i].volume.big} ml</label>   
+    </div>
+    <div class="style-div">
+    <p class="price-small">${arr[i].price.small}₽</p>
+    <p class="price-big"style = "display:none">${arr[i].price.big}₽ </p>
+    <button>Добавить в корзину</button></div>
     </div>
     </div>`
   )}
@@ -87,6 +109,7 @@ const prevPageNum = () => {
 
 const addClassActiveSectionCatalog = () => {
   sectionCatalog.classList.toggle("active");
+
 };
 
 const linkNextCatalog = document.querySelector("#catalog-next");
@@ -96,6 +119,7 @@ export {
   sectionCatalog,
   filter,
   items,
+  bigItem,
   btnCatalog,
   page,
   addItems,
@@ -109,26 +133,61 @@ export {
   linkPrevCatalog,
 };
 
-// document.addEventListener('click', (event) => {
-//   if(!event.target.closest('sectionCatalog')){
-//     sectionCatalog.classList.toggle('active');
-//   }
-// })
-
-// console.log(numPage);
-
-
 
 items.addEventListener('click', (e) =>{
 
   if(e.target.matches('.catalog_items-item')){
-    // document.querySelector('.display-none').style.display = 'none';
+
+    document.querySelector('.display-none').style.display = 'none'
     const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
-    console.log(activeIndex);
-    // addBigItem(itemsItem, activeIndex)
+    addBigItem(newCatalog, activeIndex);
 
-
-
-
-  }
+  };
+  
 })
+
+
+bigItem.addEventListener('click', (e) =>{
+  if(e.target.matches('.composition')){
+    bigItem.querySelector('.p-composition').classList.toggle('open');
+    bigItem.querySelector('.minus').classList.toggle('open');
+    bigItem.querySelector('.plus').classList.toggle('close');  
+} 
+if(e.target.matches('.application')){
+bigItem.querySelector('.p-application').classList.toggle('open');
+bigItem.querySelector('.a-minus').classList.toggle('open');
+bigItem.querySelector('.a-plus').classList.toggle('close');  
+
+};
+const volume = document.querySelector('.volume')
+volume.addEventListener('change', () =>{
+  document.querySelectorAll('input[type="radio"]').forEach((el) =>{
+    if (el.checked && el.value ==1) {
+      document.querySelector('.price-small').style.display = 'block';
+      document.querySelector('.price-big').style.display = 'none';
+		} else if(el.checked && el.value ==2){
+      document.querySelector('.price-small').style.display = 'none';
+      document.querySelector('.price-big').style.display = 'block';
+    }
+  })
+
+  
+});
+
+});
+
+document.addEventListener('click', (e)=>{
+if (e.target.matches('.catalog_item')){
+  console.log('j')
+  bigItem.textContent="";
+  document.querySelector('.display-none').style.display = 'block';
+}
+
+})
+
+
+
+
+
+ 
+  

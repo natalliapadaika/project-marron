@@ -106,3 +106,153 @@ justify-content: flex-end;
     gap: 32px;
 }
 }
+
+.minus{
+    display: none;
+}
+.a-minus{
+    display: none;
+}
+.open{
+    display: block;
+}
+.close{
+    display: none;
+}
+.p-composition{
+    padding-bottom: 20px;
+    display: none;
+    @include vars.p; 
+    font-size: 14px;
+//  border-bottom: #B3BAC1 1px solid;
+}
+
+.p-composition.open{
+    display: block;
+
+}
+
+.p-application{
+    display: none;
+    padding-bottom: 20px;
+    @include vars.p; 
+    font-weight: 14px;
+}
+.p-application.open{
+    display: block;
+}
+.border{
+    border-top: #B3BAC1 1px solid;
+}
+
+.catalog_item{
+    // border-top: #DBDCE0 1px solid;  
+   
+   
+    // background-color: aqua;
+input{
+    appearance: auto;
+}
+
+    .catalog_big-item{
+        border-top: #DBDCE0 1px solid;  
+        max-width: 1070px;
+        margin: auto;
+    display: flex;
+    gap: 70px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    .big-item{
+       width: 630px;
+        height: 647px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // img{
+        //     width: 630px;
+        //     height: 647px; 
+        // }
+    //    background-position: 100%;
+    //    flex-shrink: 0;
+    //     // background-size: 100%;
+    //   background-size: contain
+    }
+.big-item-descr{
+    padding-top: 49px;
+    max-width: 370px; 
+//     .composition{
+//     // border-top: #B3BAC1 1px solid;
+
+// }
+
+    .style-app-comp{
+        font-weight: 500;
+    }
+
+    .style-div{
+        height: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            @include vars.p; 
+            font-weight: 500
+        }
+    
+       
+     
+
+
+    
+    }  
+    .descr{
+        @include vars.p; 
+        font-size: 16px;
+        padding-bottom: 45px;
+        border-bottom: #B3BAC1 1px solid;
+    }
+   
+    .descr-short{
+        @include vars.p; 
+            margin-top: 15px;
+            color: #9A9DA0;
+            font-size: 16px;
+            margin-bottom: 48px
+        }
+    h3{
+        @include vars.h2;
+    }
+    // p{ 
+    //     @include vars.p; 
+    //     font-size: 16px;
+       
+    // }
+    button{
+        @include vars.btn;
+        width: 214px;
+    }
+}
+
+ }
+
+}
+.volume{
+    border-top: #B3BAC1 1px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-top: 45px;
+    margin-bottom: 45px;
+    p{
+        @include vars.p; 
+        font-weight: 500
+
+        
+    }
+    label{
+        @include vars.p; 
+        font-weight: 500;
+        
+    }
+   
+   }
