@@ -1,0 +1,1091 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=M+PLUS+1p:wght@400;500&display=swap");
+.wrapper {
+  height: 650px;
+  background: url("/back.7475bda5.png"), lightgray 50%/cover no-repeat;
+}
+
+.wrapper.noback {
+  height: max-content;
+  background: #F8F8F6;
+}
+
+.wrapper.no-back {
+  height: max-content;
+  background: #F8F8F6;
+}
+
+.container {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.header {
+  padding: 40px 98px 70px 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav-lk-knit {
+  display: flex;
+  gap: 51px;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__lk-knit .lk {
+  margin-right: 30px;
+}
+
+.greeting {
+  display: flex;
+  padding-left: 168px;
+  padding-right: 168px;
+}
+.greeting__block2 {
+  padding-top: 61px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.greeting__block2 h1 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.greeting__block2 p {
+  color: #122947;
+  text-align: center;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 40px;
+}
+.greeting__block2 button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 141px;
+  margin-left: 66px;
+  height: 41px;
+  text-align: center;
+}
+.greeting .do-for-block {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.greeting .for-block {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.greeting .link {
+  stroke-width: 1px;
+  stroke: #122947;
+  width: 26px;
+  height: 12px;
+}
+
+.footer {
+  background: #F4F1ED;
+}
+.footer_logo-nav-icon {
+  padding: 60px 98px 60px 98px;
+  display: flex;
+  align-items: center;
+}
+.footer_nav {
+  margin-left: 69px;
+  margin-right: 475px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 16px;
+}
+.footer_nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer_icon {
+  display: flex;
+  gap: 30px;
+}
+.footer_policy {
+  border-top: #D1D1D1 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 98px 22px 98px;
+}
+.footer_policy p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 12px;
+  color: #959595;
+}
+
+.catalog {
+  display: none;
+  max-width: 1170px;
+  margin: auto;
+  padding-top: 40px;
+  margin-bottom: 141px;
+  border-top: 1px solid #dbdce0;
+  transition: 0.8s;
+}
+.catalog_filter-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+.catalog_filter-items h2 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.catalog .catalog-filtr-btn-active {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+  display: none;
+}
+.catalog .catalog-filtr-btn-active.open {
+  display: block;
+}
+.catalog .catalog-filtr-btn {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 141px;
+}
+
+.catalog_items {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.catalog_items .catalog_items-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 270px;
+  height: 350px;
+  cursor: pointer;
+  padding: 0px 20px 20px 20px;
+}
+.catalog_items .catalog_items-item-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog_items .catalog_items-item-name-price h3 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  font-size: 16px;
+}
+.catalog_items .catalog_items-item-name-price p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 13px;
+  font-weight: 500;
+}
+.catalog_items .catalog_items-item-dshort-vol {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog_items .catalog_items-item-dshort-vol p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 13px;
+  color: #9a9da0;
+}
+
+.catalog.active {
+  display: block;
+}
+
+.closed {
+  display: none;
+}
+
+.catalog_page-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.catalog_page-link .catalog_page {
+  padding-left: 540px;
+  display: flex;
+}
+.catalog_page-link .catalog_page p.catalog_page-light {
+  color: #9a9da0;
+}
+.catalog_page-link .catalog_page p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.catalog_page-link .catalog_link {
+  display: flex;
+  gap: 32px;
+}
+
+.minus {
+  display: none;
+  cursor: pointer;
+}
+
+.a-minus {
+  display: none;
+  cursor: pointer;
+}
+
+.open {
+  display: block;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+  cursor: pointer;
+}
+
+.p-composition {
+  padding-bottom: 20px;
+  display: none;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 14px;
+}
+
+.p-composition.open {
+  display: block;
+}
+
+.p-application {
+  display: none;
+  padding-bottom: 20px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 14px;
+}
+
+.p-application.open {
+  display: block;
+}
+
+.border {
+  border-top: #b3bac1 1px solid;
+}
+
+.catalog_item {
+  background: rgba(247, 247, 245, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.9s;
+  visibility: hidden;
+}
+.catalog_item input {
+  appearance: auto;
+}
+.catalog_item .catalog_big-item {
+  border-top: #dbdce0 1px solid;
+  max-width: 1070px;
+  margin: auto;
+  display: flex;
+  gap: 70px;
+  padding-top: 40px;
+  padding-bottom: 140px;
+  position: relative;
+}
+.catalog_item .catalog_big-item .big-item {
+  width: 630px;
+  height: 647px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.catalog_item .catalog_big-item .big-item-descr {
+  padding-top: 49px;
+  max-width: 370px;
+}
+.catalog_item .catalog_big-item .big-item-descr .style-app-comp {
+  font-weight: 500;
+  cursor: pointer;
+}
+.catalog_item .catalog_big-item .big-item-descr .style-div {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.catalog_item .catalog_big-item .big-item-descr .style-div p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.catalog_item .catalog_big-item .big-item-descr .descr {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 16px;
+  padding-bottom: 45px;
+  border-bottom: #b3bac1 1px solid;
+}
+.catalog_item .catalog_big-item .big-item-descr .descr-short {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 15px;
+  color: #9a9da0;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+.catalog_item .catalog_big-item .big-item-descr h3 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.catalog_item .catalog_big-item .big-item-descr button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 214px;
+}
+
+.volume {
+  border-top: #b3bac1 1px solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-top: 45px;
+  margin-bottom: 45px;
+}
+.volume p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.volume label {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popup-on {
+  visibility: visible;
+  opacity: 1;
+}
+
+.best-sellers {
+  padding-left: 98px;
+  padding-top: 140px;
+  display: flex;
+}
+.best-sellers .best-sellers-more {
+  margin-right: 86px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+.best-sellers .best-sellers-more h2 {
+  font-family: Raleway;
+  color: #122947;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.best-sellers .best-sellers-more p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  width: 214px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.best-sellers .best-sellers-more button {
+  width: 155px;
+  height: 41px;
+  border-radius: 2px;
+  border: 1px solid #b3bac1;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+}
+.best-sellers .best-seller__wrapper {
+  display: flex;
+  gap: 30px;
+}
+.best-sellers .best-seller {
+  display: none;
+  width: 230px;
+  height: 312px;
+  justify-content: center;
+}
+.best-sellers .best-seller .description {
+  padding-top: 220px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.best-sellers .best-seller .description .best-seller_descr-h3 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+.best-sellers .best-seller .description .best-seller_descr-p {
+  margin-bottom: 10px;
+  color: #9a9da0;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.best-sellers .best-seller .description .best-seller_descr-btn {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  border-bottom: 1px solid #122947;
+}
+
+.best-seller.active {
+  display: flex;
+}
+
+.best-seller_link {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.best-seller_link .link {
+  stroke-width: 1px;
+  stroke: #122947;
+  width: 26px;
+  height: 12px;
+}
+
+.popup {
+  position: fixed;
+  top: 5%;
+  left: 0;
+  background: rgba(247, 247, 245, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s;
+  opacity: 0;
+  visibility: hidden;
+  padding: 50px;
+}
+.popup input {
+  appearance: auto;
+}
+.popup .catalog_big-item {
+  border-top: #DBDCE0 1px solid;
+  max-width: 1070px;
+  margin: auto;
+  display: flex;
+  gap: 70px;
+  padding-top: 40px;
+  padding-bottom: 140px;
+  position: relative;
+}
+.popup .catalog_big-item .big-item {
+  width: 630px;
+  height: 647px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.popup .catalog_big-item .big-item-descr {
+  padding-top: 49px;
+  max-width: 370px;
+}
+.popup .catalog_big-item .big-item-descr .style-app-comp {
+  font-weight: 500;
+  cursor: pointer;
+}
+.popup .catalog_big-item .big-item-descr .style-div {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.popup .catalog_big-item .big-item-descr .style-div p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.popup .catalog_big-item .big-item-descr .descr {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 16px;
+  padding-bottom: 45px;
+  border-bottom: #B3BAC1 1px solid;
+}
+.popup .catalog_big-item .big-item-descr .descr-short {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 15px;
+  color: #9A9DA0;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+.popup .catalog_big-item .big-item-descr h3 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.popup .catalog_big-item .big-item-descr button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 214px;
+}
+
+.volume {
+  border-top: #B3BAC1 1px solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-top: 45px;
+  margin-bottom: 45px;
+}
+.volume p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.volume label {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popup-on {
+  visibility: visible;
+  opacity: 1;
+}
+
+.minus {
+  display: none;
+  cursor: pointer;
+}
+
+.a-minus {
+  display: none;
+  cursor: pointer;
+}
+
+.open {
+  display: block;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+  cursor: pointer;
+}
+
+.p-composition {
+  padding-bottom: 20px;
+  display: none;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 14px;
+}
+
+.p-composition.open {
+  display: block;
+}
+
+.p-application {
+  display: none;
+  padding-bottom: 20px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 14px;
+}
+
+.p-application.open {
+  display: block;
+}
+
+.border {
+  border-top: #B3BAC1 1px solid;
+}
+
+.baner_1 {
+  width: 1366px;
+  height: 400px;
+  margin: 140px 0;
+  display: flex;
+  justify-content: end;
+}
+.baner_1 .baner_1-more {
+  margin-right: 284px;
+  margin-top: 81px;
+  margin-bottom: 81px;
+  width: 284px;
+}
+.baner_1 .baner_1-more h2 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.baner_1 .baner_1-more p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.baner_1 .baner_1-more button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 141px;
+}
+
+.baner_2 {
+  max-width: 1366px;
+  margin-right: 98px;
+  margin-left: 98px;
+  position: relative;
+}
+.baner_2 img {
+  width: 670px;
+  height: 451px;
+  position: absolute;
+  top: 66px;
+  right: -10px;
+}
+.baner_2 .baner_2-more {
+  width: 670px;
+  height: 583px;
+  background: #F4F1ED;
+  padding: 100px 225px 116px 98px;
+}
+.baner_2 .baner_2-more h2 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.baner_2 .baner_2-more p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.baner_2 .baner_2-more button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 200px;
+}
+
+.baner_3 {
+  width: 1366px;
+  height: 433px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 140px 0;
+}
+.baner_3 .baner_3-more {
+  margin: 120px 300px;
+  text-align: center;
+}
+.baner_3 .baner_3-more p {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin-bottom: 50px;
+}
+.baner_3 .baner_3-more button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 163px;
+}
+
+.baner_4 {
+  max-width: 1151px;
+  margin: auto;
+  display: flex;
+  gap: 71px;
+}
+.baner_4-wrapper {
+  width: 699px;
+  height: 466px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.baner_4-wrapper img {
+  width: 233px;
+  height: 233px;
+}
+.baner_4-more {
+  margin-top: 147px;
+  width: 381px;
+}
+.baner_4-more h2 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.baner_4-more p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.baner_4-more button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  width: 170px;
+}
+
+.contacts {
+  max-width: 1170px;
+  height: 554px;
+  margin: 140px auto 140px auto;
+  position: relative;
+}
+.contacts #map {
+  position: absolute;
+  top: 66px;
+  left: 500px;
+}
+.contacts_req-icon {
+  width: 670px;
+  padding: 100px 314px 100px 100px;
+  background: #F4F1ED;
+}
+.contacts_req-icon h2 {
+  color: #122947;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin-bottom: 40px;
+}
+.contacts_req-icon h3 {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+}
+.contacts_req-icon p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 35px;
+}
+.contacts_icon {
+  display: flex;
+  gap: 30px;
+}
+
+.catalog_filter {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: none;
+}
+.catalog_filter h3 {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-weight: 500;
+  margin-bottom: 31px;
+}
+.catalog_filter label {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  font-size: 16px;
+}
+.catalog_filter input {
+  appearance: auto;
+  margin-right: 12px;
+}
+.catalog_filter .style-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.catalog_filter-face {
+  margin-right: 82px;
+}
+.catalog_filter-btn {
+  display: flex;
+  gap: 20px;
+}
+.catalog_filter-btn button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border-color: #b3bac1;
+  width: 141px;
+}
+.catalog_filter-btn button:hover {
+  border-color: #122947;
+}
+.catalog_filter-body {
+  margin-right: 82px;
+}
+.catalog_filter-skin-btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.catalog_filter.block {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #F8F8F6;
+}
+
+.noactive {
+  display: none;
+}
+
+.noopen {
+  display: none;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
