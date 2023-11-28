@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/destyle.3328aadc.css">
+    <link rel="stylesheet" href="/main.77bb5cfd.css">
+    <script src="https://api-maps.yandex.ru/v3/?apikey=e258be64-8db0-4213-b0ae-fa6b678c3655&lang=ru_RU"></script>
+    <script src="/main.fb6bbcaf.js" defer=""></script>
+  <script src="/destyle.3328aadc.js"></script><script src="/main.77bb5cfd.js"></script></head>
+  <body>
+    <header>
+      <div class="container wrapper">
+        <div class="header">
+          <div class="header__logo">
+            <a href="#"><img src="/MAROON.ced2a136.svg" alt="logo"></a>
+          </div>
+          <div class="header__nav-lk-knit">
+            <div class="header__nav">
+              <nav>
+                <ul>
+                  <li>
+                    <a class="header__nav-catalog" href="#">Каталог</a>
+                  </li>
+                  <li>
+                    <a href="#">О нас</a>
+                  </li>
+                  <li>
+                    <a href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__lk-knit">
+              <img class="lk" src="/lk.bfd8366c.svg" alt="lk">
+              <img class="knit" src="/knit.b45a6be5.svg" alt="knit">
+            </div>
+          </div>
+        </div>
+        <section class="greeting">
+          <div class="greeting__block1">
+            <img src="/Rectangle5.dea09ec7.png" alt="one">
+            <div class="do-for-block">
+              <p class="for-block">Уход для лица</p>
+              <button class="link">
+                <img src="/link1.733765f0.svg" alt="link1">
+              </button>
+            </div>
+          </div>
+          <div class="greeting__block2">
+            <h1>MAROON</h1>
+            <p>Натуральная косметика для бережного ухода за кожей</p>
+            <button>Подробнее</button>
+          </div>
+          <div class="greeting__block3">
+            <img src="/Rectangle6.de115960.png" alt="two">
+            <div class="do-for-block">
+              <p class="for-block">Уход для тела</p>
+              <button class="link">
+                <img src="/link2.99f2fa0c.svg" alt="link2">
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="catalog_item"></section>
+        <div class="display-none">
+          <section class="catalog">
+            <div class="catalog_filter-items"></div>
+            <div class="catalog_filter">
+              <div class="catalog_filter-face">
+                <h3>Уход для лица</h3>
+                <div class="style-filter">
+                <label for="crema"> <input class="face" type="checkbox" id="crema" value="crema">Крема</label>
+
+                
+                <label for="sivorotki"><input class="face" type="checkbox" id="sivorotki" value="sivorotki">Сыворотки</label>
+                
+                <label for="mask"><input class="face" type="checkbox" id="mask" value="mask">Маски</label>
+                
+                <label for="penki"><input class="face" type="checkbox" id="penki" value="penki">Пенки</label>
+              
+                <label for="toniki">  <input class="face" type="checkbox" id="toniki" value="toniki">Tоники</label>
+               
+                <label for="powder"> <input class="face" type="checkbox" id="powder" value="powder">Пудры</label>
+              </div>
+            </div>
+              <div class="catalog_filter-body">
+                <h3>Уход для тела</h3>
+                <div class="style-filter">
+                
+                <label for="cremab"><input class="body" type="checkbox" id="cremab" value="cremab">Крема</label>
+                
+                <label for="oil"><input class="body" type="checkbox" id="oil" value="oil">Масла</label>
+               
+                <label for="scrub"> <input class="body" type="checkbox" id="scrub" value="scrub">Скрабы</label>
+               
+                <label for="soap"> <input class="body" type="checkbox" id="soap" value="soap">Мыло</label>
+               
+                <label for="bomb"> <input class="body" type="checkbox" id="bomb" value="bomb">Бомбочки для ванны</label>
+              
+                <label for="salz">  <input class="body" type="checkbox" id="salz" value="salz">Соль для ванны</label>
+              </div>
+            </div>
+              <div class="catalog_filter-skin-btn">
+                <div class="catalog_filter-skin">
+                  <h3>Тип кожи</h3>
+                  <div class="style-filter">
+                 
+                  <label for="norm"> <input class="face-skin" type="checkbox" id="norm" value="norm">Нормальная</label>
+                
+                  <label for="dry">  <input class="face-skin" type="checkbox" id="dry" value="dry">Сухая</label>
+              
+                  <label for="fat">    <input class="face-skin" type="checkbox" id="fat" value="fat">Жирная</label>
+                
+                  <label for="komb">  <input class="face-skin" type="checkbox" id="komb" value="komb">Комбинированная</label>
+                </div>
+              </div>
+                <div class="catalog_filter-btn">
+                  <button class="catalog_filter-btn-load">Применить</button>
+                  <button class="catalog_filter-btn-anload">Сбросить</button>
+                </div>
+              </div>
+            </div>
+            <div class="catalog_items"></div>
+            <div class="catalog_page-link">
+              <div class="catalog_page"></div>
+              <div class="catalog_link">
+                <button class="link" id="catalog-prev">
+                  <img src="/link-left.73ec23e2.svg" alt="linkleft">
+                </button>
+                <button class="link" id="catalog-next">
+                  <img src="/link1.733765f0.svg" alt="link1">
+                </button>
+              </div>
+            </div>
+          </section>
+          <div class="popup"></div>
+
+          <section class="best">
+            <div class="best-sellers">
+              <div class="best-sellers-more">
+                <h2>Бестселлеры</h2>
+                <p>Легендарные продукты, завоевавшие любовь наших клиентов</p>
+                <button>Смотреть все</button>
+              </div>
+              <div class="best-seller__wrapper"></div>
+            </div>
+            <div class="best-seller_link">
+              <button class="link" id="bs-prev">
+                <img src="/link-left.73ec23e2.svg" alt="linkleft">
+              </button>
+              <button class="link" id="bs-next">
+                <img src="/link1.733765f0.svg" alt="link1">
+              </button>
+            </div>
+          </section>
+
+          <section class="baner">
+            <div class="baner_1"></div>
+
+            <div class="baner_2"></div>
+            <div class="baner_3"></div>
+
+            <div class="baner_4"></div>
+          </section>
+          <section class="contacts">
+            <div class="contacts_req-icon"></div>
+
+            <div id="map" style="width: 600px; height: 400px"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer">
+        <div class="footer_logo-nav-icon">
+          <div class="footer_logo">
+            <img src="/MAROON.ced2a136.svg" alt="logo">
+          </div>
+          <div class="footer_nav">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Каталог</a>
+                </li>
+                <li>
+                  <a href="#">О нас</a>
+                </li>
+                <li>
+                  <a href="#">Магазины</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer_icon">
+            <a href="#"><img src="/facebook.7c262232.svg" alt="facebook"></a>
+            <a href="#"><img src="/instagram.43c924ce.svg" alt="instagram"></a>
+            <a href="#"><img src="/twitter.e211b98c.svg" alt="twitter"></a>
+          </div>
+        </div>
+        <div class="footer_policy">
+          <p>Maroon &copy; 2023 Все права защищены</p>
+          <p>Политика конфиденциальности</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
