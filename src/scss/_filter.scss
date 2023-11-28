@@ -1,0 +1,56 @@
+@use "vars";
+
+.catalog_filter {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: none;
+
+  h3 {
+    @include vars.p;
+    font-weight: 500;
+    margin-bottom: 31px;
+  }
+  label {
+    @include vars.p;
+    font-size: 16px;
+  }
+  input {
+    appearance: auto;
+    margin-right: 12px;
+  }
+
+  .style-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  &-face {
+    margin-right: 82px;
+  }
+  &-btn {
+    display: flex;
+    gap: 20px;
+
+    button {
+      @include vars.btn;
+      border-color: #b3bac1;
+      width: 141px;
+    }
+    button:hover {
+      border-color: #122947;
+    }
+  }
+
+  &-body {
+    margin-right: 82px;
+  }
+  &-skin-btn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+.catalog_filter.block {
+  display: flex;
+  justify-content: center;
+}
