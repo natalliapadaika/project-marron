@@ -80,7 +80,9 @@ import {
   addBigItem,
   newCatalog,
   load,
-  btnLoad
+  btnLoad, 
+  btnanload,
+  addPageCatalogFilter
 } from "./modules/_catalog.js";
 import { binaryExpression } from "babel-types";
 
@@ -172,4 +174,4 @@ items.addEventListener("click", (e) => {
 });
 
 btnLoad();
-
+btnanload();
