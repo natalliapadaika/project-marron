@@ -1,4 +1,4 @@
-import { array } from "assert-plus";
+import { array, number } from "assert-plus";
 import { catalog } from "./_catalog-array.js";
 
 const [p1Catalog, p2Catalog, p3Catalog] = catalog;
@@ -100,10 +100,27 @@ const addPageCatalog = () => {
   addItems(catalog[numPage]);
 };
 
+const addPageCatalogFilter = (arr) => {
+let index = 8;
+if (arr.length > index) {
+  addItems(arr.slice(index, index+8))
+}
+else {
+  addItems(arr.slice(index, arr.length))
+}
+index +=8; 
+};
+
 const nextPageNum = () => {
   page.innerHTML = `<p>${numPage + 1} &#173;</p>
   <p class="catalog_page-light">  &#8212;&#8212;  ${numPage + 2}</p>`;
 };
+const nextPageNumFilter = () => {
+  // let numberPage = 1;
+  page.innerHTML = `<p>${numberPage + 1} &#173;</p>
+  <p class="catalog_page-light">  &#8212;&#8212;  ${numberPage + 2}</p>`;
+};
+
 
 const backPageCatalog = () => {
   numPage--;
@@ -144,7 +161,9 @@ export {
   addBigItem,
   newCatalog,
   load,
-  btnLoad
+  btnLoad,
+  btnanload,
+  addPageCatalogFilter
 };
 
 // items.addEventListener('click', (e) =>{
@@ -269,22 +288,52 @@ const catalogFilterFaceSkin = document.querySelectorAll(".face-skin");
   if (newFCFskin.length > 0) {
     const newFilterCatalog = [...newFCFskin.flat(), ...newFCBody.flat()];
     console.log(newFilterCatalog);
-    addItems(newFilterCatalog.slice(0,8))
-  } else {
+    addItems(newFilterCatalog.slice(0,8));
+    
+    // linkNextCatalog.addEventListener("click", () => {
+    // addPageCatalogFilter(newFilterCatalog);
+    // let numberPage =1; 
+    // if (numberPage <= Math.floor(newFilterCatalog)){
+    //     nextPageNumFilter();
+        
+    // }
+    // numberPage++
+    // console.log(numberPage);
+    // });
+
+  } 
+  
+  else 
+  
+  if (newFCFace.length>0 || newFCBody.length>0){
     const newFilterCatalog = [...newFCFace.flat(), ...newFCBody.flat()];
     console.log(newFilterCatalog);
-  addItems(newFilterCatalog.slice(0,8))
+  addItems(newFilterCatalog.slice(0,8));
+  // linkNextCatalog.addEventListener("click", () => {
+  //   addPageCatalogFilter(newFilterCatalog);
+  //   nextPageNum();
+
+  // })
+  
   }
-
 });
-}
+};
 
-// anload.addEventListener('click', () =>{
-//     catalogFilter.forEach((checkbox) =>{
-//       if(checkbox.checked){
-//         checkbox.checked == false
-//         checkbox.textContent='';
-//       }
-//     })
-//     console.log(newFC);
-//   })
+const btnanload = () => {anload.addEventListener('click', () =>{
+    [...document.querySelectorAll('input[type="checkbox"]')].forEach((checkbox) =>{     
+        checkbox.checked = false;
+        addItems(catalog[0]);
+  })
+})}
+  // items.addEventListener('click', (e) =>{
+
+//   if(e.target.matches('.catalog_items-item')){
+
+//     document.querySelector('.display-none').style.display = 'none'
+//     const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
+//     addBigItem(newCatalog, activeIndex);
+//     sectionCatalog.classList.remove("active");
+
+//   };
+
+// })
