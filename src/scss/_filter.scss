@@ -54,3 +54,24 @@
   display: flex;
   justify-content: center;
 }
+.filter_page-link{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 70px;
+  .filter_page {
+    padding-left: 540px;
+    display: flex;
+    p.filter_page-light {
+      color: #9a9da0;
+    }
+    p {
+      @include vars.p;
+      font-weight: 500;
+    }
+  }
+  .filter_link {
+    display: flex;
+    gap: 32px;
+  }
+}

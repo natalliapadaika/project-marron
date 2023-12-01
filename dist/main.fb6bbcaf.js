@@ -121,40 +121,26 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 module.exports = "/back.7475bda5.png";
 },{}],"assets/img/baner1.png":[function(require,module,exports) {
 module.exports = "/baner1.030a6a75.png";
-<<<<<<< HEAD
-},{}],"assets/img/baner41.png":[function(require,module,exports) {
-module.exports = "/baner41.9053df63.png";
 },{}],"assets/img/baner3.png":[function(require,module,exports) {
 module.exports = "/baner3.f75dd12d.png";
-=======
-},{}],"assets/img/baner3.png":[function(require,module,exports) {
-module.exports = "/baner3.f75dd12d.png";
-},{}],"assets/img/baner41.png":[function(require,module,exports) {
-module.exports = "/baner41.9053df63.png";
->>>>>>> dist
 },{}],"assets/img/baner42.png":[function(require,module,exports) {
 module.exports = "/baner42.42807b5e.png";
-},{}],"assets/img/baner43.png":[function(require,module,exports) {
-module.exports = "/baner43.0d51318b.png";
+},{}],"assets/img/baner41.png":[function(require,module,exports) {
+module.exports = "/baner41.9053df63.png";
 },{}],"assets/img/baner45.png":[function(require,module,exports) {
 module.exports = "/baner45.5af2a88d.png";
-},{}],"assets/img/baner44.png":[function(require,module,exports) {
-module.exports = "/baner44.cdf498d3.png";
-},{}],"assets/img/baner46.png":[function(require,module,exports) {
-module.exports = "/baner46.aade73df.png";
 },{}],"assets/img/catalog1.png":[function(require,module,exports) {
 module.exports = "/catalog1.667b8833.png";
-<<<<<<< HEAD
-},{}],"assets/img/catalog11.png":[function(require,module,exports) {
-module.exports = "/catalog11.42179d2e.png";
+},{}],"assets/img/baner44.png":[function(require,module,exports) {
+module.exports = "/baner44.cdf498d3.png";
+},{}],"assets/img/baner43.png":[function(require,module,exports) {
+module.exports = "/baner43.0d51318b.png";
 },{}],"assets/img/catalog10.png":[function(require,module,exports) {
 module.exports = "/catalog10.66cce51c.png";
-=======
-},{}],"assets/img/catalog10.png":[function(require,module,exports) {
-module.exports = "/catalog10.66cce51c.png";
 },{}],"assets/img/catalog11.png":[function(require,module,exports) {
 module.exports = "/catalog11.42179d2e.png";
->>>>>>> dist
+},{}],"assets/img/baner46.png":[function(require,module,exports) {
+module.exports = "/baner46.aade73df.png";
 },{}],"assets/img/catalog12.png":[function(require,module,exports) {
 module.exports = "/catalog12.f66dfe62.png";
 },{}],"assets/img/catalog2.png":[function(require,module,exports) {
@@ -163,162 +149,95 @@ module.exports = "/catalog2.388cbf16.png";
 module.exports = "/catalog3.b1efd2ed.png";
 },{}],"assets/img/catalog4.png":[function(require,module,exports) {
 module.exports = "/catalog4.d745b9f6.png";
+},{}],"assets/img/catalog7.png":[function(require,module,exports) {
+module.exports = "/catalog7.52764131.png";
+},{}],"assets/img/catalog9.png":[function(require,module,exports) {
+module.exports = "/catalog9.6479ce78.png";
+},{}],"assets/img/catalog8.png":[function(require,module,exports) {
+module.exports = "/catalog8.537aa7e0.png";
 },{}],"assets/img/catalog5.png":[function(require,module,exports) {
 module.exports = "/catalog5.e00133d5.png";
 },{}],"assets/img/catalog6.png":[function(require,module,exports) {
 module.exports = "/catalog6.c98455fc.png";
-},{}],"assets/img/catalog7.png":[function(require,module,exports) {
-module.exports = "/catalog7.52764131.png";
-<<<<<<< HEAD
-},{}],"assets/img/catalog8.png":[function(require,module,exports) {
-module.exports = "/catalog8.537aa7e0.png";
-},{}],"assets/img/catalog9.png":[function(require,module,exports) {
-module.exports = "/catalog9.6479ce78.png";
-=======
-},{}],"assets/img/catalog9.png":[function(require,module,exports) {
-module.exports = "/catalog9.6479ce78.png";
-},{}],"assets/img/catalog8.png":[function(require,module,exports) {
-module.exports = "/catalog8.537aa7e0.png";
-},{}],"assets/img/cream4.png":[function(require,module,exports) {
-module.exports = "/cream4.6e07a624.png";
->>>>>>> dist
 },{}],"assets/img/cream_1.png":[function(require,module,exports) {
 module.exports = "/cream_1.85f28ba5.png";
-},{}],"assets/img/cream_2.png":[function(require,module,exports) {
-module.exports = "/cream_2.7ee98aa0.png";
-},{}],"assets/img/cream_3.png":[function(require,module,exports) {
-module.exports = "/cream_3.556ac442.png";
-<<<<<<< HEAD
 },{}],"assets/img/cream4.png":[function(require,module,exports) {
 module.exports = "/cream4.6e07a624.png";
-=======
->>>>>>> dist
 },{}],"assets/img/Rectangle5.png":[function(require,module,exports) {
 module.exports = "/Rectangle5.dea09ec7.png";
+},{}],"assets/img/cream_2.png":[function(require,module,exports) {
+module.exports = "/cream_2.7ee98aa0.png";
 },{}],"assets/img/Rectangle6.png":[function(require,module,exports) {
 module.exports = "/Rectangle6.de115960.png";
+},{}],"assets/img/cream_3.png":[function(require,module,exports) {
+module.exports = "/cream_3.556ac442.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
   "back": require("./back.png"),
   "baner1": require("./baner1.png"),
-<<<<<<< HEAD
-  "baner41": require("./baner41.png"),
   "baner3": require("./baner3.png"),
-=======
-  "baner3": require("./baner3.png"),
-  "baner41": require("./baner41.png"),
->>>>>>> dist
   "baner42": require("./baner42.png"),
-  "baner43": require("./baner43.png"),
+  "baner41": require("./baner41.png"),
   "baner45": require("./baner45.png"),
-  "baner44": require("./baner44.png"),
-  "baner46": require("./baner46.png"),
   "catalog1": require("./catalog1.png"),
-<<<<<<< HEAD
-  "catalog11": require("./catalog11.png"),
-  "catalog10": require("./catalog10.png"),
-=======
+  "baner44": require("./baner44.png"),
+  "baner43": require("./baner43.png"),
   "catalog10": require("./catalog10.png"),
   "catalog11": require("./catalog11.png"),
->>>>>>> dist
+  "baner46": require("./baner46.png"),
   "catalog12": require("./catalog12.png"),
   "catalog2": require("./catalog2.png"),
   "catalog3": require("./catalog3.png"),
   "catalog4": require("./catalog4.png"),
+  "catalog7": require("./catalog7.png"),
+  "catalog9": require("./catalog9.png"),
+  "catalog8": require("./catalog8.png"),
   "catalog5": require("./catalog5.png"),
   "catalog6": require("./catalog6.png"),
-  "catalog7": require("./catalog7.png"),
-<<<<<<< HEAD
-  "catalog8": require("./catalog8.png"),
-  "catalog9": require("./catalog9.png"),
   "cream_1": require("./cream_1.png"),
-  "cream_2": require("./cream_2.png"),
-  "cream_3": require("./cream_3.png"),
   "cream4": require("./cream4.png"),
   "Rectangle5": require("./Rectangle5.png"),
-  "Rectangle6": require("./Rectangle6.png")
-};
-},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner41.png":"assets/img/baner41.png","./baner3.png":"assets/img/baner3.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner45.png":"assets/img/baner45.png","./baner44.png":"assets/img/baner44.png","./baner46.png":"assets/img/baner46.png","./catalog1.png":"assets/img/catalog1.png","./catalog11.png":"assets/img/catalog11.png","./catalog10.png":"assets/img/catalog10.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./catalog7.png":"assets/img/catalog7.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./cream4.png":"assets/img/cream4.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
-=======
-  "catalog9": require("./catalog9.png"),
-  "catalog8": require("./catalog8.png"),
-  "cream4": require("./cream4.png"),
-  "cream_1": require("./cream_1.png"),
   "cream_2": require("./cream_2.png"),
-  "cream_3": require("./cream_3.png"),
-  "Rectangle5": require("./Rectangle5.png"),
-  "Rectangle6": require("./Rectangle6.png")
+  "Rectangle6": require("./Rectangle6.png"),
+  "cream_3": require("./cream_3.png")
 };
-},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner45.png":"assets/img/baner45.png","./baner44.png":"assets/img/baner44.png","./baner46.png":"assets/img/baner46.png","./catalog1.png":"assets/img/catalog1.png","./catalog10.png":"assets/img/catalog10.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./catalog7.png":"assets/img/catalog7.png","./catalog9.png":"assets/img/catalog9.png","./catalog8.png":"assets/img/catalog8.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
->>>>>>> dist
+},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner42.png":"assets/img/baner42.png","./baner41.png":"assets/img/baner41.png","./baner45.png":"assets/img/baner45.png","./catalog1.png":"assets/img/catalog1.png","./baner44.png":"assets/img/baner44.png","./baner43.png":"assets/img/baner43.png","./catalog10.png":"assets/img/catalog10.png","./catalog11.png":"assets/img/catalog11.png","./baner46.png":"assets/img/baner46.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog7.png":"assets/img/catalog7.png","./catalog9.png":"assets/img/catalog9.png","./catalog8.png":"assets/img/catalog8.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./cream_1.png":"assets/img/cream_1.png","./cream4.png":"assets/img/cream4.png","./Rectangle5.png":"assets/img/Rectangle5.png","./cream_2.png":"assets/img/cream_2.png","./Rectangle6.png":"assets/img/Rectangle6.png","./cream_3.png":"assets/img/cream_3.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
 module.exports = "/baner2.728e3fa9.jpg";
 },{}],"assets/img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "baner2": require("./baner2.jpg")
 };
-<<<<<<< HEAD
 },{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/facebook.svg":[function(require,module,exports) {
 module.exports = "/facebook.7c262232.svg";
+},{}],"assets/svg/instagram.svg":[function(require,module,exports) {
+module.exports = "/instagram.43c924ce.svg";
 },{}],"assets/svg/knit.svg":[function(require,module,exports) {
-module.exports = "/knit.b45a6be5.svg";
-=======
-},{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/knit.svg":[function(require,module,exports) {
 module.exports = "/knit.b45a6be5.svg";
 },{}],"assets/svg/link-left.svg":[function(require,module,exports) {
 module.exports = "/link-left.73ec23e2.svg";
-},{}],"assets/svg/facebook.svg":[function(require,module,exports) {
-module.exports = "/facebook.7c262232.svg";
->>>>>>> dist
 },{}],"assets/svg/link1.svg":[function(require,module,exports) {
 module.exports = "/link1.733765f0.svg";
 },{}],"assets/svg/link2.svg":[function(require,module,exports) {
 module.exports = "/link2.99f2fa0c.svg";
-<<<<<<< HEAD
-},{}],"assets/svg/link-left.svg":[function(require,module,exports) {
-module.exports = "/link-left.73ec23e2.svg";
-},{}],"assets/svg/instagram.svg":[function(require,module,exports) {
-module.exports = "/instagram.43c924ce.svg";
 },{}],"assets/svg/lk.svg":[function(require,module,exports) {
 module.exports = "/lk.bfd8366c.svg";
 },{}],"assets/svg/MAROON.svg":[function(require,module,exports) {
 module.exports = "/MAROON.ced2a136.svg";
-=======
-},{}],"assets/svg/instagram.svg":[function(require,module,exports) {
-module.exports = "/instagram.43c924ce.svg";
-},{}],"assets/svg/MAROON.svg":[function(require,module,exports) {
-module.exports = "/MAROON.ced2a136.svg";
-},{}],"assets/svg/lk.svg":[function(require,module,exports) {
-module.exports = "/lk.bfd8366c.svg";
->>>>>>> dist
 },{}],"assets/svg/twitter.svg":[function(require,module,exports) {
 module.exports = "/twitter.e211b98c.svg";
 },{}],"assets/svg/*.svg":[function(require,module,exports) {
 module.exports = {
-<<<<<<< HEAD
   "facebook": require("./facebook.svg"),
+  "instagram": require("./instagram.svg"),
   "knit": require("./knit.svg"),
+  "link-left": require("./link-left.svg"),
   "link1": require("./link1.svg"),
   "link2": require("./link2.svg"),
-  "link-left": require("./link-left.svg"),
-  "instagram": require("./instagram.svg"),
   "lk": require("./lk.svg"),
   "MAROON": require("./MAROON.svg"),
   "twitter": require("./twitter.svg")
 };
-},{"./facebook.svg":"assets/svg/facebook.svg","./knit.svg":"assets/svg/knit.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./link-left.svg":"assets/svg/link-left.svg","./instagram.svg":"assets/svg/instagram.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
-=======
-  "knit": require("./knit.svg"),
-  "link-left": require("./link-left.svg"),
-  "facebook": require("./facebook.svg"),
-  "link1": require("./link1.svg"),
-  "link2": require("./link2.svg"),
-  "instagram": require("./instagram.svg"),
-  "MAROON": require("./MAROON.svg"),
-  "lk": require("./lk.svg"),
-  "twitter": require("./twitter.svg")
-};
-},{"./knit.svg":"assets/svg/knit.svg","./link-left.svg":"assets/svg/link-left.svg","./facebook.svg":"assets/svg/facebook.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./instagram.svg":"assets/svg/instagram.svg","./MAROON.svg":"assets/svg/MAROON.svg","./lk.svg":"assets/svg/lk.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
->>>>>>> dist
+},{"./facebook.svg":"assets/svg/facebook.svg","./instagram.svg":"assets/svg/instagram.svg","./knit.svg":"assets/svg/knit.svg","./link-left.svg":"assets/svg/link-left.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9805,22 +9724,13 @@ var catalog = exports.catalog = [[{
   type: "oil",
   for: "body"
 }]];
-<<<<<<< HEAD
-
-// console.log(catalog[0][0].src);
-=======
->>>>>>> dist
 },{"../../assets/img/*.png":"assets/img/*.png"}],"js/modules/_catalog.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-<<<<<<< HEAD
-exports.btnLoad = exports.btnCatalog = exports.bigItem = exports.backPageCatalog = exports.addPageCatalog = exports.addItems = exports.addClassActiveSectionCatalog = exports.addCatalogFilterActive = exports.addCatalogFilter = exports.addBigItem = void 0;
-=======
 exports.btnanload = exports.btnLoad = exports.btnCatalog = exports.bigItem = exports.backPageCatalog = exports.addPageCatalogFilter = exports.addPageCatalog = exports.addItems = exports.addClassActiveSectionCatalog = exports.addCatalogFilterActive = exports.addCatalogFilter = exports.addBigItem = void 0;
->>>>>>> dist
 Object.defineProperty(exports, "catalog", {
   enumerable: true,
   get: function () {
@@ -9870,33 +9780,40 @@ var addBigItem = exports.addBigItem = function addBigItem(elemDom, arr, i) {
   elemDom.insertAdjacentHTML("afterbegin", "<div class=\"catalog_big-item\">\n    <div class=\"big-item\" style=\"background-image: url('".concat(arr[i].src, "')\">\n    </div> \n    <div class=\"big-item-descr\">\n    <h3>").concat(arr[i].name, "</h3>\n    <p class=\"descr-short\">").concat(arr[i].descrShort, "</p>\n    <p class=\"descr\">").concat(arr[i].descr, "</p>\n   <div class=\"composition style-div\">\n    <p class=\"style-app-comp composition\">\u0421\u043E\u0441\u0442\u0430\u0432 </p>\n    <p class=\"composition plus\">+ </p>\n    <p class=\"composition minus\">- </p>\n    </div>\n    <p class=\"p-composition\">").concat(arr[i].composition, "</p>\n    <div class=\"application border style-div\">\n    <p class=\"style-app-comp application\">\u0421\u043F\u043E\u0441\u043E\u0431 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F</p>\n    <p class=\"application a-plus\">+ </p>\n    <p class=\"application a-minus\">- </p>\n    </div>\n    <p class=\"p-application\"> ").concat(arr[i].application, "</p>\n  \n    <div class=\"volume\">\n    <p>\u041E\u0431\u044A\u0435\u043C:</p>\n     <label><input type=\"radio\" name=\"100\" value =\"1\" checked>\n    ").concat(arr[i].volume.small, " ml</label>\n    <label><input type=\"radio\" name=\"100\" value =\"2\">\n    ").concat(arr[i].volume.big, " ml</label>   \n    </div>\n    <div class=\"style-div\">\n    <p class=\"price-small\">").concat(arr[i].price.small, "\u20BD</p>\n    <p class=\"price-big\"style = \"display:none\">").concat(arr[i].price.big, "\u20BD </p>\n    <button>\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432 \u043A\u043E\u0440\u0437\u0438\u043D\u0443</button></div>\n    </div>\n    </div>"));
 };
 var numPage = exports.numPage = 0;
+var numberPage = 0;
 var addPageCatalog = exports.addPageCatalog = function addPageCatalog() {
   items.textContent = "";
   _numPage = numPage++, exports.numPage = numPage, _numPage;
   addItems(_catalogArray.catalog[numPage]);
 };
-<<<<<<< HEAD
-var nextPageNum = exports.nextPageNum = function nextPageNum() {
-  page.innerHTML = "<p>".concat(numPage + 1, " &#173;</p>\n  <p class=\"catalog_page-light\">  &#8212;&#8212;  ").concat(numPage + 2, "</p>");
-};
-=======
+var index = 0;
 var addPageCatalogFilter = exports.addPageCatalogFilter = function addPageCatalogFilter(arr) {
-  var index = 8;
+  index += 8;
   if (arr.length > index) {
     addItems(arr.slice(index, index + 8));
   } else {
     addItems(arr.slice(index, arr.length));
   }
-  index += 8;
+};
+var backPageCatalogFilter = function backPageCatalogFilter(arr) {
+  if (index >= 0) {
+    addItems(arr.slice(index - 8, index));
+  }
+  index -= 8;
 };
 var nextPageNum = exports.nextPageNum = function nextPageNum() {
   page.innerHTML = "<p>".concat(numPage + 1, " &#173;</p>\n  <p class=\"catalog_page-light\">  &#8212;&#8212;  ").concat(numPage + 2, "</p>");
 };
 var nextPageNumFilter = function nextPageNumFilter() {
-  // let numberPage = 1;
-  page.innerHTML = "<p>".concat(numberPage + 1, " &#173;</p>\n  <p class=\"catalog_page-light\">  &#8212;&#8212;  ").concat(numberPage + 2, "</p>");
+  numberPage++;
+  var pageFilter = sectionCatalog.querySelector('.filter_page');
+  pageFilter.innerHTML = "<p>".concat(numberPage + 1, " &#173;</p>\n  <p class=\"filter_page-light\">  &#8212;&#8212;  ").concat(numberPage + 2, "</p>");
 };
->>>>>>> dist
+var prevPageNumFilter = function prevPageNumFilter() {
+  numberPage--;
+  var pageFilter = sectionCatalog.querySelector('.filter_page');
+  pageFilter.innerHTML = "<p>".concat(numberPage + 1, " &#173;</p>\n  <p class=\"filter_page-light\">  &#8212;&#8212;  ").concat(numberPage + 2, "</p>");
+};
 var backPageCatalog = exports.backPageCatalog = function backPageCatalog() {
   _numPage2 = numPage--, exports.numPage = numPage, _numPage2;
   items.textContent = "";
@@ -9907,6 +9824,9 @@ var prevPageNum = exports.prevPageNum = function prevPageNum() {
 };
 var addClassActiveSectionCatalog = exports.addClassActiveSectionCatalog = function addClassActiveSectionCatalog() {
   sectionCatalog.classList.toggle("active");
+};
+var addPageFilter = function addPageFilter() {
+  filterPageLink.innerHTML = "<div class=\"filter_page\"><p>1 &#173;</p>\n  <p class=\"filter_page-light\">  &#8212;&#8212;  2</p></div>\n  <div class=\"filter_link\">\n    <button class=\"link\" id=\"filter-prev\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"27\" height=\"14\" viewBox=\"0 0 27 14\" fill=\"none\">\n  <path d=\"M27 7H0.999999M0.999999 7L7.30303 1M0.999999 7L7.30303 13\" stroke=\"#122947\"/>\n</svg>\n    </button>\n    <button class=\"link\" id=\"filter-next\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"27\" height=\"14\" viewBox=\"0 0 27 14\" fill=\"none\">\n    <path d=\"M0 7H26M26 7L19.697 1M26 7L19.697 13\" stroke=\"#122947\"/>\n  </svg>\n    </button>\n  </div>";
 };
 var linkNextCatalog = exports.linkNextCatalog = document.querySelector("#catalog-next");
 var linkPrevCatalog = exports.linkPrevCatalog = document.querySelector("#catalog-prev");
@@ -9982,6 +9902,23 @@ document.addEventListener("click", function (event) {
 
 var load = exports.load = document.querySelector(".catalog_filter-btn-load");
 var anload = document.querySelector(".catalog_filter-btn-anload");
+var catalogPageLink = document.querySelector(".catalog_page-link");
+var filterPageLink = document.querySelector(".filter_page-link");
+var addItemsFilter = function addItemsFilter(newFilterCatalog) {
+  addItems(newFilterCatalog.slice(0, 8));
+  document.querySelector('#filter-next').addEventListener('click', function () {
+    if (numberPage + 1 < Math.ceil(newFilterCatalog.length / 8)) {
+      addPageCatalogFilter(newFilterCatalog);
+      nextPageNumFilter();
+    }
+  });
+  document.querySelector('#filter-prev').addEventListener('click', function () {
+    if (index > 0) {
+      backPageCatalogFilter(newFilterCatalog);
+      prevPageNumFilter();
+    }
+  });
+};
 var btnLoad = exports.btnLoad = function btnLoad() {
   load.addEventListener("click", function () {
     var catalogFilterFace = document.querySelectorAll(".face");
@@ -9990,6 +9927,7 @@ var btnLoad = exports.btnLoad = function btnLoad() {
     var newFCFace = [];
     var newFCFskin = [];
     var newFCBody = [];
+    var newFCskin = [];
     catalogFilterFace.forEach(function (checkbox) {
       if (checkbox.checked) {
         newFCFace.push(newCatalog.filter(function (item) {
@@ -9997,6 +9935,16 @@ var btnLoad = exports.btnLoad = function btnLoad() {
         }));
       }
     });
+    // catalogFilterFaceSkin.forEach((checkbox) =>{
+    //   if (checkbox.checked) {
+    //     newFCskin.push(
+    //       newCatalog.filter(function (item) {
+    //         return item.skin == checkbox.value;
+    //       })
+    //     );
+    //     console.log(newFCskin);
+    //   }
+    // });
     catalogFilterFaceSkin.forEach(function (checkbox) {
       if (checkbox.checked) {
         newFCFskin.push(newFCFace.flat().filter(function (item) {
@@ -10013,73 +9961,34 @@ var btnLoad = exports.btnLoad = function btnLoad() {
         }));
       }
     });
+    catalogPageLink.classList.add('noactive');
+    addPageFilter();
     if (newFCFskin.length > 0) {
       var newFilterCatalog = [].concat(_toConsumableArray(newFCFskin.flat()), _toConsumableArray(newFCBody.flat()));
-      console.log(newFilterCatalog);
-      addItems(newFilterCatalog.slice(0, 8));
-<<<<<<< HEAD
-    } else {
-      var _newFilterCatalog = [].concat(_toConsumableArray(newFCFace.flat()), _toConsumableArray(newFCBody.flat()));
-      console.log(_newFilterCatalog);
-      addItems(_newFilterCatalog.slice(0, 8));
-=======
-
-      // linkNextCatalog.addEventListener("click", () => {
-      // addPageCatalogFilter(newFilterCatalog);
-      // let numberPage =1; 
-      // if (numberPage <= Math.floor(newFilterCatalog)){
-      //     nextPageNumFilter();
-
-      // }
-      // numberPage++
-      // console.log(numberPage);
-      // });
+      addItemsFilter(newFilterCatalog);
     } else if (newFCFace.length > 0 || newFCBody.length > 0) {
       var _newFilterCatalog = [].concat(_toConsumableArray(newFCFace.flat()), _toConsumableArray(newFCBody.flat()));
-      console.log(_newFilterCatalog);
-      addItems(_newFilterCatalog.slice(0, 8));
-      // linkNextCatalog.addEventListener("click", () => {
-      //   addPageCatalogFilter(newFilterCatalog);
-      //   nextPageNum();
-
-      // })
->>>>>>> dist
+      addItemsFilter(_newFilterCatalog);
     }
+    // else if (newFCskin.length > 0)
+    // {
+    //   const newFilterCatalog = [...newFCskin.flat()];
+    //   addItemsFilter(newFilterCatalog);
+    // }  
   });
 };
 
-<<<<<<< HEAD
-// anload.addEventListener('click', () =>{
-//     catalogFilter.forEach((checkbox) =>{
-//       if(checkbox.checked){
-//         checkbox.checked == false
-//         checkbox.textContent='';
-//       }
-//     })
-//     console.log(newFC);
-//   })
-=======
 var btnanload = exports.btnanload = function btnanload() {
   anload.addEventListener('click', function () {
     _toConsumableArray(document.querySelectorAll('input[type="checkbox"]')).forEach(function (checkbox) {
       checkbox.checked = false;
-      addItems(_catalogArray.catalog[0]);
     });
+    addItems(_catalogArray.catalog[0]);
+    catalogPageLink.classList.remove('noactive');
+    document.querySelector('.filter_page').remove();
+    document.querySelector('.filter_link').remove();
   });
 };
-// items.addEventListener('click', (e) =>{
-
-//   if(e.target.matches('.catalog_items-item')){
-
-//     document.querySelector('.display-none').style.display = 'none'
-//     const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
-//     addBigItem(newCatalog, activeIndex);
-//     sectionCatalog.classList.remove("active");
-
-//   };
-
-// })
->>>>>>> dist
 },{"assert-plus":"../node_modules/assert-plus/assert.js","./_catalog-array.js":"js/modules/_catalog-array.js"}],"../node_modules/core-js/library/modules/_global.js":[function(require,module,exports) {
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -18910,10 +18819,7 @@ _catalog.items.addEventListener("click", function (e) {
 });
 
 (0, _catalog.btnLoad)();
-<<<<<<< HEAD
-=======
 (0, _catalog.btnanload)();
->>>>>>> dist
 },{"./modules/_main-best-sellers":"js/modules/_main-best-sellers.js","./modules/_baner.js":"js/modules/_baner.js","./modules/_contact.js":"js/modules/_contact.js","./modules/_catalog.js":"js/modules/_catalog.js","babel-types":"../node_modules/babel-types/lib/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18939,11 +18845,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-<<<<<<< HEAD
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59671" + '/');
-=======
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50663" + '/');
->>>>>>> dist
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49811" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
