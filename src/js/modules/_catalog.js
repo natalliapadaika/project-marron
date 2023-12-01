@@ -13,7 +13,6 @@ const filter = sectionCatalog.querySelector(".catalog_filter");
 const items = sectionCatalog.querySelector(".catalog_items");
 const page = sectionCatalog.querySelector(".catalog_page");
 
-
 const btnCatalog = document.querySelector(".header__nav-catalog");
 
 const addItems = (arr) => {
@@ -55,6 +54,7 @@ const addCatalogFilterActive = () => {
 };
 
 const addBigItem = (elemDom, arr, i) => {
+  elemDom.textContent='';
   elemDom.insertAdjacentHTML(
     "afterbegin",
     `<div class="catalog_big-item">
@@ -94,7 +94,7 @@ const addBigItem = (elemDom, arr, i) => {
 };
 
 let numPage = 0;
-let numberPage=0;
+let numberPage = 0;
 
 const addPageCatalog = () => {
   items.textContent = "";
@@ -104,24 +104,24 @@ const addPageCatalog = () => {
 
 let index = 0;
 const addPageCatalogFilter = (arr) => {
-
-index +=8
-if (arr.length > index) {
-  addItems(arr.slice(index, index+8))
-}
-else {
-  addItems(arr.slice(index, arr.length))
-}
+  index += 8;
+  if (arr.length > index) {
+    addItems(arr.slice(index, index + 8));
+     showBigItem(arr.slice(index, index + 8))
+  } else {
+    addItems(arr.slice(index, arr.length));
+    showBigItem(arr.slice(index, arr.length))
+  }
+ 
 };
 
 const backPageCatalogFilter = (arr) => {
-  
-  if(index >= 0){
-    addItems(arr.slice(index-8, index))
+  if (index >= 0) {
+    addItems(arr.slice(index - 8, index));
+    showBigItem(arr.slice(index - 8, index));
   }
-  index -=8;
-}
-
+  index -= 8;
+};
 
 const nextPageNum = () => {
   page.innerHTML = `<p>${numPage + 1} &#173;</p>
@@ -129,18 +129,17 @@ const nextPageNum = () => {
 };
 
 const nextPageNumFilter = () => {
-  numberPage++
-  const pageFilter = sectionCatalog.querySelector('.filter_page');
+  numberPage++;
+  const pageFilter = sectionCatalog.querySelector(".filter_page");
   pageFilter.innerHTML = `<p>${numberPage + 1} &#173;</p>
   <p class="filter_page-light">  &#8212;&#8212;  ${numberPage + 2}</p>`;
 };
- const prevPageNumFilter = () => {
-  numberPage--
-  const pageFilter = sectionCatalog.querySelector('.filter_page');
+const prevPageNumFilter = () => {
+  numberPage--;
+  const pageFilter = sectionCatalog.querySelector(".filter_page");
   pageFilter.innerHTML = `<p>${numberPage + 1} &#173;</p>
   <p class="filter_page-light">  &#8212;&#8212;  ${numberPage + 2}</p>`;
- };
-
+};
 
 const backPageCatalog = () => {
   numPage--;
@@ -171,7 +170,7 @@ const addPageFilter = () => {
     <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947"/>
   </svg>
     </button>
-  </div>`
+  </div>`;
 };
 
 const linkNextCatalog = document.querySelector("#catalog-next");
@@ -200,7 +199,7 @@ export {
   load,
   btnLoad,
   btnanload,
-  addPageCatalogFilter
+  addPageCatalogFilter,
 };
 
 // items.addEventListener('click', (e) =>{
@@ -259,129 +258,180 @@ document.addEventListener("click", (event) => {
 
 // })
 
-// console.log(typeof(newCatalog[0].type));
-
-// let check = 'creama'
-// const check = document.querySelector('#crema')
-
-// const filterCatalog = newCatalog.filter(function(item){
-//   return item.type == check;
-// });
-// console.log(filterCatalog);
-
-// const btnFilter = document.querySelector('.catalog-filtr-btn');
-// const divfilter = document.querySelector('.catalog_filter');
-
-// btnFilter.addEventListener('click', () =>{
-// divfilter.classList.toggle('block')
-// })
-
 
 
 const load = document.querySelector(".catalog_filter-btn-load");
 const anload = document.querySelector(".catalog_filter-btn-anload");
-const catalogPageLink = document.querySelector(".catalog_page-link")
+const catalogPageLink = document.querySelector(".catalog_page-link");
 const filterPageLink = document.querySelector(".filter_page-link");
 
-const addItemsFilter = (newFilterCatalog) =>{
-addItems(newFilterCatalog.slice(0,8));
-    document.querySelector('#filter-next').addEventListener('click', () =>{
-      if ((numberPage+1) < Math.ceil(newFilterCatalog.length/8)){  
-      addPageCatalogFilter(newFilterCatalog); 
-      nextPageNumFilter();
-    } 
-    });
-    document.querySelector('#filter-prev').addEventListener('click', () =>{
-      if(index > 0){   
-backPageCatalogFilter(newFilterCatalog);
-prevPageNumFilter();
-}
-    })
-};
-
-
-const btnLoad = () => {load.addEventListener("click", () => {
-
-const catalogFilterFace = document.querySelectorAll(".face");
-const catalogFilterBody = document.querySelectorAll(".body");
-const catalogFilterFaceSkin = document.querySelectorAll(".face-skin");
-
-  const newFCFace = [];
-  const newFCFskin = [];
-  const newFCBody = [];
-  const newFCskin = [];
-
-  catalogFilterFace.forEach((checkbox) => {
-    if (checkbox.checked) {
-      newFCFace.push(
-        newCatalog.filter(function (item) {
-          return item.type == checkbox.value;
-        })
-      );
-    }
-  });
-  // catalogFilterFaceSkin.forEach((checkbox) =>{
-  //   if (checkbox.checked) {
-  //     newFCskin.push(
-  //       newCatalog.filter(function (item) {
-  //         return item.skin == checkbox.value;
-  //       })
-  //     );
-  //     console.log(newFCskin);
-  //   }
-  // });
-  catalogFilterFaceSkin.forEach((checkbox) => {
-    if (checkbox.checked) {
-      newFCFskin.push(
-        newFCFace.flat().filter(function (item) {
-          return item.skin == checkbox.value;
-        })
-      );
-    } else {
-      return newFCFskin;
-    }
-  });
-
-  catalogFilterBody.forEach((checkbox) => {
-    if (checkbox.checked) {
-      newFCBody.push(
-        newCatalog.filter(function (item) {
-          return item.type == checkbox.value;
-        })
-      );
-    }
-  });
-
-  catalogPageLink.classList.add('noactive')
-  addPageFilter();
-
-  if (newFCFskin.length > 0) {
+const addItemsFilter = (newFilterCatalog) => {
+  items.textContent = '';
+  addItems(newFilterCatalog.slice(0, 8));
+  showBigItem(newFilterCatalog)
+  document.querySelector("#filter-next").addEventListener("click", () => {
    
-    const newFilterCatalog = [...newFCFskin.flat(), ...newFCBody.flat()];
-    addItemsFilter(newFilterCatalog);
+    if (numberPage + 1 < Math.ceil(newFilterCatalog.length / 8)) {
+      items.textContent=''; 
+      addPageCatalogFilter(newFilterCatalog);
+      nextPageNumFilter();
+    }
+
+
+    // items.addEventListener("click", (e) => {
+    //   if (e.target.matches(".catalog_items-item")) {
+    //     document.querySelector('.display-none').style.display = 'none'
+    //     const activeIndex = Array.from(
+    //       document.querySelectorAll(".catalog_items-item")
+    //     ).indexOf(e.target);
+    //     console.log(activeIndex);
+        
+    //     // bigItem.textContent='';
+    //     addBigItem(bigItem, newFilterCatalog, activeIndex);
+    //     bigItem.classList.add("popup-on");
+
+    //   }
+    // });
+
+
+  });
+  document.querySelector("#filter-prev").addEventListener("click", () => {
     
-  } else
-  
-  if (newFCFace.length > 0 || newFCBody.length > 0){
-    
-    const newFilterCatalog = [...newFCFace.flat(), ...newFCBody.flat()];
-    addItemsFilter(newFilterCatalog);
-  } 
-  // else if (newFCskin.length > 0)
-  // {
-  //   const newFilterCatalog = [...newFCskin.flat()];
-  //   addItemsFilter(newFilterCatalog);
-  // }  
-});
+    if (index > 0) {
+      items.textContent='';
+      backPageCatalogFilter(newFilterCatalog);
+      prevPageNumFilter();
+    }
+
+  });
+
+
+
 };
 
-const btnanload = () => {anload.addEventListener('click', () =>{
-    [...document.querySelectorAll('input[type="checkbox"]')].forEach((checkbox) =>{     
-        checkbox.checked = false;
-  })
-        addItems(catalog[0]);
-        catalogPageLink.classList.remove('noactive');
-        document.querySelector('.filter_page').remove();
-        document.querySelector('.filter_link').remove();
+const btnLoad = () => {
+  load.addEventListener("click", () => {
+    const catalogFilterFace = document.querySelectorAll(".face");
+    const catalogFilterBody = document.querySelectorAll(".body");
+    const catalogFilterFaceSkin = document.querySelectorAll(".face-skin");
 
-})};
+    const newFCFace = [];
+    const newFCFskin = [];
+    const newFCBody = [];
+    const newFCskin = [];
+
+    catalogFilterFace.forEach((checkbox) => {
+      if (checkbox.checked) {
+        newFCFace.push(
+          newCatalog.filter(function (item) {
+            return item.type == checkbox.value;
+          })
+        );
+      }
+    });
+    catalogFilterFaceSkin.forEach((checkbox) => {
+      if (checkbox.checked) {
+        newFCskin.push(
+          newCatalog.filter(function (item) {
+            return item.skin == checkbox.value;
+          })
+        );
+      }
+    });
+    catalogFilterFaceSkin.forEach((checkbox) => {
+      if (checkbox.checked) {
+        newFCFskin.push(
+          newFCFace.flat().filter(function (item) {
+            return item.skin == checkbox.value;
+          })
+        );
+      } else {
+        return newFCFskin;
+      }
+    });
+
+    catalogFilterBody.forEach((checkbox) => {
+      if (checkbox.checked) {
+        newFCBody.push(
+          newCatalog.filter(function (item) {
+            return item.type == checkbox.value;
+          })
+        );
+      }
+    });
+
+    catalogPageLink.classList.add("noactive");
+    addPageFilter();
+
+    if (newFCskin.flat().length > 0 && newFCFskin.flat().length == 0) {
+      const newFilterCatalog = [...newFCskin.flat(), ...newFCBody.flat()];
+      addItemsFilter(newFilterCatalog);
+      console.log(newFilterCatalog);
+
+      // items.addEventListener("click", (e) => {
+      //   if (e.target.matches(".catalog_items-item")) {
+      //     document.querySelector('.display-none').style.display = 'none'
+      //     const activeIndex = Array.from(
+      //       document.querySelectorAll(".catalog_items-item")
+      //     ).indexOf(e.target);
+      //     console.log(activeIndex);
+          
+      //     bigItem.textContent='';
+      //     addBigItem(bigItem, newFilterCatalog, activeIndex);
+      //     bigItem.classList.add("popup-on");
+
+      //   }
+      // });
+
+
+
+
+    }
+
+    if (newFCFskin.flat().length > 0) {
+      const newFilterCatalog = [...newFCFskin.flat(), ...newFCBody.flat()];
+
+      addItemsFilter(newFilterCatalog);
+    }
+
+    if (newFCFace.flat().length > 0 && newFCFskin.flat().length == 0) {
+      const newFilterCatalog = [...newFCFace.flat(), ...newFCBody.flat()];
+
+      addItemsFilter(newFilterCatalog);
+    }
+  });
+};
+
+const btnanload = () => {
+  anload.addEventListener("click", () => {
+    [...document.querySelectorAll('input[type="checkbox"]')].forEach(
+      (checkbox) => {
+        checkbox.checked = false;
+      }
+    );
+    addItems(catalog[0]);
+    catalogPageLink.classList.remove("noactive");
+    document.querySelector(".filter_page").remove();
+    document.querySelector(".filter_link").remove();
+    showBigItem(newCatalog)
+ });
+
+};
+
+const showBigItem = (arr) => {
+  items.addEventListener("click", (e) => {
+    if (e.target.closest(".catalog_items-item")) {
+      document.querySelector('.display-none').style.display = 'none'
+      const activeIndex = Array.from(
+        document.querySelectorAll(".catalog_items-item")
+      ).indexOf(e.target); 
+      console.log(e.target);    
+    //  console.log(activeIndex);
+    //  console.log(Array.from(document.querySelectorAll(".catalog_items-item")));
+      addBigItem(bigItem, arr, activeIndex);
+      bigItem.classList.add("popup-on");
+
+    }
+  });
+
+}

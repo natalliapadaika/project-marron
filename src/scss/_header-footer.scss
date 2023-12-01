@@ -1,8 +1,14 @@
 @use 'vars';
 
 .wrapper{
+    width: 1366px;
     height: 650px;
-    background: url('../assets/img/back.png'), lightgray 50% / cover no-repeat; 
+    // background: url('../assets/img/back.png'), lightgray 50%/cover no-repeat; 
+    background: url('../assets/img/back.png');
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 .wrapper.noback{
  height: max-content;

@@ -1,6 +1,11 @@
 @use "vars";
 @use "catalog";
 
+.best{
+  overflow: hidden;
+}
+
+
 .best-sellers {
   padding-left: 98px;
   padding-top: 140px;
@@ -58,6 +63,7 @@
     width: 230px;
     height: 312px;
     justify-content: center;
+
     // img{
     //   height: 312px;
     // }
@@ -103,7 +109,9 @@
   display: flex;
   gap: 32px;
   justify-content: flex-end;
-  margin-top: 25px;
+  margin-top: 5px;
+  padding-top: 20;
+  padding-bottom: 5px;
   .link {
     @include vars.link;
   }
