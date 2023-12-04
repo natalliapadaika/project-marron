@@ -192,20 +192,20 @@ if(e.target.matches('.application')){
   popup.querySelector('.a-plus').classList.toggle('close');  
 
 };
-const volume = document.querySelector('.volume')
-volume.addEventListener('change', () =>{
-  document.querySelectorAll('input[type="radio"]').forEach((el) =>{
-    if (el.checked && el.value ==1) {
-      document.querySelector('.price-small').style.display = 'block';
-      document.querySelector('.price-big').style.display = 'none';
-		} else if(el.checked && el.value ==2){
-      document.querySelector('.price-small').style.display = 'none';
-      document.querySelector('.price-big').style.display = 'block';
-    }
-  })
+// const volume = document.querySelector('.volume')
+// volume.addEventListener('change', () =>{
+//   document.querySelectorAll('input[type="radio"]').forEach((el) =>{
+//     if (el.checked && el.value ==1) {
+//       document.querySelector('.price-small').style.display = 'block';
+//       document.querySelector('.price-big').style.display = 'none';
+// 		} else if(el.checked && el.value ==2){
+//       document.querySelector('.price-small').style.display = 'none';
+//       document.querySelector('.price-big').style.display = 'block';
+//     }
+//   })
 
   
-});
+// });
 
 });
 

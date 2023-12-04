@@ -7,6 +7,7 @@ const newCatalog = [...p1Catalog, ...p2Catalog, ...p3Catalog];
 
 export { catalog };
 const bigItem = document.querySelector(".catalog_item");
+
 const sectionCatalog = document.querySelector(".catalog");
 const divFilterItem = sectionCatalog.querySelector(".catalog_filter-items");
 const filter = sectionCatalog.querySelector(".catalog_filter");
@@ -61,6 +62,9 @@ const addBigItem = (elemDom, arr, i) => {
     <div class="big-item" style="background-image: url('${arr[i].src}')">
     </div> 
     <div class="big-item-descr">
+    <button class = "big-item-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <path d="M1 1L10 10M19 19L10 10M10 10L19 1L1 19" stroke="#122947" stroke-width="2"/>
+    </svg></button>
     <h3>${arr[i].name}</h3>
     <p class="descr-short">${arr[i].descrShort}</p>
     <p class="descr">${arr[i].descr}</p>
@@ -91,6 +95,25 @@ const addBigItem = (elemDom, arr, i) => {
     </div>
     </div>`
   );
+  const volume = document.querySelector(".volume");
+  volume.addEventListener("change", () => {
+    document.querySelectorAll('input[type="radio"]').forEach((el) => {
+      if (el.checked && el.value == 1) {
+        document.querySelector(".price-small").style.display = "block";
+        document.querySelector(".price-big").style.display = "none";
+      } else if (el.checked && el.value == 2) {
+        document.querySelector(".price-small").style.display = "none";
+        document.querySelector(".price-big").style.display = "block";
+      }
+    });
+  });
+  document.querySelector('.big-item-btn').addEventListener('click', (e) =>{
+    if (e.target.closest('.big-item-btn')) {
+      bigItem.classList.remove("popup-on");
+      bigItem.textContent = "";
+      document.querySelector(".display-none").style.display = "block";
+    }
+    })
 };
 
 let numPage = 0;
@@ -114,6 +137,8 @@ const addPageCatalogFilter = (arr) => {
   }
  
 };
+
+
 
 const backPageCatalogFilter = (arr) => {
   if (index >= 0) {
@@ -202,18 +227,7 @@ export {
   addPageCatalogFilter,
 };
 
-// items.addEventListener('click', (e) =>{
 
-//   if(e.target.matches('.catalog_items-item')){
-
-//     document.querySelector('.display-none').style.display = 'none'
-//     const activeIndex = Array.from(document.querySelectorAll('.catalog_items-item')).indexOf(e.target);
-//     addBigItem(newCatalog, activeIndex);
-//     sectionCatalog.classList.remove("active");
-
-//   };
-
-// })
 
 bigItem.addEventListener("click", (e) => {
   if (e.target.matches(".composition")) {
@@ -226,19 +240,12 @@ bigItem.addEventListener("click", (e) => {
     bigItem.querySelector(".a-minus").classList.toggle("open");
     bigItem.querySelector(".a-plus").classList.toggle("close");
   }
-  const volume = document.querySelector(".volume");
-  volume.addEventListener("change", () => {
-    document.querySelectorAll('input[type="radio"]').forEach((el) => {
-      if (el.checked && el.value == 1) {
-        document.querySelector(".price-small").style.display = "block";
-        document.querySelector(".price-big").style.display = "none";
-      } else if (el.checked && el.value == 2) {
-        document.querySelector(".price-small").style.display = "none";
-        document.querySelector(".price-big").style.display = "block";
-      }
-    });
-  });
 });
+
+
+
+
+
 
 document.addEventListener("click", (event) => {
   if (event.target === bigItem) {
@@ -247,18 +254,6 @@ document.addEventListener("click", (event) => {
     document.querySelector(".display-none").style.display = "block";
   }
 });
-
-// document.addEventListener('click', (e)=>{
-// if (e.target.matches('.catalog_item') || e.target.matches('.wrapper')){
-//   console.log('j')
-//   bigItem.textContent="";
-//   document.querySelector('.display-none').style.display = 'block';
-
-// }
-
-// })
-
-
 
 const load = document.querySelector(".catalog_filter-btn-load");
 const anload = document.querySelector(".catalog_filter-btn-anload");
@@ -276,22 +271,6 @@ const addItemsFilter = (newFilterCatalog) => {
       addPageCatalogFilter(newFilterCatalog);
       nextPageNumFilter();
     }
-
-
-    // items.addEventListener("click", (e) => {
-    //   if (e.target.matches(".catalog_items-item")) {
-    //     document.querySelector('.display-none').style.display = 'none'
-    //     const activeIndex = Array.from(
-    //       document.querySelectorAll(".catalog_items-item")
-    //     ).indexOf(e.target);
-    //     console.log(activeIndex);
-        
-    //     // bigItem.textContent='';
-    //     addBigItem(bigItem, newFilterCatalog, activeIndex);
-    //     bigItem.classList.add("popup-on");
-
-    //   }
-    // });
 
 
   });
@@ -367,25 +346,6 @@ const btnLoad = () => {
       const newFilterCatalog = [...newFCskin.flat(), ...newFCBody.flat()];
       addItemsFilter(newFilterCatalog);
       console.log(newFilterCatalog);
-
-      // items.addEventListener("click", (e) => {
-      //   if (e.target.matches(".catalog_items-item")) {
-      //     document.querySelector('.display-none').style.display = 'none'
-      //     const activeIndex = Array.from(
-      //       document.querySelectorAll(".catalog_items-item")
-      //     ).indexOf(e.target);
-      //     console.log(activeIndex);
-          
-      //     bigItem.textContent='';
-      //     addBigItem(bigItem, newFilterCatalog, activeIndex);
-      //     bigItem.classList.add("popup-on");
-
-      //   }
-      // });
-
-
-
-
     }
 
     if (newFCFskin.flat().length > 0) {
@@ -397,6 +357,10 @@ const btnLoad = () => {
     if (newFCFace.flat().length > 0 && newFCFskin.flat().length == 0) {
       const newFilterCatalog = [...newFCFace.flat(), ...newFCBody.flat()];
 
+      addItemsFilter(newFilterCatalog);
+    }
+    else {
+      const newFilterCatalog = [...newFCBody.flat()];
       addItemsFilter(newFilterCatalog);
     }
   });
@@ -420,14 +384,12 @@ const btnanload = () => {
 
 const showBigItem = (arr) => {
   items.addEventListener("click", (e) => {
-    if (e.target.closest(".catalog_items-item")) {
+    if (e.target.matches(".catalog_items-item")) {
       document.querySelector('.display-none').style.display = 'none'
       const activeIndex = Array.from(
         document.querySelectorAll(".catalog_items-item")
       ).indexOf(e.target); 
-      console.log(e.target);    
-    //  console.log(activeIndex);
-    //  console.log(Array.from(document.querySelectorAll(".catalog_items-item")));
+      // console.log(e.target);    
       addBigItem(bigItem, arr, activeIndex);
       bigItem.classList.add("popup-on");
 

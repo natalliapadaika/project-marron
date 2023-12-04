@@ -34,6 +34,13 @@
       margin-top: 30px;
       margin-bottom: 40px;
     }
+    .big-item-btn{
+      @include vars.btn;
+      border: none;
+      text-align: right;
+      width: 30px;
+      padding-left: 340px;
+    }
     button {
       width: 155px;
       height: 41px;
@@ -152,7 +159,7 @@
      
       }
   .big-item-descr{
-      padding-top: 49px;
+      // padding-top: 49px;
       max-width: 370px; 
   
   
@@ -195,7 +202,13 @@
       h3{
           @include vars.h2;
       }
-    
+      .big-item-btn{
+        @include vars.btn;
+        border: none;
+        text-align: right;
+        width: 30px;
+        padding-left: 340px;}
+        
       button{
           @include vars.btn;
           width: 214px;

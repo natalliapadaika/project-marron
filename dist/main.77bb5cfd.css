@@ -384,7 +384,6 @@
   background-size: cover;
 }
 .catalog_item .catalog_big-item .big-item-descr {
-  padding-top: 49px;
   max-width: 370px;
 }
 .catalog_item .catalog_big-item .big-item-descr .style-app-comp {
@@ -437,6 +436,22 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
+}
+.catalog_item .catalog_big-item .big-item-descr .big-item-btn {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+  text-align: right;
+  width: 30px;
+  padding-left: 340px;
 }
 .catalog_item .catalog_big-item .big-item-descr button {
   border-radius: 2px;
@@ -518,6 +533,22 @@
   width: 214px;
   margin-top: 30px;
   margin-bottom: 40px;
+}
+.best-sellers .best-sellers-more .big-item-btn {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+  text-align: right;
+  width: 30px;
+  padding-left: 340px;
 }
 .best-sellers .best-sellers-more button {
   width: 155px;
@@ -627,7 +658,6 @@
   background-size: cover;
 }
 .popup .catalog_big-item .big-item-descr {
-  padding-top: 49px;
   max-width: 370px;
 }
 .popup .catalog_big-item .big-item-descr .style-app-comp {
@@ -680,6 +710,22 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
+}
+.popup .catalog_big-item .big-item-descr .big-item-btn {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+  text-align: right;
+  width: 30px;
+  padding-left: 340px;
 }
 .popup .catalog_big-item .big-item-descr button {
   border-radius: 2px;

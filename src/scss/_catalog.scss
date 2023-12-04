@@ -181,7 +181,7 @@
       background-size: cover;
     }
     .big-item-descr {
-      padding-top: 49px;
+      // padding-top: px;
       max-width: 370px;
 
       .style-app-comp {
@@ -217,14 +217,24 @@
       h3 {
         @include vars.h2;
       }
-
+     .big-item-btn{
+    @include vars.btn;
+    border: none;
+    text-align: right;
+    width: 30px;
+    padding-left: 340px;
+  }
       button {
         @include vars.btn;
         width: 214px;
       }
     }
   }
+
 }
+
+
+
 .volume {
   border-top: #b3bac1 1px solid;
   display: flex;
@@ -247,3 +257,4 @@
   visibility: visible;
   opacity: 1;
 }
+

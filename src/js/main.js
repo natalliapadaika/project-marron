@@ -38,12 +38,21 @@ divBSW.addEventListener("click", (e) => {
     addBigItem(popup, bestSellers, activeIndex);
     popup.classList.add("popup-on");
   }
+  document.querySelector('.big-item-btn').addEventListener('click', (e) =>{
+    if (e.target.closest('.big-item-btn')) {
+      popup.classList.remove("popup-on");
+      popup.textContent = "";
+    
+    }
+    })
 });
 document.addEventListener("click", (event) => {
   if (event.target === popup) {
     popup.classList.remove("popup-on");
     popup.textContent = "";
-  }
+  };
+
+
 });
 
 import { addBaner, addBaner2, addBaner3, addBaner4 } from "./modules/_baner.js";
@@ -175,3 +184,4 @@ items.addEventListener("click", (e) => {
 
 btnLoad();
 btnanload();
+
