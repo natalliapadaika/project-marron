@@ -1,0 +1,20 @@
+@use "vars";
+
+
+.basket_items{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    p{
+        @include vars.p
+    }
+    &-name-x{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    h2{
+        @include vars.h2;
+    }
+    
+}
+}
+

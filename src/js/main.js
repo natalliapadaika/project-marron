@@ -185,3 +185,24 @@ items.addEventListener("click", (e) => {
 btnLoad();
 btnanload();
 
+import { basketImg, 
+  basketItems, basketX} from './modules/_basket.js'
+  
+
+basketImg.addEventListener("click", () => {
+  document.querySelector(".display-none").style.display = "none";
+  basketItems.style.display = "block";
+  // greeting.style.display = "none";
+       greeting.classList.add("noopen");
+      wrapper.classList.add("no-back");
+      basketItems.innerHTML += `<p>Ваша корзина пуста</p>`;
+     basketX();
+      // basketclosed.addEventListener('click', () => {
+      //   console.log('gg');
+      // }
+      // )   
+});
+
+
+
+// basketX();

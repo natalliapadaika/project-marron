@@ -121,50 +121,50 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 module.exports = "/back.7475bda5.png";
 },{}],"assets/img/baner1.png":[function(require,module,exports) {
 module.exports = "/baner1.030a6a75.png";
-},{}],"assets/img/baner3.png":[function(require,module,exports) {
-module.exports = "/baner3.f75dd12d.png";
 },{}],"assets/img/baner41.png":[function(require,module,exports) {
 module.exports = "/baner41.9053df63.png";
+},{}],"assets/img/baner3.png":[function(require,module,exports) {
+module.exports = "/baner3.f75dd12d.png";
 },{}],"assets/img/baner42.png":[function(require,module,exports) {
 module.exports = "/baner42.42807b5e.png";
 },{}],"assets/img/baner43.png":[function(require,module,exports) {
 module.exports = "/baner43.0d51318b.png";
+},{}],"assets/img/baner44.png":[function(require,module,exports) {
+module.exports = "/baner44.cdf498d3.png";
 },{}],"assets/img/baner45.png":[function(require,module,exports) {
 module.exports = "/baner45.5af2a88d.png";
-},{}],"assets/img/catalog1.png":[function(require,module,exports) {
-module.exports = "/catalog1.667b8833.png";
 },{}],"assets/img/baner46.png":[function(require,module,exports) {
 module.exports = "/baner46.aade73df.png";
 },{}],"assets/img/catalog10.png":[function(require,module,exports) {
 module.exports = "/catalog10.66cce51c.png";
-},{}],"assets/img/baner44.png":[function(require,module,exports) {
-module.exports = "/baner44.cdf498d3.png";
+},{}],"assets/img/catalog1.png":[function(require,module,exports) {
+module.exports = "/catalog1.667b8833.png";
 },{}],"assets/img/catalog11.png":[function(require,module,exports) {
 module.exports = "/catalog11.42179d2e.png";
-},{}],"assets/img/catalog2.png":[function(require,module,exports) {
-module.exports = "/catalog2.388cbf16.png";
 },{}],"assets/img/catalog12.png":[function(require,module,exports) {
 module.exports = "/catalog12.f66dfe62.png";
+},{}],"assets/img/catalog2.png":[function(require,module,exports) {
+module.exports = "/catalog2.388cbf16.png";
 },{}],"assets/img/catalog3.png":[function(require,module,exports) {
 module.exports = "/catalog3.b1efd2ed.png";
 },{}],"assets/img/catalog4.png":[function(require,module,exports) {
 module.exports = "/catalog4.d745b9f6.png";
 },{}],"assets/img/catalog5.png":[function(require,module,exports) {
 module.exports = "/catalog5.e00133d5.png";
+},{}],"assets/img/catalog7.png":[function(require,module,exports) {
+module.exports = "/catalog7.52764131.png";
 },{}],"assets/img/catalog6.png":[function(require,module,exports) {
 module.exports = "/catalog6.c98455fc.png";
 },{}],"assets/img/catalog8.png":[function(require,module,exports) {
 module.exports = "/catalog8.537aa7e0.png";
-},{}],"assets/img/catalog7.png":[function(require,module,exports) {
-module.exports = "/catalog7.52764131.png";
 },{}],"assets/img/catalog9.png":[function(require,module,exports) {
 module.exports = "/catalog9.6479ce78.png";
 },{}],"assets/img/cream_1.png":[function(require,module,exports) {
 module.exports = "/cream_1.85f28ba5.png";
-},{}],"assets/img/cream_2.png":[function(require,module,exports) {
-module.exports = "/cream_2.7ee98aa0.png";
 },{}],"assets/img/cream4.png":[function(require,module,exports) {
 module.exports = "/cream4.6e07a624.png";
+},{}],"assets/img/cream_2.png":[function(require,module,exports) {
+module.exports = "/cream_2.7ee98aa0.png";
 },{}],"assets/img/cream_3.png":[function(require,module,exports) {
 module.exports = "/cream_3.556ac442.png";
 },{}],"assets/img/Rectangle5.png":[function(require,module,exports) {
@@ -175,33 +175,33 @@ module.exports = "/Rectangle6.de115960.png";
 module.exports = {
   "back": require("./back.png"),
   "baner1": require("./baner1.png"),
-  "baner3": require("./baner3.png"),
   "baner41": require("./baner41.png"),
+  "baner3": require("./baner3.png"),
   "baner42": require("./baner42.png"),
   "baner43": require("./baner43.png"),
+  "baner44": require("./baner44.png"),
   "baner45": require("./baner45.png"),
-  "catalog1": require("./catalog1.png"),
   "baner46": require("./baner46.png"),
   "catalog10": require("./catalog10.png"),
-  "baner44": require("./baner44.png"),
+  "catalog1": require("./catalog1.png"),
   "catalog11": require("./catalog11.png"),
-  "catalog2": require("./catalog2.png"),
   "catalog12": require("./catalog12.png"),
+  "catalog2": require("./catalog2.png"),
   "catalog3": require("./catalog3.png"),
   "catalog4": require("./catalog4.png"),
   "catalog5": require("./catalog5.png"),
+  "catalog7": require("./catalog7.png"),
   "catalog6": require("./catalog6.png"),
   "catalog8": require("./catalog8.png"),
-  "catalog7": require("./catalog7.png"),
   "catalog9": require("./catalog9.png"),
   "cream_1": require("./cream_1.png"),
-  "cream_2": require("./cream_2.png"),
   "cream4": require("./cream4.png"),
+  "cream_2": require("./cream_2.png"),
   "cream_3": require("./cream_3.png"),
   "Rectangle5": require("./Rectangle5.png"),
   "Rectangle6": require("./Rectangle6.png")
 };
-},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner45.png":"assets/img/baner45.png","./catalog1.png":"assets/img/catalog1.png","./baner46.png":"assets/img/baner46.png","./catalog10.png":"assets/img/catalog10.png","./baner44.png":"assets/img/baner44.png","./catalog11.png":"assets/img/catalog11.png","./catalog2.png":"assets/img/catalog2.png","./catalog12.png":"assets/img/catalog12.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog7.png":"assets/img/catalog7.png","./catalog9.png":"assets/img/catalog9.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream4.png":"assets/img/cream4.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
+},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner41.png":"assets/img/baner41.png","./baner3.png":"assets/img/baner3.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner45.png":"assets/img/baner45.png","./baner46.png":"assets/img/baner46.png","./catalog10.png":"assets/img/catalog10.png","./catalog1.png":"assets/img/catalog1.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog7.png":"assets/img/catalog7.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream_1.png":"assets/img/cream_1.png","./cream4.png":"assets/img/cream4.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
 module.exports = "/baner2.728e3fa9.jpg";
 },{}],"assets/img/*.jpg":[function(require,module,exports) {
 module.exports = {
@@ -18694,7 +18694,29 @@ function removePropertiesDeep(tree, opts) {
   traverseFast(tree, removeProperties, opts);
   return tree;
 }
-},{"babel-runtime/core-js/object/get-own-property-symbols":"../node_modules/babel-runtime/core-js/object/get-own-property-symbols.js","babel-runtime/core-js/get-iterator":"../node_modules/babel-runtime/core-js/get-iterator.js","babel-runtime/core-js/object/keys":"../node_modules/babel-runtime/core-js/object/keys.js","babel-runtime/core-js/json/stringify":"../node_modules/babel-runtime/core-js/json/stringify.js","./constants":"../node_modules/babel-types/lib/constants.js","./retrievers":"../node_modules/babel-types/lib/retrievers.js","./validators":"../node_modules/babel-types/lib/validators.js","./converters":"../node_modules/babel-types/lib/converters.js","./flow":"../node_modules/babel-types/lib/flow.js","to-fast-properties":"../node_modules/babel-types/node_modules/to-fast-properties/index.js","lodash/clone":"../node_modules/lodash/clone.js","lodash/uniq":"../node_modules/lodash/uniq.js","./definitions/init":"../node_modules/babel-types/lib/definitions/init.js","./definitions":"../node_modules/babel-types/lib/definitions/index.js","./react":"../node_modules/babel-types/lib/react.js"}],"js/main.js":[function(require,module,exports) {
+},{"babel-runtime/core-js/object/get-own-property-symbols":"../node_modules/babel-runtime/core-js/object/get-own-property-symbols.js","babel-runtime/core-js/get-iterator":"../node_modules/babel-runtime/core-js/get-iterator.js","babel-runtime/core-js/object/keys":"../node_modules/babel-runtime/core-js/object/keys.js","babel-runtime/core-js/json/stringify":"../node_modules/babel-runtime/core-js/json/stringify.js","./constants":"../node_modules/babel-types/lib/constants.js","./retrievers":"../node_modules/babel-types/lib/retrievers.js","./validators":"../node_modules/babel-types/lib/validators.js","./converters":"../node_modules/babel-types/lib/converters.js","./flow":"../node_modules/babel-types/lib/flow.js","to-fast-properties":"../node_modules/babel-types/node_modules/to-fast-properties/index.js","lodash/clone":"../node_modules/lodash/clone.js","lodash/uniq":"../node_modules/lodash/uniq.js","./definitions/init":"../node_modules/babel-types/lib/definitions/init.js","./definitions":"../node_modules/babel-types/lib/definitions/index.js","./react":"../node_modules/babel-types/lib/react.js"}],"js/modules/_basket.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.basketX = exports.basketItems = exports.basketImg = void 0;
+var basketImg = exports.basketImg = document.querySelector(".basket");
+var basketItems = exports.basketItems = document.querySelector(".basket_items");
+var basketX = exports.basketX = function basketX() {
+  var basketclosed = document.querySelector('.basket-x');
+  basketclosed.addEventListener('click', function (e) {
+    if (e.target.closest('.basket-x')) {
+      console.log('hh');
+      basketItems.style.display = 'none';
+      document.querySelector(".greeting").classList.remove("noopen");
+      document.querySelector(".wrapper").classList.remove("no-back");
+      basketItems.innerHTML = "";
+      document.querySelector('.display-none').style.display = 'block';
+    }
+  });
+};
+},{}],"js/main.js":[function(require,module,exports) {
 "use strict";
 
 var _mainBestSellers = require("./modules/_main-best-sellers");
@@ -18702,6 +18724,7 @@ var _baner = require("./modules/_baner.js");
 var _contact = require("./modules/_contact.js");
 var _catalog = require("./modules/_catalog.js");
 var _babelTypes = require("babel-types");
+var _basket = require("./modules/_basket.js");
 (0, _mainBestSellers.addBestSellers)();
 var divBestSel = Array.from(document.querySelectorAll(".best-seller"));
 (0, _mainBestSellers.addClassActive)(divBestSel);
@@ -18816,7 +18839,22 @@ _catalog.items.addEventListener("click", function (e) {
 
 (0, _catalog.btnLoad)();
 (0, _catalog.btnanload)();
-},{"./modules/_main-best-sellers":"js/modules/_main-best-sellers.js","./modules/_baner.js":"js/modules/_baner.js","./modules/_contact.js":"js/modules/_contact.js","./modules/_catalog.js":"js/modules/_catalog.js","babel-types":"../node_modules/babel-types/lib/index.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+_basket.basketImg.addEventListener("click", function () {
+  document.querySelector(".display-none").style.display = "none";
+  _basket.basketItems.style.display = "block";
+  // greeting.style.display = "none";
+  greeting.classList.add("noopen");
+  wrapper.classList.add("no-back");
+  _basket.basketItems.innerHTML += "<p>\u0412\u0430\u0448\u0430 \u043A\u043E\u0440\u0437\u0438\u043D\u0430 \u043F\u0443\u0441\u0442\u0430</p>";
+  (0, _basket.basketX)();
+  // basketclosed.addEventListener('click', () => {
+  //   console.log('gg');
+  // }
+  // )   
+});
+
+// basketX();
+},{"./modules/_main-best-sellers":"js/modules/_main-best-sellers.js","./modules/_baner.js":"js/modules/_baner.js","./modules/_contact.js":"js/modules/_contact.js","./modules/_catalog.js":"js/modules/_catalog.js","babel-types":"../node_modules/babel-types/lib/index.js","./modules/_basket.js":"js/modules/_basket.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -18841,7 +18879,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49757" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50489" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
