@@ -16,5 +16,51 @@
     }
     
 }
+&-img{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // flex-shrink: ;
+}
+&-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+&-name-count-summ{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #dbdce0;
+    margin-bottom: 15px;
+
+}
+&-product-name-count-summ{
+    display: flex;
+    justify-content: space-between;
+    p{
+        @include vars.p 
+    }
+}
+&-count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    p{
+        font-size: 25px;
+    }
+    
+    button{
+        @include vars.btn;
+        border: 2px solid #dbdce0;
+        width: 30px;
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+        height: auto;
+   
+    }
+}
 }
 

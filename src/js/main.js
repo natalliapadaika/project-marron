@@ -37,6 +37,7 @@ divBSW.addEventListener("click", (e) => {
     const activeIndex = arrBestSellerBtn.indexOf(e.target);
     addBigItem(popup, bestSellers, activeIndex);
     popup.classList.add("popup-on");
+    addInBasket(bestSellers, activeIndex);
   }
   document.querySelector('.big-item-btn').addEventListener('click', (e) =>{
     if (e.target.closest('.big-item-btn')) {
@@ -186,7 +187,13 @@ btnLoad();
 btnanload();
 
 import { basketImg, 
-  basketItems, basketX} from './modules/_basket.js'
+  basketItems, 
+  basketItemsItem, 
+  basketX,
+  addInBasket,
+  vol,
+  price
+} from './modules/_basket.js'
   
 
 basketImg.addEventListener("click", () => {
@@ -195,7 +202,7 @@ basketImg.addEventListener("click", () => {
   // greeting.style.display = "none";
        greeting.classList.add("noopen");
       wrapper.classList.add("no-back");
-      basketItems.innerHTML += `<p>Ваша корзина пуста</p>`;
+      // basketItemsItem.innerHTML = `<p>Ваша корзина пуста</p>`;
      basketX();
       // basketclosed.addEventListener('click', () => {
       //   console.log('gg');

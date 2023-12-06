@@ -91,7 +91,7 @@ const addBigItem = (elemDom, arr, i) => {
     <div class="style-div">
     <p class="price-small">${arr[i].price.small}₽</p>
     <p class="price-big"style = "display:none">${arr[i].price.big}₽ </p>
-    <button>Добавить в корзину</button></div>
+    <button class="add-in-basket">Добавить в корзину</button></div>
     </div>
     </div>`
   );

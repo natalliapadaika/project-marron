@@ -212,6 +212,9 @@
       button{
           @include vars.btn;
           width: 214px;
+          &:hover{
+            border-color: #122947;
+          }
       }
   }
   

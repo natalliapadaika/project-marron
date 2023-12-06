@@ -743,6 +743,9 @@
   line-height: 140%;
   width: 214px;
 }
+.popup .catalog_big-item .big-item-descr button:hover {
+  border-color: #122947;
+}
 
 .volume {
   border-top: #B3BAC1 1px solid;
@@ -1187,6 +1190,61 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%;
+}
+.basket_items-img {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.basket_items-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.basket_items-name-count-summ {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #dbdce0;
+  margin-bottom: 15px;
+}
+.basket_items-product-name-count-summ {
+  display: flex;
+  justify-content: space-between;
+}
+.basket_items-product-name-count-summ p {
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+}
+.basket_items-count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.basket_items-count p {
+  font-size: 25px;
+}
+.basket_items-count button {
+  border-radius: 2px;
+  border: 1px solid #B3BAC1;
+  height: 41px;
+  color: #122947;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: 2px solid #dbdce0;
+  width: 30px;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  height: auto;
 }
 
 body {
