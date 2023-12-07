@@ -39,21 +39,18 @@ divBSW.addEventListener("click", (e) => {
     popup.classList.add("popup-on");
     addInBasket(bestSellers, activeIndex);
   }
-  document.querySelector('.big-item-btn').addEventListener('click', (e) =>{
-    if (e.target.closest('.big-item-btn')) {
+  document.querySelector(".big-item-btn").addEventListener("click", (e) => {
+    if (e.target.closest(".big-item-btn")) {
       popup.classList.remove("popup-on");
       popup.textContent = "";
-    
     }
-    })
+  });
 });
 document.addEventListener("click", (event) => {
   if (event.target === popup) {
     popup.classList.remove("popup-on");
     popup.textContent = "";
-  };
-
-
+  }
 });
 
 import { addBaner, addBaner2, addBaner3, addBaner4 } from "./modules/_baner.js";
@@ -90,9 +87,9 @@ import {
   addBigItem,
   newCatalog,
   load,
-  btnLoad, 
+  btnLoad,
   btnanload,
-  addPageCatalogFilter
+  addPageCatalogFilter,
 } from "./modules/_catalog.js";
 import { binaryExpression } from "babel-types";
 
@@ -170,46 +167,32 @@ linkPrevCatalog.addEventListener("click", () => {
 
 items.addEventListener("click", (e) => {
   if (e.target.matches(".catalog_items-item")) {
-    document.querySelector('.display-none').style.display = 'none'
+    document.querySelector(".display-none").style.display = "none";
     const activeIndex = Array.from(
       document.querySelectorAll(".catalog_items-item")
     ).indexOf(e.target);
     addBigItem(bigItem, newCatalog, activeIndex);
     bigItem.classList.add("popup-on");
-    // sectionCatalog.classList.remove("active");
-    // removeClassNoactive();
-    //   greeting.classList.add("noopen");
-    //   wrapper.classList.add("no-back");
   }
 });
 
 btnLoad();
 btnanload();
 
-import { basketImg, 
-  basketItems, 
-  basketItemsItem, 
+import {
+  basketImg,
+  basketItems,
+  basketItemsItem,
   basketX,
   addInBasket,
   vol,
-  price
-} from './modules/_basket.js'
-  
+  price,
+} from "./modules/_basket.js";
 
 basketImg.addEventListener("click", () => {
   document.querySelector(".display-none").style.display = "none";
   basketItems.style.display = "block";
-  // greeting.style.display = "none";
-       greeting.classList.add("noopen");
-      wrapper.classList.add("no-back");
-      // basketItemsItem.innerHTML = `<p>Ваша корзина пуста</p>`;
-     basketX();
-      // basketclosed.addEventListener('click', () => {
-      //   console.log('gg');
-      // }
-      // )   
+  greeting.classList.add("noopen");
+  wrapper.classList.add("no-back");
+  basketX();
 });
-
-
-
-// basketX();

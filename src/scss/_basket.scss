@@ -1,66 +1,74 @@
 @use "vars";
 
-
-.basket_items{
-    padding: 10px 20px;
-    margin-bottom: 30px;
-    p{
-        @include vars.p
-    }
-    &-name-x{
+.basket_items {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  p {
+    @include vars.p;
+  }
+  &-name-x {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    h2{
-        @include vars.h2;
+    h2 {
+      @include vars.h2;
     }
-    
-}
-&-img{
+  }
+  &-img {
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    // flex-shrink: ;
-}
-&-item{
+  }
+  &-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-&-name-count-summ{
+  }
+  &-name-count-summ {
     display: flex;
     justify-content: space-around;
     border: 2px solid #dbdce0;
+    padding: 0 25px 0 15px;
     margin-bottom: 15px;
-
-}
-&-product-name-count-summ{
+  }
+  &-product-name-count-summ {
     display: flex;
     justify-content: space-between;
-    p{
-        @include vars.p 
+    padding: 0 25px 0 15px;
+    p {
+      @include vars.p;
     }
-}
-&-count{
+  }
+  &-count {
     display: flex;
     align-items: center;
     gap: 10px;
-    
-    p{
-        font-size: 25px;
-    }
-    
-    button{
-        @include vars.btn;
-        border: 2px solid #dbdce0;
-        width: 30px;
-        font-size: 32px;
-        font-weight: 400;
-        text-align: center;
-        height: auto;
-   
-    }
-}
-}
 
+    p {
+      font-size: 25px;
+    }
+
+    button {
+      @include vars.btn;
+      border: 2px solid #dbdce0;
+      width: 30px;
+      font-size: 32px;
+      font-weight: 400;
+      text-align: center;
+      height: auto;
+    }
+  }
+  &-summ {
+    display: flex;
+    align-items: center;
+  }
+  &-delete {
+    display: flex;
+    align-items: center;
+  }
+  &-del {
+    width: 30px;
+    font-size: 28px;
+  }
+}

@@ -1206,11 +1206,13 @@
   display: flex;
   justify-content: space-around;
   border: 2px solid #dbdce0;
+  padding: 0 25px 0 15px;
   margin-bottom: 15px;
 }
 .basket_items-product-name-count-summ {
   display: flex;
   justify-content: space-between;
+  padding: 0 25px 0 15px;
 }
 .basket_items-product-name-count-summ p {
   color: #122947;
@@ -1246,6 +1248,18 @@
   text-align: center;
   height: auto;
 }
+.basket_items-summ {
+  display: flex;
+  align-items: center;
+}
+.basket_items-delete {
+  display: flex;
+  align-items: center;
+}
+.basket_items-del {
+  width: 30px;
+  font-size: 28px;
+}
 
 body {
   background-color: #F8F8F6;
@@ -1257,6 +1271,10 @@ body {
 
 .noopen {
   display: none;
+}
+
+.open {
+  display: flex;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

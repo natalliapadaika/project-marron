@@ -117,42 +117,42 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/img/back.png":[function(require,module,exports) {
-module.exports = "/back.7475bda5.png";
-},{}],"assets/img/baner1.png":[function(require,module,exports) {
+})({"assets/img/baner1.png":[function(require,module,exports) {
 module.exports = "/baner1.030a6a75.png";
-},{}],"assets/img/baner3.png":[function(require,module,exports) {
-module.exports = "/baner3.f75dd12d.png";
-},{}],"assets/img/baner42.png":[function(require,module,exports) {
-module.exports = "/baner42.42807b5e.png";
+},{}],"assets/img/back.png":[function(require,module,exports) {
+module.exports = "/back.7475bda5.png";
 },{}],"assets/img/baner41.png":[function(require,module,exports) {
 module.exports = "/baner41.9053df63.png";
+},{}],"assets/img/baner42.png":[function(require,module,exports) {
+module.exports = "/baner42.42807b5e.png";
+},{}],"assets/img/baner3.png":[function(require,module,exports) {
+module.exports = "/baner3.f75dd12d.png";
 },{}],"assets/img/baner43.png":[function(require,module,exports) {
 module.exports = "/baner43.0d51318b.png";
 },{}],"assets/img/baner44.png":[function(require,module,exports) {
 module.exports = "/baner44.cdf498d3.png";
 },{}],"assets/img/baner45.png":[function(require,module,exports) {
 module.exports = "/baner45.5af2a88d.png";
-},{}],"assets/img/catalog1.png":[function(require,module,exports) {
-module.exports = "/catalog1.667b8833.png";
 },{}],"assets/img/baner46.png":[function(require,module,exports) {
 module.exports = "/baner46.aade73df.png";
+},{}],"assets/img/catalog10.png":[function(require,module,exports) {
+module.exports = "/catalog10.66cce51c.png";
+},{}],"assets/img/catalog1.png":[function(require,module,exports) {
+module.exports = "/catalog1.667b8833.png";
 },{}],"assets/img/catalog11.png":[function(require,module,exports) {
 module.exports = "/catalog11.42179d2e.png";
 },{}],"assets/img/catalog12.png":[function(require,module,exports) {
 module.exports = "/catalog12.f66dfe62.png";
-},{}],"assets/img/catalog10.png":[function(require,module,exports) {
-module.exports = "/catalog10.66cce51c.png";
 },{}],"assets/img/catalog2.png":[function(require,module,exports) {
 module.exports = "/catalog2.388cbf16.png";
 },{}],"assets/img/catalog3.png":[function(require,module,exports) {
 module.exports = "/catalog3.b1efd2ed.png";
 },{}],"assets/img/catalog4.png":[function(require,module,exports) {
 module.exports = "/catalog4.d745b9f6.png";
-},{}],"assets/img/catalog7.png":[function(require,module,exports) {
-module.exports = "/catalog7.52764131.png";
 },{}],"assets/img/catalog5.png":[function(require,module,exports) {
 module.exports = "/catalog5.e00133d5.png";
+},{}],"assets/img/catalog7.png":[function(require,module,exports) {
+module.exports = "/catalog7.52764131.png";
 },{}],"assets/img/catalog6.png":[function(require,module,exports) {
 module.exports = "/catalog6.c98455fc.png";
 },{}],"assets/img/catalog8.png":[function(require,module,exports) {
@@ -173,24 +173,24 @@ module.exports = "/Rectangle5.dea09ec7.png";
 module.exports = "/Rectangle6.de115960.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
-  "back": require("./back.png"),
   "baner1": require("./baner1.png"),
-  "baner3": require("./baner3.png"),
-  "baner42": require("./baner42.png"),
+  "back": require("./back.png"),
   "baner41": require("./baner41.png"),
+  "baner42": require("./baner42.png"),
+  "baner3": require("./baner3.png"),
   "baner43": require("./baner43.png"),
   "baner44": require("./baner44.png"),
   "baner45": require("./baner45.png"),
-  "catalog1": require("./catalog1.png"),
   "baner46": require("./baner46.png"),
+  "catalog10": require("./catalog10.png"),
+  "catalog1": require("./catalog1.png"),
   "catalog11": require("./catalog11.png"),
   "catalog12": require("./catalog12.png"),
-  "catalog10": require("./catalog10.png"),
   "catalog2": require("./catalog2.png"),
   "catalog3": require("./catalog3.png"),
   "catalog4": require("./catalog4.png"),
-  "catalog7": require("./catalog7.png"),
   "catalog5": require("./catalog5.png"),
+  "catalog7": require("./catalog7.png"),
   "catalog6": require("./catalog6.png"),
   "catalog8": require("./catalog8.png"),
   "catalog9": require("./catalog9.png"),
@@ -201,24 +201,24 @@ module.exports = {
   "Rectangle5": require("./Rectangle5.png"),
   "Rectangle6": require("./Rectangle6.png")
 };
-},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner42.png":"assets/img/baner42.png","./baner41.png":"assets/img/baner41.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner45.png":"assets/img/baner45.png","./catalog1.png":"assets/img/catalog1.png","./baner46.png":"assets/img/baner46.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog10.png":"assets/img/catalog10.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog7.png":"assets/img/catalog7.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
+},{"./baner1.png":"assets/img/baner1.png","./back.png":"assets/img/back.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner3.png":"assets/img/baner3.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner45.png":"assets/img/baner45.png","./baner46.png":"assets/img/baner46.png","./catalog10.png":"assets/img/catalog10.png","./catalog1.png":"assets/img/catalog1.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog7.png":"assets/img/catalog7.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
 module.exports = "/baner2.728e3fa9.jpg";
 },{}],"assets/img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "baner2": require("./baner2.jpg")
 };
-},{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/facebook.svg":[function(require,module,exports) {
-module.exports = "/facebook.7c262232.svg";
-},{}],"assets/svg/instagram.svg":[function(require,module,exports) {
+},{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/instagram.svg":[function(require,module,exports) {
 module.exports = "/instagram.43c924ce.svg";
+},{}],"assets/svg/facebook.svg":[function(require,module,exports) {
+module.exports = "/facebook.7c262232.svg";
 },{}],"assets/svg/link-left.svg":[function(require,module,exports) {
 module.exports = "/link-left.73ec23e2.svg";
 },{}],"assets/svg/knit.svg":[function(require,module,exports) {
 module.exports = "/knit.b45a6be5.svg";
-},{}],"assets/svg/link2.svg":[function(require,module,exports) {
-module.exports = "/link2.99f2fa0c.svg";
 },{}],"assets/svg/link1.svg":[function(require,module,exports) {
 module.exports = "/link1.733765f0.svg";
+},{}],"assets/svg/link2.svg":[function(require,module,exports) {
+module.exports = "/link2.99f2fa0c.svg";
 },{}],"assets/svg/lk.svg":[function(require,module,exports) {
 module.exports = "/lk.bfd8366c.svg";
 },{}],"assets/svg/MAROON.svg":[function(require,module,exports) {
@@ -227,17 +227,17 @@ module.exports = "/MAROON.ced2a136.svg";
 module.exports = "/twitter.e211b98c.svg";
 },{}],"assets/svg/*.svg":[function(require,module,exports) {
 module.exports = {
-  "facebook": require("./facebook.svg"),
   "instagram": require("./instagram.svg"),
+  "facebook": require("./facebook.svg"),
   "link-left": require("./link-left.svg"),
   "knit": require("./knit.svg"),
-  "link2": require("./link2.svg"),
   "link1": require("./link1.svg"),
+  "link2": require("./link2.svg"),
   "lk": require("./lk.svg"),
   "MAROON": require("./MAROON.svg"),
   "twitter": require("./twitter.svg")
 };
-},{"./facebook.svg":"assets/svg/facebook.svg","./instagram.svg":"assets/svg/instagram.svg","./link-left.svg":"assets/svg/link-left.svg","./knit.svg":"assets/svg/knit.svg","./link2.svg":"assets/svg/link2.svg","./link1.svg":"assets/svg/link1.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
+},{"./instagram.svg":"assets/svg/instagram.svg","./facebook.svg":"assets/svg/facebook.svg","./link-left.svg":"assets/svg/link-left.svg","./knit.svg":"assets/svg/knit.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18701,26 +18701,27 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.basketX = exports.basketItemsItem = exports.basketItems = exports.basketImg = exports.addInBasket = void 0;
-var basketImg = exports.basketImg = document.querySelector('.basket');
-var basketItems = exports.basketItems = document.querySelector('.basket_items');
-var basketItemsItem = exports.basketItemsItem = basketItems.querySelector('.basket_items-item');
+var basketImg = exports.basketImg = document.querySelector(".basket");
+var basketItems = exports.basketItems = document.querySelector(".basket_items");
+var basketItemsItem = exports.basketItemsItem = basketItems.querySelector(".basket_items-item");
 var basketX = exports.basketX = function basketX() {
-  var basketclosed = document.querySelector('.basket-x');
-  basketclosed.addEventListener('click', function (e) {
-    if (e.target.closest('.basket-x')) {
-      basketItems.style.display = 'none';
-      document.querySelector('.greeting').classList.remove('noopen');
-      document.querySelector('.wrapper').classList.remove('no-back');
-      document.querySelector('.display-none').style.display = 'block';
+  var basketclosed = document.querySelector(".basket-x");
+  basketclosed.addEventListener("click", function (e) {
+    if (e.target.closest(".basket-x")) {
+      basketItems.style.display = "none";
+      document.querySelector(".greeting").classList.remove("noopen");
+      document.querySelector(".wrapper").classList.remove("no-back");
+      document.querySelector(".display-none").style.display = "block";
     }
   });
 };
 var addInBasket = exports.addInBasket = function addInBasket(arr, i) {
-  var addBasket = document.querySelector('.add-in-basket');
+  var addBasket = document.querySelector(".add-in-basket");
   var vol = arr[i].volume.small;
   var price = arr[i].price.small;
-  var volume = document.querySelector('.volume');
-  volume.addEventListener('change', function () {
+  var count = 1;
+  var volume = document.querySelector(".volume");
+  volume.addEventListener("change", function () {
     document.querySelectorAll('input[type="radio"]').forEach(function (el) {
       if (el.checked && el.value == 1) {
         vol = arr[i].volume.small;
@@ -18731,8 +18732,37 @@ var addInBasket = exports.addInBasket = function addInBasket(arr, i) {
       }
     });
   });
-  addBasket.addEventListener('click', function () {
-    basketItemsItem.insertAdjacentHTML('beforeend', "<div class='basket_items-name-count-summ'>\n        <p>\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435</p>\n        <p>\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E</p>\n        <p>\u0421\u0443\u043C\u043C\u0430</p>\n        </div>\n        <div class='basket_items-product-name-count-summ'>\n        <div class='basket_items-product'>\n        <div class=\"basket_items-img\" style=\"background-image: url('".concat(arr[i].src, "')\">\n    </div> \n       <p> ").concat(arr[i].name, "</p>\n        <p>").concat(arr[i].descrShort, "</p>\n     <p> \u041E\u0431\u044A\u0435\u043C: ").concat(vol, "ml</p>\n     <p> \u0426\u0435\u043D\u0430: ").concat(price, "\u20BD </p>\n    \n        </div>\n        \n        <div class='basket_items-count'>\n        <button>-</button>\n        <p>1</p>\n        <button>+</button>\n        </div>\n        <div class='basket_items-summ'>\n        <p></p>\n        </div>\n        </div>"));
+  addBasket.addEventListener("click", function () {
+    document.querySelector(".basket_items-name-count-summ").classList.add("open");
+    var summ = count * price;
+    basketItemsItem.insertAdjacentHTML("beforeend", "\n        <div class='basket_items-product-name-count-summ'>\n        <div class='basket_items-product'>\n        <div class=\"basket_items-img\" style=\"background-image: url('".concat(arr[i].src, "')\">\n    </div> \n       <p> ").concat(arr[i].name, "</p>\n        <p>").concat(arr[i].descrShort, "</p>\n     <p> \u041E\u0431\u044A\u0435\u043C: ").concat(vol, "ml</p>\n     <p> \u0426\u0435\u043D\u0430: ").concat(price, "\u20BD </p>\n    \n        </div>\n        \n        <div class='basket_items-count'>\n        <button class='basket_items-count-reduce'>-</button>\n        <p class='basket_items-count-p'>").concat(count, "</p>\n        <button class='basket_items-count-add'>+</button>\n        </div>\n        <div class='basket_items-summ'>\n        <p class='basket_items-summ-p'>").concat(summ, "\u20BD</p>\n        </div>\n        <div class='basket_items-delete'>\n        <button class='basket_items-del'> &#x1F5D1 &#xFE0F\n        </button>\n        </div>\n        </div>"));
+    var itemsBasket = document.querySelectorAll(".basket_items-item");
+    itemsBasket.forEach(function (el) {
+      document.querySelector(".basket_items-count-reduce").addEventListener("click", function () {
+        if (count >= 1) {
+          count -= 1;
+          summ = count * price;
+        }
+        document.querySelector(".basket_items-count-p").innerHTML = count;
+        document.querySelector(".basket_items-summ-p").innerHTML = summ;
+      });
+      document.querySelector(".basket_items-count-add").addEventListener("click", function () {
+        count += 1;
+        summ = count * price;
+        document.querySelector(".basket_items-count-p").innerHTML = count;
+        document.querySelector(".basket_items-summ-p").innerHTML = summ;
+      });
+    });
+
+    //         basketItemsItem.addEventListener('click', (e) =>{
+    //     if(e.target.matches('.basket_items-del')){
+
+    //        const delBasket = [...document.querySelectorAll('.basket_items-del')];
+    //         const index = delBasket.indexOf(e.target);
+    //         console.log(index);
+
+    // }
+    // })
   });
 };
 },{}],"js/main.js":[function(require,module,exports) {
@@ -18764,8 +18794,8 @@ _mainBestSellers.divBSW.addEventListener("click", function (e) {
     popup.classList.add("popup-on");
     (0, _basket.addInBasket)(_mainBestSellers.bestSellers, activeIndex);
   }
-  document.querySelector('.big-item-btn').addEventListener('click', function (e) {
-    if (e.target.closest('.big-item-btn')) {
+  document.querySelector(".big-item-btn").addEventListener("click", function (e) {
+    if (e.target.closest(".big-item-btn")) {
       popup.classList.remove("popup-on");
       popup.textContent = "";
     }
@@ -18776,7 +18806,6 @@ document.addEventListener("click", function (event) {
     popup.classList.remove("popup-on");
     popup.textContent = "";
   }
-  ;
 });
 (0, _baner.addBaner)();
 (0, _baner.addBaner2)();
@@ -18846,34 +18875,21 @@ _catalog.linkPrevCatalog.addEventListener("click", function () {
 });
 _catalog.items.addEventListener("click", function (e) {
   if (e.target.matches(".catalog_items-item")) {
-    document.querySelector('.display-none').style.display = 'none';
+    document.querySelector(".display-none").style.display = "none";
     var activeIndex = Array.from(document.querySelectorAll(".catalog_items-item")).indexOf(e.target);
     (0, _catalog.addBigItem)(_catalog.bigItem, _catalog.newCatalog, activeIndex);
     _catalog.bigItem.classList.add("popup-on");
-    // sectionCatalog.classList.remove("active");
-    // removeClassNoactive();
-    //   greeting.classList.add("noopen");
-    //   wrapper.classList.add("no-back");
   }
 });
-
 (0, _catalog.btnLoad)();
 (0, _catalog.btnanload)();
 _basket.basketImg.addEventListener("click", function () {
   document.querySelector(".display-none").style.display = "none";
   _basket.basketItems.style.display = "block";
-  // greeting.style.display = "none";
   greeting.classList.add("noopen");
   wrapper.classList.add("no-back");
-  // basketItemsItem.innerHTML = `<p>Ваша корзина пуста</p>`;
   (0, _basket.basketX)();
-  // basketclosed.addEventListener('click', () => {
-  //   console.log('gg');
-  // }
-  // )   
 });
-
-// basketX();
 },{"./modules/_main-best-sellers":"js/modules/_main-best-sellers.js","./modules/_baner.js":"js/modules/_baner.js","./modules/_contact.js":"js/modules/_contact.js","./modules/_catalog.js":"js/modules/_catalog.js","babel-types":"../node_modules/babel-types/lib/index.js","./modules/_basket.js":"js/modules/_basket.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18899,7 +18915,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50054" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49798" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
