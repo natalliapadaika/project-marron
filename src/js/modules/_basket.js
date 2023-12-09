@@ -2,7 +2,14 @@ const basketImg = document.querySelector(".basket");
 const basketItems = document.querySelector(".basket_items");
 const basketItemsItem = basketItems.querySelector(".basket_items-item");
 
-export { basketImg, basketItems, basketItemsItem, basketX, addInBasket };
+export {
+  basketImg,
+  basketItems,
+  basketItemsItem,
+  basketX,
+  addInBasket,
+  workInBasket,
+};
 
 const basketX = () => {
   const basketclosed = document.querySelector(".basket-x");
@@ -45,12 +52,12 @@ const addInBasket = (arr, i) => {
       `
         <div class='basket_items-product-name-count-summ'>
         <div class='basket_items-product'>
-        <div class="basket_items-img" style="background-image: url('${arr[i].src}')">
+        <div class="basket_items-img" style="background-image: url('${arr[i].src}')" id='${arr[i].src}'>
     </div> 
-       <p> ${arr[i].name}</p>
-        <p>${arr[i].descrShort}</p>
-     <p> Объем: ${vol}ml</p>
-     <p> Цена: ${price}₽ </p>
+       <p class = 'basket_items-name' data-name='${arr[i].name}'> ${arr[i].name}</p>
+        <p class = 'basket_items-descr' data-descr='${arr[i].descrShort}'>${arr[i].descrShort}</p>
+     <p class='basket_items-vol' data-vol='${vol}'> Объем: ${vol}ml</p>
+     <p class='basket-items-price' data-price ='${price}'> Цена: ${price}₽ </p>
     
         </div>
         
@@ -68,39 +75,60 @@ const addInBasket = (arr, i) => {
         </div>
         </div>`
     );
+  });
+};
 
-    const itemsBasket = document.querySelectorAll(".basket_items-item");
+const workInBasket = () => {
+  const basketOrder = [
+    ...document.querySelectorAll(".basket_items-product-name-count-summ"),
+  ];
+  let summ = 1;
+  const itemsBasket = [];
+  basketOrder.forEach((el) => {
+    let count = 1;
+    const id = el.querySelector(".basket_items-img").getAttribute("id");
+    const name = el
+      .querySelector(".basket_items-name")
+      .getAttribute("data-name");
+    const descr = el
+      .querySelector(".basket_items-descr")
+      .getAttribute("data-descr");
+    const vol = el.querySelector(".basket_items-vol").getAttribute("data-vol");
+    const priceEl = el
+      .querySelector(".basket-items-price")
+      .getAttribute("data-price");
 
-    itemsBasket.forEach((el) => {
-      document
-        .querySelector(".basket_items-count-reduce")
-        .addEventListener("click", () => {
-          if (count >= 1) {
-            count -= 1;
-            summ = count * price;
-          }
-
-          document.querySelector(".basket_items-count-p").innerHTML = count;
-          document.querySelector(".basket_items-summ-p").innerHTML = summ;
-        });
-      document
-        .querySelector(".basket_items-count-add")
-        .addEventListener("click", () => {
-          count += 1;
-          summ = count * price;
-          document.querySelector(".basket_items-count-p").innerHTML = count;
-          document.querySelector(".basket_items-summ-p").innerHTML = summ;
-        });
+    itemsBasket.push({
+      src: id,
+      name: name,
+      descr: descr,
+      vol: vol,
+      price: priceEl,
     });
+    el.querySelector(".basket_items-count-reduce").addEventListener(
+      "click",
+      (e) => {
+        const index = basketOrder.indexOf(el);
+        console.log(index);
 
-    //         basketItemsItem.addEventListener('click', (e) =>{
-    //     if(e.target.matches('.basket_items-del')){
+        if (count >= 1) {
+          count -= 1;
+          summ = count * itemsBasket[index].price;
+        }
+        el.querySelector(".basket_items-count-p").innerHTML = count;
+        el.querySelector(".basket_items-summ-p").innerHTML = summ;
+      }
+    );
+    el.querySelector(".basket_items-count-add").addEventListener(
+      "click",
+      (e) => {
+        const index = basketOrder.indexOf(el);
 
-    //        const delBasket = [...document.querySelectorAll('.basket_items-del')];
-    //         const index = delBasket.indexOf(e.target);
-    //         console.log(index);
-
-    // }
-    // })
+        count += 1;
+        summ = count * itemsBasket[index].price;
+        el.querySelector(".basket_items-count-p").innerHTML = count;
+        el.querySelector(".basket_items-summ-p").innerHTML = summ;
+      }
+    );
   });
 };

@@ -187,12 +187,14 @@ import {
   addInBasket,
   vol,
   price,
+  workInBasket
 } from "./modules/_basket.js";
 
-basketImg.addEventListener("click", () => {
+basketImg.addEventListener("click", (e) => {
   document.querySelector(".display-none").style.display = "none";
   basketItems.style.display = "block";
   greeting.classList.add("noopen");
   wrapper.classList.add("no-back");
+  workInBasket();
   basketX();
 });

@@ -117,44 +117,44 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/img/baner1.png":[function(require,module,exports) {
-module.exports = "/baner1.030a6a75.png";
-},{}],"assets/img/back.png":[function(require,module,exports) {
+})({"assets/img/back.png":[function(require,module,exports) {
 module.exports = "/back.7475bda5.png";
+},{}],"assets/img/baner1.png":[function(require,module,exports) {
+module.exports = "/baner1.030a6a75.png";
 },{}],"assets/img/baner41.png":[function(require,module,exports) {
 module.exports = "/baner41.9053df63.png";
-},{}],"assets/img/baner42.png":[function(require,module,exports) {
-module.exports = "/baner42.42807b5e.png";
 },{}],"assets/img/baner3.png":[function(require,module,exports) {
 module.exports = "/baner3.f75dd12d.png";
-},{}],"assets/img/baner43.png":[function(require,module,exports) {
-module.exports = "/baner43.0d51318b.png";
+},{}],"assets/img/baner42.png":[function(require,module,exports) {
+module.exports = "/baner42.42807b5e.png";
 },{}],"assets/img/baner44.png":[function(require,module,exports) {
 module.exports = "/baner44.cdf498d3.png";
+},{}],"assets/img/baner43.png":[function(require,module,exports) {
+module.exports = "/baner43.0d51318b.png";
 },{}],"assets/img/baner45.png":[function(require,module,exports) {
 module.exports = "/baner45.5af2a88d.png";
 },{}],"assets/img/baner46.png":[function(require,module,exports) {
 module.exports = "/baner46.aade73df.png";
-},{}],"assets/img/catalog10.png":[function(require,module,exports) {
-module.exports = "/catalog10.66cce51c.png";
 },{}],"assets/img/catalog1.png":[function(require,module,exports) {
 module.exports = "/catalog1.667b8833.png";
-},{}],"assets/img/catalog11.png":[function(require,module,exports) {
-module.exports = "/catalog11.42179d2e.png";
+},{}],"assets/img/catalog10.png":[function(require,module,exports) {
+module.exports = "/catalog10.66cce51c.png";
 },{}],"assets/img/catalog12.png":[function(require,module,exports) {
 module.exports = "/catalog12.f66dfe62.png";
+},{}],"assets/img/catalog11.png":[function(require,module,exports) {
+module.exports = "/catalog11.42179d2e.png";
 },{}],"assets/img/catalog2.png":[function(require,module,exports) {
 module.exports = "/catalog2.388cbf16.png";
 },{}],"assets/img/catalog3.png":[function(require,module,exports) {
 module.exports = "/catalog3.b1efd2ed.png";
 },{}],"assets/img/catalog4.png":[function(require,module,exports) {
 module.exports = "/catalog4.d745b9f6.png";
+},{}],"assets/img/catalog6.png":[function(require,module,exports) {
+module.exports = "/catalog6.c98455fc.png";
 },{}],"assets/img/catalog5.png":[function(require,module,exports) {
 module.exports = "/catalog5.e00133d5.png";
 },{}],"assets/img/catalog7.png":[function(require,module,exports) {
 module.exports = "/catalog7.52764131.png";
-},{}],"assets/img/catalog6.png":[function(require,module,exports) {
-module.exports = "/catalog6.c98455fc.png";
 },{}],"assets/img/catalog8.png":[function(require,module,exports) {
 module.exports = "/catalog8.537aa7e0.png";
 },{}],"assets/img/catalog9.png":[function(require,module,exports) {
@@ -165,79 +165,79 @@ module.exports = "/cream4.6e07a624.png";
 module.exports = "/cream_1.85f28ba5.png";
 },{}],"assets/img/cream_2.png":[function(require,module,exports) {
 module.exports = "/cream_2.7ee98aa0.png";
-},{}],"assets/img/cream_3.png":[function(require,module,exports) {
-module.exports = "/cream_3.556ac442.png";
 },{}],"assets/img/Rectangle5.png":[function(require,module,exports) {
 module.exports = "/Rectangle5.dea09ec7.png";
+},{}],"assets/img/cream_3.png":[function(require,module,exports) {
+module.exports = "/cream_3.556ac442.png";
 },{}],"assets/img/Rectangle6.png":[function(require,module,exports) {
 module.exports = "/Rectangle6.de115960.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
-  "baner1": require("./baner1.png"),
   "back": require("./back.png"),
+  "baner1": require("./baner1.png"),
   "baner41": require("./baner41.png"),
-  "baner42": require("./baner42.png"),
   "baner3": require("./baner3.png"),
-  "baner43": require("./baner43.png"),
+  "baner42": require("./baner42.png"),
   "baner44": require("./baner44.png"),
+  "baner43": require("./baner43.png"),
   "baner45": require("./baner45.png"),
   "baner46": require("./baner46.png"),
-  "catalog10": require("./catalog10.png"),
   "catalog1": require("./catalog1.png"),
-  "catalog11": require("./catalog11.png"),
+  "catalog10": require("./catalog10.png"),
   "catalog12": require("./catalog12.png"),
+  "catalog11": require("./catalog11.png"),
   "catalog2": require("./catalog2.png"),
   "catalog3": require("./catalog3.png"),
   "catalog4": require("./catalog4.png"),
+  "catalog6": require("./catalog6.png"),
   "catalog5": require("./catalog5.png"),
   "catalog7": require("./catalog7.png"),
-  "catalog6": require("./catalog6.png"),
   "catalog8": require("./catalog8.png"),
   "catalog9": require("./catalog9.png"),
   "cream4": require("./cream4.png"),
   "cream_1": require("./cream_1.png"),
   "cream_2": require("./cream_2.png"),
-  "cream_3": require("./cream_3.png"),
   "Rectangle5": require("./Rectangle5.png"),
+  "cream_3": require("./cream_3.png"),
   "Rectangle6": require("./Rectangle6.png")
 };
-},{"./baner1.png":"assets/img/baner1.png","./back.png":"assets/img/back.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner3.png":"assets/img/baner3.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner45.png":"assets/img/baner45.png","./baner46.png":"assets/img/baner46.png","./catalog10.png":"assets/img/catalog10.png","./catalog1.png":"assets/img/catalog1.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog7.png":"assets/img/catalog7.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
+},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner41.png":"assets/img/baner41.png","./baner3.png":"assets/img/baner3.png","./baner42.png":"assets/img/baner42.png","./baner44.png":"assets/img/baner44.png","./baner43.png":"assets/img/baner43.png","./baner45.png":"assets/img/baner45.png","./baner46.png":"assets/img/baner46.png","./catalog1.png":"assets/img/catalog1.png","./catalog10.png":"assets/img/catalog10.png","./catalog12.png":"assets/img/catalog12.png","./catalog11.png":"assets/img/catalog11.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog6.png":"assets/img/catalog6.png","./catalog5.png":"assets/img/catalog5.png","./catalog7.png":"assets/img/catalog7.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./Rectangle5.png":"assets/img/Rectangle5.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
 module.exports = "/baner2.728e3fa9.jpg";
 },{}],"assets/img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "baner2": require("./baner2.jpg")
 };
-},{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/instagram.svg":[function(require,module,exports) {
-module.exports = "/instagram.43c924ce.svg";
-},{}],"assets/svg/facebook.svg":[function(require,module,exports) {
+},{"./baner2.jpg":"assets/img/baner2.jpg"}],"assets/svg/facebook.svg":[function(require,module,exports) {
 module.exports = "/facebook.7c262232.svg";
-},{}],"assets/svg/link-left.svg":[function(require,module,exports) {
-module.exports = "/link-left.73ec23e2.svg";
+},{}],"assets/svg/instagram.svg":[function(require,module,exports) {
+module.exports = "/instagram.43c924ce.svg";
 },{}],"assets/svg/knit.svg":[function(require,module,exports) {
 module.exports = "/knit.b45a6be5.svg";
+},{}],"assets/svg/link-left.svg":[function(require,module,exports) {
+module.exports = "/link-left.73ec23e2.svg";
 },{}],"assets/svg/link1.svg":[function(require,module,exports) {
 module.exports = "/link1.733765f0.svg";
-},{}],"assets/svg/link2.svg":[function(require,module,exports) {
-module.exports = "/link2.99f2fa0c.svg";
 },{}],"assets/svg/lk.svg":[function(require,module,exports) {
 module.exports = "/lk.bfd8366c.svg";
-},{}],"assets/svg/MAROON.svg":[function(require,module,exports) {
-module.exports = "/MAROON.ced2a136.svg";
+},{}],"assets/svg/link2.svg":[function(require,module,exports) {
+module.exports = "/link2.99f2fa0c.svg";
 },{}],"assets/svg/twitter.svg":[function(require,module,exports) {
 module.exports = "/twitter.e211b98c.svg";
+},{}],"assets/svg/MAROON.svg":[function(require,module,exports) {
+module.exports = "/MAROON.ced2a136.svg";
 },{}],"assets/svg/*.svg":[function(require,module,exports) {
 module.exports = {
-  "instagram": require("./instagram.svg"),
   "facebook": require("./facebook.svg"),
-  "link-left": require("./link-left.svg"),
+  "instagram": require("./instagram.svg"),
   "knit": require("./knit.svg"),
+  "link-left": require("./link-left.svg"),
   "link1": require("./link1.svg"),
-  "link2": require("./link2.svg"),
   "lk": require("./lk.svg"),
-  "MAROON": require("./MAROON.svg"),
-  "twitter": require("./twitter.svg")
+  "link2": require("./link2.svg"),
+  "twitter": require("./twitter.svg"),
+  "MAROON": require("./MAROON.svg")
 };
-},{"./instagram.svg":"assets/svg/instagram.svg","./facebook.svg":"assets/svg/facebook.svg","./link-left.svg":"assets/svg/link-left.svg","./knit.svg":"assets/svg/knit.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
+},{"./facebook.svg":"assets/svg/facebook.svg","./instagram.svg":"assets/svg/instagram.svg","./knit.svg":"assets/svg/knit.svg","./link-left.svg":"assets/svg/link-left.svg","./link1.svg":"assets/svg/link1.svg","./lk.svg":"assets/svg/lk.svg","./link2.svg":"assets/svg/link2.svg","./twitter.svg":"assets/svg/twitter.svg","./MAROON.svg":"assets/svg/MAROON.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18700,7 +18700,13 @@ function removePropertiesDeep(tree, opts) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.basketX = exports.basketItemsItem = exports.basketItems = exports.basketImg = exports.addInBasket = void 0;
+exports.workInBasket = exports.basketX = exports.basketItemsItem = exports.basketItems = exports.basketImg = exports.addInBasket = void 0;
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 var basketImg = exports.basketImg = document.querySelector(".basket");
 var basketItems = exports.basketItems = document.querySelector(".basket_items");
 var basketItemsItem = exports.basketItemsItem = basketItems.querySelector(".basket_items-item");
@@ -18735,34 +18741,44 @@ var addInBasket = exports.addInBasket = function addInBasket(arr, i) {
   addBasket.addEventListener("click", function () {
     document.querySelector(".basket_items-name-count-summ").classList.add("open");
     var summ = count * price;
-    basketItemsItem.insertAdjacentHTML("beforeend", "\n        <div class='basket_items-product-name-count-summ'>\n        <div class='basket_items-product'>\n        <div class=\"basket_items-img\" style=\"background-image: url('".concat(arr[i].src, "')\">\n    </div> \n       <p> ").concat(arr[i].name, "</p>\n        <p>").concat(arr[i].descrShort, "</p>\n     <p> \u041E\u0431\u044A\u0435\u043C: ").concat(vol, "ml</p>\n     <p> \u0426\u0435\u043D\u0430: ").concat(price, "\u20BD </p>\n    \n        </div>\n        \n        <div class='basket_items-count'>\n        <button class='basket_items-count-reduce'>-</button>\n        <p class='basket_items-count-p'>").concat(count, "</p>\n        <button class='basket_items-count-add'>+</button>\n        </div>\n        <div class='basket_items-summ'>\n        <p class='basket_items-summ-p'>").concat(summ, "\u20BD</p>\n        </div>\n        <div class='basket_items-delete'>\n        <button class='basket_items-del'> &#x1F5D1 &#xFE0F\n        </button>\n        </div>\n        </div>"));
-    var itemsBasket = document.querySelectorAll(".basket_items-item");
-    itemsBasket.forEach(function (el) {
-      document.querySelector(".basket_items-count-reduce").addEventListener("click", function () {
-        if (count >= 1) {
-          count -= 1;
-          summ = count * price;
-        }
-        document.querySelector(".basket_items-count-p").innerHTML = count;
-        document.querySelector(".basket_items-summ-p").innerHTML = summ;
-      });
-      document.querySelector(".basket_items-count-add").addEventListener("click", function () {
-        count += 1;
-        summ = count * price;
-        document.querySelector(".basket_items-count-p").innerHTML = count;
-        document.querySelector(".basket_items-summ-p").innerHTML = summ;
-      });
+    basketItemsItem.insertAdjacentHTML("beforeend", "\n        <div class='basket_items-product-name-count-summ'>\n        <div class='basket_items-product'>\n        <div class=\"basket_items-img\" style=\"background-image: url('".concat(arr[i].src, "')\" id='").concat(arr[i].src, "'>\n    </div> \n       <p class = 'basket_items-name' data-name='").concat(arr[i].name, "'> ").concat(arr[i].name, "</p>\n        <p class = 'basket_items-descr' data-descr='").concat(arr[i].descrShort, "'>").concat(arr[i].descrShort, "</p>\n     <p class='basket_items-vol' data-vol='").concat(vol, "'> \u041E\u0431\u044A\u0435\u043C: ").concat(vol, "ml</p>\n     <p class='basket-items-price' data-price ='").concat(price, "'> \u0426\u0435\u043D\u0430: ").concat(price, "\u20BD </p>\n    \n        </div>\n        \n        <div class='basket_items-count'>\n        <button class='basket_items-count-reduce'>-</button>\n        <p class='basket_items-count-p'>").concat(count, "</p>\n        <button class='basket_items-count-add'>+</button>\n        </div>\n        <div class='basket_items-summ'>\n        <p class='basket_items-summ-p'>").concat(summ, "\u20BD</p>\n        </div>\n        <div class='basket_items-delete'>\n        <button class='basket_items-del'> &#x1F5D1 &#xFE0F\n        </button>\n        </div>\n        </div>"));
+  });
+};
+var workInBasket = exports.workInBasket = function workInBasket() {
+  var basketOrder = _toConsumableArray(document.querySelectorAll(".basket_items-product-name-count-summ"));
+  var summ = 1;
+  var itemsBasket = [];
+  basketOrder.forEach(function (el) {
+    var count = 1;
+    var id = el.querySelector(".basket_items-img").getAttribute("id");
+    var name = el.querySelector(".basket_items-name").getAttribute("data-name");
+    var descr = el.querySelector(".basket_items-descr").getAttribute("data-descr");
+    var vol = el.querySelector(".basket_items-vol").getAttribute("data-vol");
+    var priceEl = el.querySelector(".basket-items-price").getAttribute("data-price");
+    itemsBasket.push({
+      src: id,
+      name: name,
+      descr: descr,
+      vol: vol,
+      price: priceEl
     });
-
-    //         basketItemsItem.addEventListener('click', (e) =>{
-    //     if(e.target.matches('.basket_items-del')){
-
-    //        const delBasket = [...document.querySelectorAll('.basket_items-del')];
-    //         const index = delBasket.indexOf(e.target);
-    //         console.log(index);
-
-    // }
-    // })
+    el.querySelector(".basket_items-count-reduce").addEventListener("click", function (e) {
+      var index = basketOrder.indexOf(el);
+      console.log(index);
+      if (count >= 1) {
+        count -= 1;
+        summ = count * itemsBasket[index].price;
+      }
+      el.querySelector(".basket_items-count-p").innerHTML = count;
+      el.querySelector(".basket_items-summ-p").innerHTML = summ;
+    });
+    el.querySelector(".basket_items-count-add").addEventListener("click", function (e) {
+      var index = basketOrder.indexOf(el);
+      count += 1;
+      summ = count * itemsBasket[index].price;
+      el.querySelector(".basket_items-count-p").innerHTML = count;
+      el.querySelector(".basket_items-summ-p").innerHTML = summ;
+    });
   });
 };
 },{}],"js/main.js":[function(require,module,exports) {
@@ -18883,11 +18899,12 @@ _catalog.items.addEventListener("click", function (e) {
 });
 (0, _catalog.btnLoad)();
 (0, _catalog.btnanload)();
-_basket.basketImg.addEventListener("click", function () {
+_basket.basketImg.addEventListener("click", function (e) {
   document.querySelector(".display-none").style.display = "none";
   _basket.basketItems.style.display = "block";
   greeting.classList.add("noopen");
   wrapper.classList.add("no-back");
+  (0, _basket.workInBasket)();
   (0, _basket.basketX)();
 });
 },{"./modules/_main-best-sellers":"js/modules/_main-best-sellers.js","./modules/_baner.js":"js/modules/_baner.js","./modules/_contact.js":"js/modules/_contact.js","./modules/_catalog.js":"js/modules/_catalog.js","babel-types":"../node_modules/babel-types/lib/index.js","./modules/_basket.js":"js/modules/_basket.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -18915,7 +18932,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49798" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49882" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
