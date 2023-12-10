@@ -67,7 +67,7 @@ const addInBasket = (arr, i) => {
         <button class='basket_items-count-add'>+</button>
         </div>
         <div class='basket_items-summ'>
-        <p class='basket_items-summ-p'>${summ}₽</p>
+        <p class='basket_items-summ-p'>${summ}</p>
         </div>
         <div class='basket_items-delete'>
         <button class='basket_items-del'> &#x1F5D1 &#xFE0F
@@ -84,19 +84,14 @@ const workInBasket = () => {
   ];
   let summ = 1;
   const itemsBasket = [];
+  let summOrder = [];
   basketOrder.forEach((el) => {
     let count = 1;
     const id = el.querySelector(".basket_items-img").getAttribute("id");
-    const name = el
-      .querySelector(".basket_items-name")
-      .getAttribute("data-name");
-    const descr = el
-      .querySelector(".basket_items-descr")
-      .getAttribute("data-descr");
+    const name = el.querySelector(".basket_items-name").getAttribute("data-name");
+    const descr = el.querySelector(".basket_items-descr").getAttribute("data-descr");
     const vol = el.querySelector(".basket_items-vol").getAttribute("data-vol");
-    const priceEl = el
-      .querySelector(".basket-items-price")
-      .getAttribute("data-price");
+    const priceEl = el.querySelector(".basket-items-price").getAttribute("data-price");
 
     itemsBasket.push({
       src: id,
@@ -105,11 +100,17 @@ const workInBasket = () => {
       vol: vol,
       price: priceEl,
     });
-    el.querySelector(".basket_items-count-reduce").addEventListener(
-      "click",
-      (e) => {
+
+    summOrder.push(Number(el.querySelector('.basket_items-summ-p').textContent))
+    console.log(summOrder);
+    const summOrders = summOrder.reduce((acc, item) => acc+item, 0);
+    console.log(summOrders);
+
+   
+
+
+    el.querySelector(".basket_items-count-reduce").addEventListener("click", (e) => {
         const index = basketOrder.indexOf(el);
-        console.log(index);
 
         if (count >= 1) {
           count -= 1;
@@ -117,18 +118,44 @@ const workInBasket = () => {
         }
         el.querySelector(".basket_items-count-p").innerHTML = count;
         el.querySelector(".basket_items-summ-p").innerHTML = summ;
-      }
-    );
-    el.querySelector(".basket_items-count-add").addEventListener(
-      "click",
-      (e) => {
-        const index = basketOrder.indexOf(el);
 
+        summOrder = summOrder.map((item) => {
+          return item == summOrder[index] ? +el.querySelector(".basket_items-summ-p").textContent: item;
+           })
+         // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
+           console.log(summOrder);
+    
+        
+        // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
+        // console.log(summOrder);
+      });
+
+    el.querySelector(".basket_items-count-add").addEventListener("click",(e) => {
+        const index = basketOrder.indexOf(el);
         count += 1;
         summ = count * itemsBasket[index].price;
         el.querySelector(".basket_items-count-p").innerHTML = count;
         el.querySelector(".basket_items-summ-p").innerHTML = summ;
-      }
-    );
+
+       summOrder = summOrder.map((item) => {
+         return item == summOrder[index] ? +el.querySelector(".basket_items-summ-p").textContent: item;
+          })
+        // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
+          console.log(summOrder);
+      });
+
+el.querySelector('.basket_items-del').addEventListener('click', (e) =>{
+  const index = basketOrder.indexOf(el);
+  el.remove();
+  itemsBasket.slice(index, index+1);
+})
+// const summOrders =  summOrder.map((element,index) => el.querySelector(".basket_items-summ-p").textContent)
+// console.log(summOrders);
+
+
   });
+
+
+
+
 };
