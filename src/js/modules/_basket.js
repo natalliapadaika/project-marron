@@ -102,7 +102,7 @@ const workInBasket = () => {
     });
 
     summOrder.push(Number(el.querySelector('.basket_items-summ-p').textContent))
-    console.log(summOrder);
+
     const summOrders = summOrder.reduce((acc, item) => acc+item, 0);
     console.log(summOrders);
 
@@ -118,18 +118,12 @@ const workInBasket = () => {
         }
         el.querySelector(".basket_items-count-p").innerHTML = count;
         el.querySelector(".basket_items-summ-p").innerHTML = summ;
+           summOrder.splice(index, 1, +el.querySelector(".basket_items-summ-p").textContent)
+           const summOrders = summOrder.reduce((acc, item) => acc+item, 0); 
 
-        summOrder = summOrder.map((item) => {
-          return item == summOrder[index] ? +el.querySelector(".basket_items-summ-p").textContent: item;
-           })
-         // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
-           console.log(summOrder);
-    
-        
-        // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
-        // console.log(summOrder);
       });
 
+  
     el.querySelector(".basket_items-count-add").addEventListener("click",(e) => {
         const index = basketOrder.indexOf(el);
         count += 1;
@@ -137,25 +131,26 @@ const workInBasket = () => {
         el.querySelector(".basket_items-count-p").innerHTML = count;
         el.querySelector(".basket_items-summ-p").innerHTML = summ;
 
-       summOrder = summOrder.map((item) => {
-         return item == summOrder[index] ? +el.querySelector(".basket_items-summ-p").textContent: item;
-          })
-        // summOrder.splice(index, index, el.querySelector(".basket_items-summ-p").textContent)
-          console.log(summOrder);
+
+        summOrder.splice(index, 1, +el.querySelector(".basket_items-summ-p").textContent)
+        const summOrders = summOrder.reduce((acc, item) => acc+item, 0);
       });
+
+
 
 el.querySelector('.basket_items-del').addEventListener('click', (e) =>{
   const index = basketOrder.indexOf(el);
   el.remove();
-  itemsBasket.slice(index, index+1);
-})
-// const summOrders =  summOrder.map((element,index) => el.querySelector(".basket_items-summ-p").textContent)
-// console.log(summOrders);
+  itemsBasket.splice(index, 1);
 
+
+  summOrder.splice(index, 1);
+
+  const summOrders = summOrder.reduce((acc, item) => acc+item, 0); 
+})
 
   });
 
-
-
-
 };
+
+
