@@ -131,10 +131,10 @@ module.exports = "/baner42.42807b5e.png";
 module.exports = "/baner43.0d51318b.png";
 },{}],"assets/img/baner44.png":[function(require,module,exports) {
 module.exports = "/baner44.cdf498d3.png";
-},{}],"assets/img/baner46.png":[function(require,module,exports) {
-module.exports = "/baner46.aade73df.png";
 },{}],"assets/img/baner45.png":[function(require,module,exports) {
 module.exports = "/baner45.5af2a88d.png";
+},{}],"assets/img/baner46.png":[function(require,module,exports) {
+module.exports = "/baner46.aade73df.png";
 },{}],"assets/img/catalog1.png":[function(require,module,exports) {
 module.exports = "/catalog1.667b8833.png";
 },{}],"assets/img/catalog10.png":[function(require,module,exports) {
@@ -149,28 +149,28 @@ module.exports = "/catalog2.388cbf16.png";
 module.exports = "/catalog3.b1efd2ed.png";
 },{}],"assets/img/catalog4.png":[function(require,module,exports) {
 module.exports = "/catalog4.d745b9f6.png";
-},{}],"assets/img/catalog5.png":[function(require,module,exports) {
-module.exports = "/catalog5.e00133d5.png";
 },{}],"assets/img/catalog7.png":[function(require,module,exports) {
 module.exports = "/catalog7.52764131.png";
+},{}],"assets/img/catalog5.png":[function(require,module,exports) {
+module.exports = "/catalog5.e00133d5.png";
 },{}],"assets/img/catalog6.png":[function(require,module,exports) {
 module.exports = "/catalog6.c98455fc.png";
-},{}],"assets/img/cream4.png":[function(require,module,exports) {
-module.exports = "/cream4.6e07a624.png";
-},{}],"assets/img/cream_1.png":[function(require,module,exports) {
-module.exports = "/cream_1.85f28ba5.png";
 },{}],"assets/img/catalog8.png":[function(require,module,exports) {
 module.exports = "/catalog8.537aa7e0.png";
 },{}],"assets/img/catalog9.png":[function(require,module,exports) {
 module.exports = "/catalog9.6479ce78.png";
+},{}],"assets/img/cream4.png":[function(require,module,exports) {
+module.exports = "/cream4.6e07a624.png";
+},{}],"assets/img/cream_1.png":[function(require,module,exports) {
+module.exports = "/cream_1.85f28ba5.png";
+},{}],"assets/img/cream_2.png":[function(require,module,exports) {
+module.exports = "/cream_2.7ee98aa0.png";
+},{}],"assets/img/cream_3.png":[function(require,module,exports) {
+module.exports = "/cream_3.556ac442.png";
 },{}],"assets/img/Rectangle5.png":[function(require,module,exports) {
 module.exports = "/Rectangle5.dea09ec7.png";
 },{}],"assets/img/Rectangle6.png":[function(require,module,exports) {
 module.exports = "/Rectangle6.de115960.png";
-},{}],"assets/img/cream_3.png":[function(require,module,exports) {
-module.exports = "/cream_3.556ac442.png";
-},{}],"assets/img/cream_2.png":[function(require,module,exports) {
-module.exports = "/cream_2.7ee98aa0.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
   "back": require("./back.png"),
@@ -180,8 +180,8 @@ module.exports = {
   "baner42": require("./baner42.png"),
   "baner43": require("./baner43.png"),
   "baner44": require("./baner44.png"),
-  "baner46": require("./baner46.png"),
   "baner45": require("./baner45.png"),
+  "baner46": require("./baner46.png"),
   "catalog1": require("./catalog1.png"),
   "catalog10": require("./catalog10.png"),
   "catalog11": require("./catalog11.png"),
@@ -189,19 +189,19 @@ module.exports = {
   "catalog2": require("./catalog2.png"),
   "catalog3": require("./catalog3.png"),
   "catalog4": require("./catalog4.png"),
-  "catalog5": require("./catalog5.png"),
   "catalog7": require("./catalog7.png"),
+  "catalog5": require("./catalog5.png"),
   "catalog6": require("./catalog6.png"),
-  "cream4": require("./cream4.png"),
-  "cream_1": require("./cream_1.png"),
   "catalog8": require("./catalog8.png"),
   "catalog9": require("./catalog9.png"),
-  "Rectangle5": require("./Rectangle5.png"),
-  "Rectangle6": require("./Rectangle6.png"),
+  "cream4": require("./cream4.png"),
+  "cream_1": require("./cream_1.png"),
+  "cream_2": require("./cream_2.png"),
   "cream_3": require("./cream_3.png"),
-  "cream_2": require("./cream_2.png")
+  "Rectangle5": require("./Rectangle5.png"),
+  "Rectangle6": require("./Rectangle6.png")
 };
-},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner46.png":"assets/img/baner46.png","./baner45.png":"assets/img/baner45.png","./catalog1.png":"assets/img/catalog1.png","./catalog10.png":"assets/img/catalog10.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog5.png":"assets/img/catalog5.png","./catalog7.png":"assets/img/catalog7.png","./catalog6.png":"assets/img/catalog6.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png","./cream_3.png":"assets/img/cream_3.png","./cream_2.png":"assets/img/cream_2.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
+},{"./back.png":"assets/img/back.png","./baner1.png":"assets/img/baner1.png","./baner3.png":"assets/img/baner3.png","./baner41.png":"assets/img/baner41.png","./baner42.png":"assets/img/baner42.png","./baner43.png":"assets/img/baner43.png","./baner44.png":"assets/img/baner44.png","./baner45.png":"assets/img/baner45.png","./baner46.png":"assets/img/baner46.png","./catalog1.png":"assets/img/catalog1.png","./catalog10.png":"assets/img/catalog10.png","./catalog11.png":"assets/img/catalog11.png","./catalog12.png":"assets/img/catalog12.png","./catalog2.png":"assets/img/catalog2.png","./catalog3.png":"assets/img/catalog3.png","./catalog4.png":"assets/img/catalog4.png","./catalog7.png":"assets/img/catalog7.png","./catalog5.png":"assets/img/catalog5.png","./catalog6.png":"assets/img/catalog6.png","./catalog8.png":"assets/img/catalog8.png","./catalog9.png":"assets/img/catalog9.png","./cream4.png":"assets/img/cream4.png","./cream_1.png":"assets/img/cream_1.png","./cream_2.png":"assets/img/cream_2.png","./cream_3.png":"assets/img/cream_3.png","./Rectangle5.png":"assets/img/Rectangle5.png","./Rectangle6.png":"assets/img/Rectangle6.png"}],"assets/img/baner2.jpg":[function(require,module,exports) {
 module.exports = "/baner2.728e3fa9.jpg";
 },{}],"assets/img/*.jpg":[function(require,module,exports) {
 module.exports = {
@@ -213,10 +213,10 @@ module.exports = "/facebook.7c262232.svg";
 module.exports = "/instagram.43c924ce.svg";
 },{}],"assets/svg/knit.svg":[function(require,module,exports) {
 module.exports = "/knit.b45a6be5.svg";
-},{}],"assets/svg/link-left.svg":[function(require,module,exports) {
-module.exports = "/link-left.73ec23e2.svg";
 },{}],"assets/svg/link1.svg":[function(require,module,exports) {
 module.exports = "/link1.733765f0.svg";
+},{}],"assets/svg/link-left.svg":[function(require,module,exports) {
+module.exports = "/link-left.73ec23e2.svg";
 },{}],"assets/svg/link2.svg":[function(require,module,exports) {
 module.exports = "/link2.99f2fa0c.svg";
 },{}],"assets/svg/lk.svg":[function(require,module,exports) {
@@ -230,14 +230,14 @@ module.exports = {
   "facebook": require("./facebook.svg"),
   "instagram": require("./instagram.svg"),
   "knit": require("./knit.svg"),
-  "link-left": require("./link-left.svg"),
   "link1": require("./link1.svg"),
+  "link-left": require("./link-left.svg"),
   "link2": require("./link2.svg"),
   "lk": require("./lk.svg"),
   "MAROON": require("./MAROON.svg"),
   "twitter": require("./twitter.svg")
 };
-},{"./facebook.svg":"assets/svg/facebook.svg","./instagram.svg":"assets/svg/instagram.svg","./knit.svg":"assets/svg/knit.svg","./link-left.svg":"assets/svg/link-left.svg","./link1.svg":"assets/svg/link1.svg","./link2.svg":"assets/svg/link2.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
+},{"./facebook.svg":"assets/svg/facebook.svg","./instagram.svg":"assets/svg/instagram.svg","./knit.svg":"assets/svg/knit.svg","./link1.svg":"assets/svg/link1.svg","./link-left.svg":"assets/svg/link-left.svg","./link2.svg":"assets/svg/link2.svg","./lk.svg":"assets/svg/lk.svg","./MAROON.svg":"assets/svg/MAROON.svg","./twitter.svg":"assets/svg/twitter.svg"}],"js/modules/_baner-obj.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -453,15 +453,7 @@ var num = exports.num = 0;
 var divBSW = exports.divBSW = document.querySelector(".best-seller__wrapper");
 var addBestSellers = exports.addBestSellers = function addBestSellers() {
   bestSellers.forEach(function (el) {
-    divBSW.insertAdjacentHTML("beforeend", "<div class=\"best-seller\" style =\"background: url('".concat(el.src, "')\">\n        <div class=\"description\">\n            <h3 class=\"best-seller_descr-h3\">").concat(el.name, "</h3>\n            <p class=\"best-seller_descr-p\">").concat(el.descrShort, "</p>\n            <button class=\"best-seller_descr-btn\">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435</button>\n        </div>\n\n    </div>") //    "afterbegin",
-    //   `<div class="best-seller">
-    //     <div class="description">
-    //         <h3 class="best-seller_decsr-h3">${el.name}</h3>
-    //         <p class="best-seller_decsr-p">${el.descr}</p>
-    //         <button class="best-seller_decsr-btn">Подробнее</button>
-    //     </div>
-    // </div>`
-    );
+    divBSW.insertAdjacentHTML("beforeend", "<div class=\"best-seller\" style =\"background: url('".concat(el.src, "')\">\n        <div class=\"description\">\n            <h3 class=\"best-seller_descr-h3\">").concat(el.name, "</h3>\n            <p class=\"best-seller_descr-p\">").concat(el.descrShort, "</p>\n            <button class=\"best-seller_descr-btn\">\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435</button>\n        </div>\n\n    </div>"));
   });
 };
 var addClassActive = exports.addClassActive = function addClassActive(divBestSel) {
@@ -18767,7 +18759,8 @@ var workInBasket = exports.workInBasket = function workInBasket() {
     var summOrders = summOrder.reduce(function (acc, item) {
       return acc + item;
     }, 0);
-    console.log(summOrders);
+    // basketItemsItem.innerHTML = `<div class="basket_items-summOrders">${summOrders}</div>`
+
     el.querySelector(".basket_items-count-reduce").addEventListener("click", function (e) {
       var index = basketOrder.indexOf(el);
       if (count >= 1) {
@@ -18917,6 +18910,7 @@ _catalog.items.addEventListener("click", function (e) {
     var activeIndex = Array.from(document.querySelectorAll(".catalog_items-item")).indexOf(e.target);
     (0, _catalog.addBigItem)(_catalog.bigItem, _catalog.newCatalog, activeIndex);
     _catalog.bigItem.classList.add("popup-on");
+    (0, _basket.addInBasket)(_catalog.newCatalog, activeIndex);
   }
 });
 (0, _catalog.btnLoad)();
@@ -18954,7 +18948,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50179" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51312" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

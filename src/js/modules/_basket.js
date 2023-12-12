@@ -102,11 +102,9 @@ const workInBasket = () => {
     });
 
     summOrder.push(Number(el.querySelector('.basket_items-summ-p').textContent))
+    const summOrders = summOrder.reduce((acc, item) => acc+item, 0); 
+    // basketItemsItem.innerHTML = `<div class="basket_items-summOrders">${summOrders}</div>`
 
-    const summOrders = summOrder.reduce((acc, item) => acc+item, 0);
-    console.log(summOrders);
-
-   
 
 
     el.querySelector(".basket_items-count-reduce").addEventListener("click", (e) => {
@@ -143,11 +141,11 @@ el.querySelector('.basket_items-del').addEventListener('click', (e) =>{
   el.remove();
   itemsBasket.splice(index, 1);
 
-
   summOrder.splice(index, 1);
-
-  const summOrders = summOrder.reduce((acc, item) => acc+item, 0); 
+  const summOrders = summOrder.reduce((acc, item) => acc+item, 0);
+  
 })
+
 
   });
 

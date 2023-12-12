@@ -140,15 +140,7 @@ const addBestSellers = () => {
         </div>
 
     </div>`
-      //    "afterbegin",
-      //   `<div class="best-seller">
-      //     <div class="description">
-      //         <h3 class="best-seller_decsr-h3">${el.name}</h3>
-      //         <p class="best-seller_decsr-p">${el.descr}</p>
-      //         <button class="best-seller_decsr-btn">Подробнее</button>
-      //     </div>
 
-      // </div>`
     );
   });
 };

@@ -173,6 +173,7 @@ items.addEventListener("click", (e) => {
     ).indexOf(e.target);
     addBigItem(bigItem, newCatalog, activeIndex);
     bigItem.classList.add("popup-on");
+    addInBasket(newCatalog, activeIndex);
   }
 });
 

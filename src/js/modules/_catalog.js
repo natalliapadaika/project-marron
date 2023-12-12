@@ -56,6 +56,7 @@ const addCatalogFilterActive = () => {
 
 const addBigItem = (elemDom, arr, i) => {
   elemDom.textContent='';
+  
   elemDom.insertAdjacentHTML(
     "afterbegin",
     `<div class="catalog_big-item">
@@ -94,7 +95,8 @@ const addBigItem = (elemDom, arr, i) => {
     <button class="add-in-basket">Добавить в корзину</button></div>
     </div>
     </div>`
-  );
+    )
+
   const volume = document.querySelector(".volume");
   volume.addEventListener("change", () => {
     document.querySelectorAll('input[type="radio"]').forEach((el) => {
@@ -263,7 +265,8 @@ const filterPageLink = document.querySelector(".filter_page-link");
 const addItemsFilter = (newFilterCatalog) => {
   items.textContent = '';
   addItems(newFilterCatalog.slice(0, 8));
-  showBigItem(newFilterCatalog)
+  showBigItem(newFilterCatalog);
+  
   document.querySelector("#filter-next").addEventListener("click", () => {
    
     if (numberPage + 1 < Math.ceil(newFilterCatalog.length / 8)) {
